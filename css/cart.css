@@ -1,0 +1,363 @@
+@charset 'utf-8';
+@import url('common.css');
+
+
+
+
+/* title */
+main .title{
+    position: relative;
+}
+main .title article{
+    position: absolute;
+    background: rgba(93, 104, 90, 0.6);
+    width: 100%; height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .title article h2{
+    color: #fff; font-size: 40px;
+    letter-spacing: 2px;
+}
+main .title article h2::after{
+    content: '';
+    clear: both;
+    display: block;
+
+    border-bottom: 5px solid #fff;
+    margin: 30px auto 0;
+    width: 30px;
+}
+main .title img{
+    width: 100%; height: 70vh;
+}
+
+
+
+/* table ta_1 */
+main{}
+main .ta_1{
+    width: 70%;
+    margin: 175px auto 20px;
+    text-align: left;
+}
+main .ta_1 table{
+    border: 0;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    color: #6d6d6d;
+}
+main .ta_1 table thead{}
+main .ta_1 table thead tr{
+    border-bottom: 1px solid #5d685a;
+}
+main .ta_1 table thead tr th{
+    border: 0;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+main .ta_1 table thead tr th:nth-of-type(1){
+    width: 10%;
+    padding-left: 30px;
+}
+main .ta_1 table thead tr th:nth-of-type(3){width: 8%;}
+main .ta_1 table thead tr th:nth-of-type(4){width: 3%;}
+main .ta_1 table thead tr th:nth-of-type(5){width: 8%;}
+main .ta_1 table thead tr th:nth-of-type(6){width: 8%;}
+main .ta_1 table thead tr th:nth-of-type(7){width: 8%;}
+main .ta_1 table thead tr th:nth-of-type(8){width: 8%;}
+main .ta_1 table thead tr th:nth-of-type(9){
+    width: 5%;
+    padding-right: 30px;
+}
+main .ta_1 table tbody{}
+main .ta_1 table tbody tr{
+    border-bottom: 1px dashed #5d685a;
+}
+main .ta_1 table tbody td{
+    border: 0;
+    padding: 30px;
+    font-size: 14px;
+}
+main .ta_1 table tfoot{}
+main .ta_1 table tfoot tr{
+    border-top: 1px solid #5d685a;
+    border-bottom: 1px solid #5d685a;
+}
+main .ta_1 table tfoot td{
+    border: 0;
+    padding: 30px;
+    font-size: 14px;
+    text-align: right;
+}
+main .ta_1 a{
+    text-align: center;
+    color: #6d6d6d;
+    font-size: 12px;
+    line-height: 3;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+    border: 3px solid #a8855a;
+    border-radius: 40px;
+    padding: 0 40px;
+    margin: 30px 0 0 30px;
+    display: inline-block;
+    transition: .5s;
+}
+main .ta_1 a:hover{color: #fff; background-color: #a8855a;}
+
+
+
+/* table ta_2 */
+main .ta_2{
+    width: 70%;
+    margin: 100px auto 175px;
+    text-align: center;
+}
+main .ta_2 table{
+    border: 0;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    color: #6d6d6d;
+}
+main .ta_2 table thead{}
+main .ta_2 table thead tr{
+    border-top: 1px solid #5d685a;
+    border-bottom: 1px dashed #5d685a;
+}
+main .ta_2 table thead tr th{
+    border: 0;
+    font-size: 14px;
+    padding: 30px 0;
+}
+main .ta_2 table tbody{}
+main .ta_2 table tbody tr{
+    border-bottom: 1px solid #5d685a;
+}
+main .ta_2 table tbody tr td{
+    border: 0;
+    padding: 50px 30px;
+    font-size: 14px;
+}
+main .ta_2 .bt{position: relative;}
+main .ta_2 .bt a{
+    text-align: center;
+    color: #6d6d6d;
+    font-size: 12px;
+    line-height: 3;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+    border: 3px solid #a8855a;
+    border-radius: 40px;
+    padding: 0 40px;
+    margin-top: 30px;
+    display: inline-block;
+    transition: .5s;
+}
+main .ta_2 .bt a:hover{color: #fff; background-color: #a8855a;}
+main .ta_2 .bt a:nth-of-type(1){margin-right: 20px;}
+main .ta_2 .bt a:nth-of-type(3){
+    position: absolute;
+    right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px){
+
+    /* title */
+main .title{
+    position: relative;
+}
+main .title article{
+    position: absolute;
+    background: rgba(93, 104, 90, 0.6);
+    width: 100%; height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .title article h2{
+    color: #fff; font-size: 26px;
+    letter-spacing: 2px;
+}
+main .title article h2::after{
+    content: '';
+    clear: both;
+    display: block;
+
+    border-bottom: 3px solid #fff;
+    margin: 10px auto 0;
+    width: 30px;
+}
+main .title img{
+    width: 100%; height: 40vh;
+}
+
+
+
+/* table ta_1 */
+    main{}
+    main .ta_1{
+        width: 80%;
+        margin: 100px auto 20px;
+        text-align: left;
+    }
+    main .ta_1 table{
+        border: 0;
+        border-collapse: collapse;
+        text-align: center;
+        width: 100%;
+        color: #6d6d6d;
+    }
+    main .ta_1 table thead{}
+    main .ta_1 table thead tr{
+        border-bottom: 1px solid #5d685a;
+    }
+    main .ta_1 table thead tr th{
+        border: 0;
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
+    main .ta_1 table thead tr th:nth-of-type(1){
+        width: 10%; display: none;
+        padding-left: 0px;
+    }
+    main .ta_1 table thead tr th:nth-of-type(2){float: left;}
+    main .ta_1 table thead tr th:nth-of-type(3){
+        width: 8%; display: none;
+    }
+    main .ta_1 table thead tr th:nth-of-type(4){
+        width: 3%; display: none;
+    }
+    main .ta_1 table thead tr th:nth-of-type(5){
+        width: 8%; display: none;
+    }
+    main .ta_1 table thead tr th:nth-of-type(6){
+        width: 8%; display: none;
+    }
+    main .ta_1 table thead tr th:nth-of-type(7){
+        width: 8%; display: none;
+    }
+    main .ta_1 table thead tr th:nth-of-type(8){
+        width: 8%; display: none;
+    }
+    main .ta_1 table thead tr th:nth-of-type(9){
+        width: 5%;
+        padding-right: 0px;
+        display: none;
+    }
+    main .ta_1 table tbody{}
+    main .ta_1 table tbody tr{
+        border-bottom: 1px dashed #5d685a;
+    }
+    main .ta_1 table tbody td{
+        border: 0;
+        padding: 30px;
+        font-size: 14px;
+    }
+    main .ta_1 table tfoot{}
+    main .ta_1 table tfoot tr{
+        border-top: 1px solid #5d685a;
+        border-bottom: 1px solid #5d685a;
+    }
+    main .ta_1 table tfoot td{
+        border: 0;
+        padding: 30px 0;
+        font-size: 14px;
+        text-align: left;
+        display: block;
+    }
+    main .ta_1 table tfoot td:nth-of-type(1){
+        padding-bottom: 0;
+    }
+    main .ta_1 a{
+        text-align: center;
+        color: #6d6d6d;
+        font-size: 12px;
+        line-height: 2.5;
+        letter-spacing: 2px;
+        font-weight: bold;
+
+        border: 3px solid #a8855a;
+        border-radius: 40px;
+        padding: 0 20px;
+        margin: 30px 0 0 0px;
+        display: inline-block;
+        transition: .5s;
+    }
+    main .ta_1 a:hover{color: #fff; background-color: #a8855a;}
+
+
+
+    /* table ta_2 */
+    main .ta_2{
+        width: 80%;
+        margin: 80px auto 100px;
+        text-align: center;
+    }
+    main .ta_2 table{
+        border: 0;
+        border-collapse: collapse;
+        text-align: center;
+        width: 100%;
+        color: #6d6d6d;
+    }
+    main .ta_2 table thead{}
+    main .ta_2 table thead tr{
+        border-top: 1px solid #5d685a;
+        border-bottom: 1px dashed #5d685a;
+    }
+    main .ta_2 table thead tr th{
+        border: 0;
+        font-size: 14px;
+        padding: 30px 0;
+    }
+    main .ta_2 table tbody{}
+    main .ta_2 table tbody tr{
+        border-bottom: 1px solid #5d685a;
+    }
+    main .ta_2 table tbody tr td{
+        border: 0;
+        padding: 50px 30px;
+        font-size: 14px;
+    }
+    main .ta_2 .bt{position: relative;}
+    main .ta_2 .bt a{
+        text-align: center;
+        color: #6d6d6d;
+        font-size: 12px;
+        line-height: 2.5;
+        letter-spacing: 2px;
+        font-weight: bold;
+
+        border: 3px solid #a8855a;
+        border-radius: 40px;
+        padding: 0 20px;
+        margin-top: 30px;
+        display: inline-block;
+        transition: .5s;
+    }
+    main .ta_2 .bt a:hover{color: #fff; background-color: #a8855a;}
+    main .ta_2 .bt a:nth-of-type(1){margin-right: 10px;}
+    main .ta_2 .bt a:nth-of-type(3){
+        position: absolute;
+        right: 0px;
+        display: inline-block;
+        margin: 90px auto 0;
+    }
+}

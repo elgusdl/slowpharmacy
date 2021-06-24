@@ -1,0 +1,387 @@
+@charset 'utf-8';
+@import url('common.css');
+
+
+
+
+
+/* title */
+main .title{
+    position: relative;
+}
+main .title article{
+    position: absolute;
+    background: rgba(93, 104, 90, 0.6);
+    width: 100%; height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .title article h2{
+    color: #fff; font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+main .title .search{
+    position: absolute;
+    left: 50%; bottom: 50%;
+    transform: translate(-48%, 250%);
+}
+main .title .search input{
+    border: 0; background-color: rgba(0, 0, 0, 0);
+    border-bottom: 3px solid #fff;
+    width: 250px;
+
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    outline-style: none;
+    padding-bottom: 10px;
+}
+main .title .search a{}
+main .title .search a img{
+    width: 25px; height: 25px;
+}
+main .title article h2::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+main .title img{
+    width: 100%; height: 70vh;
+}
+
+
+
+
+
+main .st{
+    padding: 175px 15% 0;
+}
+main .st h2{
+    font-size: 30px;
+    text-align: center;
+    color: #6d6d6d;
+}
+main .st h2::after{
+    content: '';
+    clear: both;
+    display: block;
+    border-bottom: 3px solid #5d685a;
+    margin: 20px auto 80px;
+    width: 30px;
+}
+main .st h5{
+    font-size: 14px;
+    text-align: center;
+    color: #6d6d6d;
+    margin-bottom: 80px;
+    font-weight: lighter;
+}
+main .st ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .st ul li{
+    width: 23%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+main .st ul li a{}
+main .st ul li figure{
+    position: relative;
+    border-radius: 50px;
+    border: 3px solid rgba(93, 104, 90, 0.7);
+    overflow: hidden;
+    transition: .5s;
+}
+main .st ul li figure:hover{border: 3px solid #a8855a;}
+main .st ul li figure img{
+    width: 100%; height: 15vw;
+}
+main .st ul li figure .bottom{
+    text-align: center;
+    padding: 30px 0;
+    color: #6d6d6d;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+}
+main .st ul li figure .bottom p{
+    font-size: 14px;
+    font-family: 'Noto Sans KR';
+}
+main .st ul li figure .bottom p b{}
+main .st ul li figure .up{
+    position: absolute;
+    left: 0; top: 0;
+    color: #fff;
+    background: rgba(93, 104, 90, 0.7);
+    width: 100%; height: 15vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 30px;
+
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    opacity: 0;
+    transition: .5s;
+}
+main .st ul li figure:hover .up{opacity: 1;}
+main .st ul li figure .up p{
+    font-size: 12px;
+    color: #fff;
+}
+main .st ul li figure .up p b{font-size: 14px;}
+main .st ul li figure .up .sha{padding-top: 40px;}
+main .st ul li figure .up .sha img{
+    width: 25px; height: 25px;
+}
+
+
+
+/* main_num */
+main .num{
+    text-align: center;
+    margin-bottom: 175px;
+}
+main .num p{display: inline;}
+main .num p a{}
+main .num p a img{width: 10px;}
+main .num ol{
+    display: inline;
+    margin: 0 30px;
+}
+main .num ol .num1, .num2{
+    display: inline;
+}
+main .num ol .num1, .num2 a{
+    color: #6d6d6d;
+    font-weight: bold;
+}
+main .num ol .num1 a{
+    margin-right: 15px;
+    color: #a8855a;
+}
+
+
+
+/* main_top */
+main .top{
+    position: fixed;
+    right: 0; bottom: 20%;
+    z-index: 890;
+
+    background-color: #a8855a;
+    width: 70px; height: 50px;
+    border-radius: 30px 0 0 30px;
+}
+main .top a{
+    display: flex;
+    justify-content: center;
+    margin-top: 13.5px;
+
+    color: white;
+    letter-spacing: 1.2px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/* media */
+@media (max-width:767px){
+
+    /* title */
+    main .title{
+        position: relative;
+    }
+    main .title article{
+        position: absolute;
+        background: rgba(93, 104, 90, 0.6);
+        width: 100%; height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .title article h2{
+        color: #fff; font-size: 26px;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+    main .title .search{
+        position: absolute;
+        left: 50%; bottom: 50%;
+        transform: translate(-45%, 200%);
+    }
+    main .title .search input{
+        border: 0; background-color: rgba(0, 0, 0, 0);
+        border-bottom: 3px solid #fff;
+        width: 150px;
+
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        outline-style: none;
+        padding-bottom: 10px;
+    }
+    main .title .search a{}
+    main .title .search a img{
+        width: 20px; height: 20px;
+    }
+    main .title article h2::after{
+        content: '';
+        clear: both;
+        display: block;
+    }
+    main .title img{
+        width: 100%; height: 40vh;
+    }
+
+
+
+
+
+    main .st{
+        padding: 100px 10% 50px;
+    }
+    main .st h2{
+        font-size: 20px;
+        text-align: center;
+        color: #6d6d6d;
+    }
+    main .st h2::after{
+        content: '';
+        clear: both;
+        display: block;
+        border-bottom: 3px solid #5d685a;
+        margin: 10px auto 50px;
+        width: 30px;
+    }
+    main .st h5{
+        font-size: 12px;
+        text-align: center;
+        color: #6d6d6d;
+        margin-bottom: 50px;
+        font-weight: lighter;
+    }
+    main .st ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    main .st ul li{
+        width: 47%;
+        margin-bottom: 5%;
+        cursor: pointer;
+    }
+    main .st ul li a{}
+    main .st ul li figure{
+        position: relative;
+        border-radius: 50px;
+        border: 3px solid rgba(93, 104, 90, 0.7);
+        overflow: hidden;
+        transition: .5s;
+    }
+    main .st ul li figure:hover{border: 3px solid #a8855a;}
+    main .st ul li figure img{
+        width: 100%; height: 35vw;
+    }
+    main .st ul li figure .bottom{
+        text-align: center;
+        padding: 30px 0;
+        color: #6d6d6d;
+        line-height: 1.5;
+        letter-spacing: 1.2px;
+    }
+    main .st ul li figure .bottom p{
+        font-size: 12px;
+        font-family: 'Noto Sans KR';
+    }
+    main .st ul li figure .bottom p b{font-size: 14px;}
+    main .st ul li figure .up{
+        position: absolute;
+        left: 0; top: 0;
+        color: #fff;
+        background: rgba(93, 104, 90, 0.7);
+        width: 100%; height: 35vw;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 0 20px;
+
+        line-height: 1.5;
+        letter-spacing: 1.2px;
+        opacity: 0;
+        transition: .5s;
+    }
+    main .st ul li figure:hover .up{opacity: 1;}
+    main .st ul li figure .up p{
+        font-size: 12px;
+        color: #fff;
+    }
+    main .st ul li figure .up p b{font-size: 14px;}
+    main .st ul li figure .up .sha{padding-top: 20px;}
+    main .st ul li figure .up .sha img{
+        width: 18px; height: 18px;
+    }
+
+
+
+    /* main_num */
+    main .num{
+        text-align: center;
+        margin-bottom: 120px;
+    }
+    main .num p{display: inline;}
+    main .num p a{}
+    main .num p a img{width: 10px;}
+    main .num ol{
+        display: inline;
+        margin: 0 30px;
+    }
+    main .num ol .num1, .num2{
+        display: inline;
+    }
+    main .num ol .num1, .num2 a{
+        color: #6d6d6d;
+        font-weight: bold;
+    }
+    main .num ol .num1 a{
+        margin-right: 15px;
+        color: #a8855a;
+    }
+
+
+
+    /* main_top */
+    main .top{
+        position: fixed;
+        right: 0; bottom: 20%;
+        z-index: 890;
+
+        background-color: #a8855a;
+        width: 50px; height: 40px;
+        border-radius: 30px 0 0 30px;
+    }
+    main .top a{
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+
+        color: white;
+        letter-spacing: 1.2px;
+        font-size: 12px;
+    }
+}

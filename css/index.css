@@ -1,0 +1,827 @@
+@charset 'utf-8';
+@import url('common.css');
+
+
+
+/* main */
+main{}
+main .pho{}
+main .pho iframe{
+    width: 100%; height: 1080px;
+    position: relative;
+    z-index:-1;
+}
+main .ab{
+    padding: 175px 15%;
+}
+main .ab h2{
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #6d6d6d;
+}
+main .ab h2::after{
+    content: '';
+    clear: both;
+    display: block;
+    border-bottom: 3px solid #5d685a;
+    margin: 20px auto 80px;
+    width: 30px;
+}
+main .ab .ab_1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-bottom: 60px;
+}
+main .ab .ab_1 figure{
+    width: 50%; 
+    margin: 0;
+}
+main .ab .ab_1 figure img{width: 100%;}
+main .ab .ab_1 div{
+    width: 50%;
+    padding: 0 0 0 60px;
+    letter-spacing: 1.2px;
+    color: #6d6d6d;
+}
+main .ab .ab_1 div h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+main .ab .ab_1 div p{font-size: 14px;}
+
+
+main .ab .ab_2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main .ab .ab_2 figure{    
+    width: 50%; margin: 0;
+}
+main .ab .ab_2 figure img{width: 100%;}
+main .ab .ab_2 div{
+    width: 50%;
+    padding: 0 60px 0 0;
+    letter-spacing: 1.2px;
+    color: #6d6d6d;
+}
+main .ab .ab_2 div h3{font-size: 18px;}
+main .ab .ab_2 div p{font-size: 14px;}
+
+
+
+/* main_middle */
+.ha{
+    position: relative;
+}
+.ha article{
+    position: absolute;
+    background: rgba(93, 104, 90, 0.7);
+    width: 100%; height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ha article h2{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 1.2px;
+    font-weight: lighter;
+}
+.ha article h2::after{    
+    content: '';
+    clear: both;
+    display: block;
+    border-bottom: 3px solid #fff;
+    margin: 20px auto 60px;
+    width: 60px;
+}
+.ha article p{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    font-weight: lighter;
+}
+.ha img{
+    width: 100%; height: 600px;
+}
+
+
+
+/* main_store */
+.st{
+    padding: 175px 15%;
+    text-align: center;
+    background-color: #f5f4f2;
+}
+.st h2{
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #6d6d6d;
+}
+.st h2::after{
+    content: '';
+    clear: both;
+    display: block;
+    border-bottom: 3px solid #5d685a;
+    margin: 20px auto 80px;
+    width: 30px;
+}
+.st h5{
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #6d6d6d;
+    margin-bottom: 50px;
+}
+.st .st_1{position: relative;}
+.st .st_1 ul{
+    display: flex;
+    justify-content: center;
+}
+.st .st_1 ul li{
+    width: 25%;
+}
+.st .st_1 ul li:nth-of-type(2){
+    margin: 0 45px;
+}
+.st .st_1 ul li figure{
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.st .st_1 ul li figure::before{
+    content: '';
+    clear: both;
+    display: block;
+    width:100%; height: 100%;
+    border-radius: 50px;
+
+    position: absolute; 
+    left: 0; top: 0;
+    transition: .2s;
+    z-index:2;
+}
+.st .st_1 ul li figure img{
+    width: 100%;
+}
+.st .st_1 ul li figure figcaption{
+    position: absolute;
+    left: 0; top: 0;
+    background: rgba(93, 104, 90, 0.7);
+    width: 100%; height: 100%;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+    opacity: 0;
+    transition: .5s;
+}
+.st .st_1 ul li figure:hover figcaption{opacity: 1;}
+.st .st_1 ul li figure figcaption p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+}
+.st .st_1 ul li figure figcaption p b{
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+/* 화살버튼 */
+.st .st_1 .bt{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+}
+.st .st_1 .bt a{}
+.st .st_1 .bt a img{
+    width: 25px;
+}
+
+
+
+/* more버튼 */
+.st .more{
+    text-align: center;
+    color: #6d6d6d;
+    font-size: 12px;
+    line-height: 3;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+    border: 3px solid #a8855a;
+    border-radius: 40px;
+    padding: 0 40px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: inline-block;
+    transition: .5s;
+}
+.st .more:hover{color: #fff; background-color: #a8855a;}
+
+
+
+/* main_work */
+main .work{
+    padding: 175px 15%;
+}
+main .work h2{
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #6d6d6d;
+}
+main .work h2::after{
+    content: '';
+    clear: both;
+    display: block;
+    border-bottom: 3px solid #5d685a;
+    margin: 20px auto 80px;
+    width: 30px;
+}
+main .work .wo{position: relative;}
+main .work .wo ul{
+    display: flex;
+    justify-content: space-between;
+}
+main .work .wo ul li{
+    width: 22.5%;
+}
+main .work .wo ul li figure{
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+}
+main .work .wo ul li figure img{width: 100%;}
+main .work .wo ul li figure figcaption{
+    position: absolute;
+    left: 0; top: 0;
+    background: rgba(93, 104, 90, 0.7);
+    width: 100%; height: 100%;
+    letter-spacing: 1.2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 50px;
+    opacity: 0;
+    transition: .5s;
+}
+main .work .wo ul li figure:hover figcaption{opacity: 1;}
+main .work .wo ul li figure figcaption p{
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+main .work .wo ul li figure figcaption a{}
+main .work .wo ul li figure figcaption a img{width: 25px; height: 25px;}
+main .work .next{
+    text-align: center;
+    margin: 50px;
+}
+main .work .next a{}
+main .work .next a img{width: 12px;}
+main .work .next a:nth-of-type(1){margin-right: 10px;}
+
+
+
+/* main_login */
+/* main .log_bg{
+    position: fixed;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(93, 104, 90, 0.7);
+    z-index: 799;
+    opacity: 0;
+}
+main .log_bg .login{
+    position: fixed;
+    left: 50%; top: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 800;
+
+    background-color: #d8d2c5;
+    width: 25%; height: 500px;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+main .log_bg .login h5{
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #6d6d6d;
+    margin-bottom: 40px;
+}
+main .log_bg .login h5::after{
+    content: '';
+    clear: both;
+    display: block;
+    border-bottom: 3px solid #5d685a;
+    margin: 20px auto 0;
+    width: 30px;
+}
+main .log_bg .login .log_ip{}
+main .log_bg .login .log_ip .te{}
+main .log_bg .login .log_ip .te input{
+    border: 0; background-color: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid #6d6d6d;
+    width: 200px;
+
+    text-align: center;
+    color: #6d6d6d;
+    font-size: 14px;
+    outline-style: none;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 1.2px;
+}
+main .log_bg .login .log_ip .bt{margin-bottom: 5px;}
+main .log_bg .login .log_ip .bt a{
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    color: #6d6d6d;
+}
+main .log_bg .login .log_ip .bt a:nth-of-type(1){margin-right: 10px;}
+main .log_bg .login .log_ip .bt a:hover{color: #a8855a;}
+main .log_bg .login .log_ip a{
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    color: #6d6d6d;
+}
+main .log_bg .login .log_ip a:hover{color: #a8855a;} */
+
+
+
+/* main_top */
+main .top{
+    position: fixed;
+    right: 0; bottom: 20%;
+    z-index: 890;
+
+    background-color: #a8855a;
+    width: 70px; height: 50px;
+    border-radius: 30px 0 0 30px;
+}
+main .top a{
+    display: flex;
+    justify-content: center;
+    margin-top: 13.5px;
+
+    color: white;
+    letter-spacing: 1.2px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/* media */
+@media (max-width:767px){
+
+    /* main */
+    main{}
+    main .pho{
+        background: url(../img/main/mo_main.jpg) no-repeat;
+        width: 100%;
+    }
+    main .pho iframe{
+        width: 100%; height: 1080px;
+        position: relative;
+        z-index:-1;
+        display: none;
+    }
+    main .ab{
+        padding: 100px 10%;
+    }
+    main .ab h2{
+        font-size: 26px;
+        letter-spacing: 1.2px;
+        text-align: center;
+        color: #6d6d6d;
+    }
+    main .ab h2::after{
+        content: '';
+        clear: both;
+        display: block;
+        border-bottom: 3px solid #5d685a;
+        margin: 10px auto 50px;
+        width: 30px;
+    }
+    main .ab .ab_1{
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        
+        margin-bottom: 60px;
+    }
+    main .ab .ab_1 figure{
+        width: 100%; 
+        margin: 0;
+    }
+    main .ab .ab_1 figure img{width: 100%;}
+    main .ab .ab_1 div{
+        width: 100%;
+        padding: 0 0 0 0px;
+        letter-spacing: 1.2px;
+        color: #6d6d6d;
+        text-align: center;
+        margin-top: 10px;
+    }
+    main .ab .ab_1 div h3{
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    main .ab .ab_1 div p{font-size: 14px;}
+
+
+    main .ab .ab_2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    main .ab .ab_2 figure{    
+        width: 100%; margin: 0;
+        order: 1;
+    }
+    main .ab .ab_2 figure img{width: 100%;}
+    main .ab .ab_2 div{
+        width: 100%;
+        padding: 0 0px 0 0;
+        letter-spacing: 1.2px;
+        color: #6d6d6d;
+        text-align: center;
+        margin-top: 10px;
+        order: 2;
+    }
+    main .ab .ab_2 div h3{
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    main .ab .ab_2 div p{font-size: 14px;}
+
+
+
+
+
+    /* main_store */
+    .st{
+        padding: 100px 10%;
+        text-align: center;
+        background-color: #f5f4f2;
+    }
+    .st h2{
+        font-size: 26px;
+        letter-spacing: 1.2px;
+        text-align: center;
+        color: #6d6d6d;
+    }
+    .st h2::after{
+        content: '';
+        clear: both;
+        display: block;
+        border-bottom: 3px solid #5d685a;
+        margin: 10px auto 50px;
+        width: 30px;
+    }
+    .st h5{
+        font-size: 18px;
+        letter-spacing: 1.2px;
+        text-align: center;
+        color: #6d6d6d;
+        margin-bottom: 30px;
+    }
+    .st .st_1{position: relative;}
+    .st .st_1 ul{
+        display: flex;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+    .st .st_1 ul li{
+        width: 70%;
+        margin: 0 15%;
+        flex-shrink: 0;
+    }
+    .st .st_1 ul li:nth-of-type(2){
+        margin: 0 0%;
+    }
+    .st .st_1 ul li figure{
+        position: relative;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    .st .st_1 ul li figure::before{
+        content: '';
+        clear: both;
+        display: block;
+        width: 100%; height: 100%;
+        border-radius: 50px;
+
+        position: absolute; 
+        left: 0; top: 0;
+        transition: .2s;
+        z-index:2;
+    }
+    .st .st_1 ul li figure img{
+        width: 100%;
+    }
+    .st .st_1 ul li figure figcaption{
+        position: absolute;
+        left: 0; top: 0;
+        background: rgba(93, 104, 90, 0.7);
+        width: 100%; height: 100%;
+        line-height: 1.5;
+        letter-spacing: 1.2px;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 0 30px;
+        opacity: 0;
+        transition: .5s;
+    }
+    .st .st_1 ul li figure:hover figcaption{opacity: 1;}
+    .st .st_1 ul li figure figcaption p{
+        font-size: 12px;
+        font-weight: lighter;
+        color: #fff;
+    }
+    .st .st_1 ul li figure figcaption p b{
+        font-size: 14px;
+        color: #fff;
+    }
+
+
+
+
+    
+    /* 화살버튼 */
+    .st .st_1 .bt{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        position: absolute;
+        top: 45%;
+    }
+    .st .st_1 .bt a{}
+    .st .st_1 .bt a img{
+        width: 18px;
+    }
+
+
+
+    /* more버튼 */
+    .st .more{
+        text-align: center;
+        color: #6d6d6d;
+        font-size: 12px;
+        line-height: 3;
+        letter-spacing: 2px;
+        font-weight: bold;
+
+        border: 3px solid #a8855a;
+        border-radius: 40px;
+        padding: 0 30px;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: inline-block;
+        transition: .5s;
+    }
+    .st .more:hover{color: #fff; background-color: #a8855a;}
+
+
+
+
+
+    /* main_middle */
+    .ha{
+        position: relative;
+    }
+    .ha article{
+        position: absolute;
+        background: rgba(93, 104, 90, 0.7);
+        width: 100%; height: 200px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ha article h2{
+        color: #fff;
+        font-size: 26px;
+        letter-spacing: 1.2px;
+        font-weight: lighter;
+    }
+    .ha article h2::after{    
+        content: '';
+        clear: both;
+        display: block;
+        border-bottom: 3px solid #fff;
+        margin: 10px auto 30px;
+        width: 30px;
+    }
+    .ha article p{
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 1.2px;
+        font-weight: lighter;
+    }
+    .ha img{
+        width: 100%; height: 200px;
+    }
+
+
+
+
+
+    /* main_work */
+    main .work{
+        padding: 100px 10%;
+    }
+    main .work h2{
+        font-size: 26px;
+        letter-spacing: 1.2px;
+        text-align: center;
+        color: #6d6d6d;
+    }
+    main .work h2::after{
+        content: '';
+        clear: both;
+        display: block;
+        border-bottom: 3px solid #5d685a;
+        margin: 10px auto 50px;
+        width: 30px;
+    }
+    main .work .wo{position: relative;}
+    main .work .wo ul{
+        display: flex;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+    main .work .wo ul li{
+        width: 70%;
+        margin: 0 15%;
+        flex-shrink: 0;
+    }
+    main .work .wo ul li figure{
+        position: relative;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    main .work .wo ul li figure img{width: 100%;}
+    main .work .wo ul li figure figcaption{
+        position: absolute;
+        left: 0; top: 0;
+        background: rgba(93, 104, 90, 0.7);
+        width: 100%; height: 100%;
+        letter-spacing: 1.2px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 50px;
+        opacity: 0;
+        transition: .5s;
+    }
+    main .work .wo ul li figure:hover figcaption{opacity: 1;}
+    main .work .wo ul li figure figcaption p{
+        font-size: 14px;
+        margin-bottom: 30px;
+        color: #fff;
+    }
+    main .work .wo ul li figure figcaption a{}
+    main .work .wo ul li figure figcaption a img{width: 25px; height: 25px;}
+    main .work .next{
+        text-align: center;
+        margin: 50px auto 0;
+    }
+    main .work .next a{}
+    main .work .next a img{width: 10px;}
+    main .work .next a:nth-of-type(1){margin-right: 10px;}
+
+
+
+
+
+    /* main_top */
+    main .top{
+        position: fixed;
+        right: 0; bottom: 20%;
+        z-index: 890;
+
+        background-color: #a8855a;
+        width: 50px; height: 40px;
+        border-radius: 30px 0 0 30px;
+    }
+    main .top a{
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+
+        color: white;
+        letter-spacing: 1.2px;
+        font-size: 12px;
+    }
+
+
+
+
+
+    /* main_login
+    main .log_bg{
+        position: fixed;
+        left: 0; top: 0;
+        width: 100%; height: 100%;
+        background-color: rgba(93, 104, 90, 0.7);
+        z-index: 799;
+        opacity: 1;
+    }
+    main .log_bg .login{
+        position: fixed;
+        left: 50%; top: 55%;
+        transform: translate(-50%, -60%);
+        z-index: 800;
+
+        background-color: #d8d2c5;
+        width: 80%; height: 300px;
+        border-radius: 50px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    main .log_bg .login h5{
+        font-size: 26px;
+        letter-spacing: 1.2px;
+        text-align: center;
+        color: #6d6d6d;
+        margin-bottom: 30px;
+    }
+    main .log_bg .login h5::after{
+        content: '';
+        clear: both;
+        display: block;
+        border-bottom: 3px solid #5d685a;
+        margin: 10px auto 0;
+        width: 30px;
+    }
+    main .log_bg .login .log_ip{}
+    main .log_bg .login .log_ip .te{}
+    main .log_bg .login .log_ip .te input{
+        border: 0; background-color: rgba(0, 0, 0, 0);
+        border-bottom: 2px solid #6d6d6d;
+        width: 150px;
+
+        text-align: center;
+        color: #6d6d6d;
+        font-size: 14px;
+        outline-style: none;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        letter-spacing: 1.2px;
+    }
+    main .log_bg .login .log_ip .bt{margin-bottom: 5px;}
+    main .log_bg .login .log_ip .bt a{
+        font-size: 14px;
+        letter-spacing: 1.2px;
+        color: #6d6d6d;
+    }
+    main .log_bg .login .log_ip .bt a:nth-of-type(1){margin-right: 10px;}
+    main .log_bg .login .log_ip .bt a:hover{color: #a8855a;}
+    main .log_bg .login .log_ip a{
+        font-size: 12px;
+        letter-spacing: 1.2px;
+        color: #6d6d6d;
+    }
+    main .log_bg .login .log_ip a:hover{color: #a8855a;} */
+}

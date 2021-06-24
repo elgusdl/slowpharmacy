@@ -1,0 +1,284 @@
+@charset 'utf-8';
+@import url('common.css');
+
+
+
+
+
+/* title */
+main .title{
+    position: relative;
+}
+main .title article{
+    position: absolute;
+    background: rgba(93, 104, 90, 0.6);
+    width: 100%; height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .title article h2{
+    color: #fff; font-size: 40px;
+    letter-spacing: 2px;
+}
+main .title article h2::after{
+    content: '';
+    clear: both;
+    display: block;
+
+    border-bottom: 5px solid #fff;
+    margin: 30px auto 0;
+    width: 30px;
+}
+main .title img{
+    width: 100%; height: 70vh;
+}
+
+
+
+
+/* table */
+main .ta{
+    width: 70%;
+    margin: 175px auto 5%;
+    text-align: center;
+    color: #6d6d6d;
+}
+main .ta table{
+    border: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+main .ta table thead{}
+main .ta table thead tr{
+    border-bottom: 1px solid #5d685a;
+}
+main .ta table thead tr th{
+    border: 0;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+main .ta table thead tr th:nth-of-type(1){width: 5%;}
+main .ta table thead tr th:nth-of-type(2){width: 10%;}
+main .ta table thead tr th:nth-of-type(3){width: 51%;}
+main .ta table thead tr th:nth-of-type(4){width: 8%;}
+main .ta table thead tr th:nth-of-type(5){width: 10%;}
+main .ta table thead tr th:nth-of-type(6){width: 5%;}
+main .ta table tbody{}
+main .ta table tbody tr{
+    border-bottom: 1px dashed #5d685a;
+}
+main .ta table tbody tr:nth-last-of-type(1){
+    border-bottom: 1px solid #5d685a;
+}
+main .ta table tbody td{
+    border: 0;
+    padding: 20px;
+    font-size: 14px;
+}
+main .ta table tbody td small{
+    font-size: 14px;
+    color: #b4b4b4;
+}
+main .ta table tbody td img{width: 100%;}
+main .ta table tbody tr td:nth-of-type(3){text-align: left;}
+
+
+
+/* main_num */
+main .num{
+    text-align: center;
+}
+main .num p{display: inline;}
+main .num p a{}
+main .num p a img{width: 10px;}
+main .num ol{
+    display: inline;
+    margin: 0 30px;
+}
+main .num ol li{
+    display: inline;
+    margin: 0 7px;
+}
+main .num ol li a{
+    color: #6d6d6d;
+    font-weight: bold;
+}
+
+
+
+/* main_ser */
+main .ser{
+    text-align: center;
+    margin-bottom: 175px;
+}
+main .ser select{font-size: 14px; color: #6d6d6d;}
+main .ser select option{font-size: 14px; color: #6d6d6d;}
+main .ser input{
+    font-size: 14px;
+    color: #6d6d6d;
+    margin: 0 10px;
+}
+main .ser a{
+    text-align: center;
+    color: #6d6d6d;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+    border: 3px solid #a8855a;
+    border-radius: 40px;
+    padding: 0 20px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: inline-block;
+    transition: .5s;
+}
+main .ser a:hover{color: #fff; background-color: #a8855a;}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px){
+    /* title */
+    main .title{
+        position: relative;
+    }
+    main .title article{
+        position: absolute;
+        background: rgba(93, 104, 90, 0.6);
+        width: 100%; height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .title article h2{
+        color: #fff; font-size: 26px;
+        letter-spacing: 2px;
+    }
+    main .title article h2::after{
+        content: '';
+        clear: both;
+        display: block;
+
+        border-bottom: 3px solid #fff;
+        margin: 10px auto 0;
+        width: 30px;
+    }
+    main .title img{
+        width: 100%; height: 40vh;
+    }
+
+
+
+
+    /* table */
+    main .ta{
+        width: 80%;
+        margin: 100px auto 5%;
+        text-align: center;
+        color: #6d6d6d;
+    }
+    main .ta table{
+        border: 0;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    main .ta table thead{}
+    main .ta table thead tr{
+        border-bottom: 1px solid #5d685a;
+    }
+    main .ta table thead tr th{
+        border: 0;
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
+    main .ta table thead tr th:nth-of-type(1){width: 5%;}
+    main .ta table thead tr th:nth-of-type(2){width: 10%;}
+    main .ta table thead tr th:nth-of-type(3){width: 51%;}
+    main .ta table thead tr th:nth-of-type(4){width: 8%;}
+    main .ta table thead tr th:nth-of-type(5){width: 10%;}
+    main .ta table thead tr th:nth-of-type(6){width: 5%;}
+    main .ta table tbody{}
+    main .ta table tbody tr{
+        border-bottom: 1px dashed #5d685a;
+    }
+    main .ta table tbody tr:nth-last-of-type(1){
+        border-bottom: 1px solid #5d685a;
+    }
+    main .ta table tbody td{
+        border: 0;
+        padding: 20px 0;
+        font-size: 12px;
+    }
+    main .ta table tbody td small{
+        font-size: 12px;
+        color: #b4b4b4;
+    }
+    main .ta table tbody td img{width: 100%;}
+    main .ta table tbody tr td:nth-of-type(3){text-align: left;}
+
+
+
+    /* main_num */
+    main .num{
+        text-align: center;
+    }
+    main .num p{display: inline;}
+    main .num p a{}
+    main .num p a img{width: 10px;}
+    main .num ol{
+        display: inline;
+        margin: 0 10px;
+    }
+    main .num ol li{
+        display: inline;
+        margin: 0 5px;
+    }
+    main .num ol li a{
+        color: #6d6d6d;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+
+
+    /* main_ser */
+    main .ser{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    main .ser select{font-size: 12px; color: #6d6d6d;}
+    main .ser select option{font-size: 12px; color: #6d6d6d;}
+    main .ser input{
+        font-size: 12px;
+        color: #6d6d6d;
+        margin: 0 10px;
+    }
+    main .ser a{
+        text-align: center;
+        color: #6d6d6d;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 2px;
+        font-weight: bold;
+
+        border: 3px solid #a8855a;
+        border-radius: 40px;
+        padding: 0 20px;
+        margin: 0 auto;
+        margin-top: 40px;
+        display: inline-block;
+        transition: .5s;
+    }
+    main .ser a:hover{color: #fff; background-color: #a8855a;}
+}
