@@ -6,8 +6,31 @@
 /* main */
 main{}
 main .pho{}
+main .pho .ani{
+    display: none;
+    width: 100%; overflow: hidden;
+}
+main .pho .ani figure{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+    animation: ani 10s infinite;
+}
+main .pho .ani figure img{
+    width: 100%;
+    margin-top: 54px;
+    flex-shrink: 0;
+}
+@keyframes ani {
+    0%{transform: translateX(0%);}
+    35%{transform: translateX(-100%);}
+    70%{transform: translateX(-200%);}
+    100%{transform: translateX(-300%);}
+}
 main .pho iframe{
-    width: 100%; height: 1080px;
+    width: 100%; height: 1070px;
     position: relative;
     z-index:-1;
 }
@@ -288,8 +311,10 @@ main .work .wo ul li figure figcaption p{
     margin-bottom: 30px;
     color: #fff;
 }
-main .work .wo ul li figure figcaption a{}
-main .work .wo ul li figure figcaption a img{width: 25px; height: 25px;}
+main .work .wo ul li figure figcaption .link{}
+main .work .wo ul li figure figcaption .link a{}
+main .work .wo ul li figure figcaption .link a img{width: 25px; height: 25px;}
+main .work .wo ul li figure figcaption .link a:nth-of-type(1){margin-right: 15px;}
 main .work .next{
     text-align: center;
     margin: 50px;
@@ -406,14 +431,44 @@ main .top a{
 
     /* main */
     main{}
-    main .pho{
-        background: url(../img/main/mo_main.jpg) no-repeat;
-        width: 100%;
+    main .pho{}
+    main .pho .ani{
+        display: block;
+        width: 100%; overflow: hidden;
+        position: relative;
     }
+    main .pho .ani figure{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    
+        animation: ani 10s infinite;
+    }
+    main .pho .ani figure img{
+        width: 100%;
+        margin-top: 54px;
+        flex-shrink: 0;
+    }
+    @keyframes ani {
+        0%{transform: translateX(0%);}
+        35%{transform: translateX(-100%);}
+        70%{transform: translateX(-200%);}
+        100%{transform: translateX(-300%);}
+    }
+    main .pho .next{
+        position: absolute;
+        left: 50%; bottom: 0;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+    }
+    main .pho .next a{}
+    main .pho .next a img{width: 10px; margin-right: 10px;}
+    main .pho .next a:nth-last-of-type(1){margin-right: 0px;}
     main .pho iframe{
         width: 100%; height: 1080px;
         position: relative;
-        z-index:-1;
+        z-index: -1;
         display: none;
     }
     main .ab{
@@ -717,8 +772,10 @@ main .top a{
         margin-bottom: 30px;
         color: #fff;
     }
-    main .work .wo ul li figure figcaption a{}
-    main .work .wo ul li figure figcaption a img{width: 25px; height: 25px;}
+    main .work .wo ul li figure figcaption .link{}
+    main .work .wo ul li figure figcaption .link a{}
+    main .work .wo ul li figure figcaption .link a img{width: 20px; height: 20px;}
+    main .work .wo ul li figure figcaption .link a:nth-of-type(1){margin-right: 15px;}
     main .work .next{
         text-align: center;
         margin: 50px auto 0;

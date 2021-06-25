@@ -194,7 +194,6 @@ main .info .bt > a:hover{color: #fff; background-color: #a8855a;}
     }
     main .info table tbody tr{
         border-bottom: 1px dashed #5d685a;
-        width: 100%;
     }
     main .info table tbody tr th{
         width: 40%;

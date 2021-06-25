@@ -202,12 +202,24 @@ main .ser a:hover{color: #fff; background-color: #a8855a;}
         padding-bottom: 30px;
         font-size: 14px;
     }
-    main .ta table thead tr th:nth-of-type(1){width: 5%;}
-    main .ta table thead tr th:nth-of-type(2){width: 10%;}
-    main .ta table thead tr th:nth-of-type(3){width: 51%;}
-    main .ta table thead tr th:nth-of-type(4){width: 8%;}
-    main .ta table thead tr th:nth-of-type(5){width: 10%;}
-    main .ta table thead tr th:nth-of-type(6){width: 5%;}
+    main .ta table thead tr th:nth-of-type(1){
+        width: 5%; display: none;
+    }
+    main .ta table thead tr th:nth-of-type(2){
+        width: 20%;
+    }
+    main .ta table thead tr th:nth-of-type(3){
+        width: 51%; display: none;
+    }
+    main .ta table thead tr th:nth-of-type(4){
+        width: 8%; display: none;
+    }
+    main .ta table thead tr th:nth-of-type(5){
+        width: 10%; display: none;
+    }
+    main .ta table thead tr th:nth-of-type(6){
+        width: 5%; display: none;
+    }
     main .ta table tbody{}
     main .ta table tbody tr{
         border-bottom: 1px dashed #5d685a;
@@ -215,16 +227,22 @@ main .ser a:hover{color: #fff; background-color: #a8855a;}
     main .ta table tbody tr:nth-last-of-type(1){
         border-bottom: 1px solid #5d685a;
     }
-    main .ta table tbody td{
+    main .ta table tbody tr td{
         border: 0;
         padding: 20px 0;
         font-size: 12px;
     }
-    main .ta table tbody td small{
+    main .ta table tbody tr td:nth-of-type(1){width: 5%;}
+    main .ta table tbody tr td:nth-of-type(2){width: 10%;}
+    main .ta table tbody tr td:nth-of-type(3){width: 40%;}
+    main .ta table tbody tr td:nth-of-type(4){width: 15%;}
+    main .ta table tbody tr td:nth-of-type(5){width: 20%;}
+    main .ta table tbody tr td:nth-of-type(6){width: 5%;}
+    main .ta table tbody tr td small{
         font-size: 12px;
         color: #b4b4b4;
     }
-    main .ta table tbody td img{width: 100%;}
+    main .ta table tbody tr td img{width: 100%;}
     main .ta table tbody tr td:nth-of-type(3){text-align: left;}
 
 
