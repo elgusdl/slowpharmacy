@@ -136,6 +136,7 @@ main .st ul li figure .up p{
     color: #fff;
 }
 main .st ul li figure .up p b{font-size: 14px;}
+main .st ul li figure .up p small{font-size: 12px;}
 main .st ul li figure .up .sha{padding-top: 40px;}
 main .st ul li figure .up .sha img{
     width: 25px; height: 25px;
@@ -331,8 +332,12 @@ main .top a{
         font-size: 12px;
         color: #fff;
     }
-    main .st ul li figure .up p b{font-size: 14px;}
-    main .st ul li figure .up .sha{padding-top: 20px;}
+    main .st ul li figure .up p b{font-size: 12px;}
+    main .st ul li figure .up p small{
+        font-size: 12px;
+        display: none;
+    }
+    main .st ul li figure .up .sha{padding-top: 0px;}
     main .st ul li figure .up .sha img{
         width: 18px; height: 18px;
     }

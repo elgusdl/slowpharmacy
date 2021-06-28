@@ -106,6 +106,35 @@ main .de .de_1 .ta .bt a{
 main .de .de_1 .ta .bt a:nth-child(1){margin-right: 20px;}
 main .de .de_1 .ta .bt > a:hover{color: #fff; background-color: #a8855a;}
 
+/* zoom */
+main .de .de_1 .ta .zoom{
+    position: absolute;
+    top: 50%; left: 50%;
+    z-index: 100;
+}
+main .de .de_1 .ta .zoom .img-z{
+    position: absolute;
+    z-index: 999;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #5d685a;
+
+    display: none;
+}
+main .de .de_1 .ta .zoom .img-z .img-z-lar{
+    position: relative;
+}
+main .de .de_1 .ta .zoom .img-z .img-z-lar #zoom-img{
+    position: absolute;
+    z-index: 99;
+}
+main .de .de_1 .ta .zoom .img-z .img-z-lar img{
+    border: none;
+    vertical-align: top;
+}
+
 
 
 
@@ -438,6 +467,35 @@ main .top a{
     main .de .de_1 .ta .bt a:nth-child(1){margin-right: 10px;}
     main .de .de_1 .ta .bt > a:hover{color: #fff; background-color: #a8855a;}
     
+
+    /* zoom */
+    main .de .de_1 .ta .zoom{
+        position: absolute;
+        top: 50%; left: 50%;
+        z-index: 100;
+        display: none;
+    }
+    main .de .de_1 .ta .zoom .img-z{
+        position: absolute;
+        z-index: 999;
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        background: #fff;
+        border: 1px solid #5d685a;
+    }
+    main .de .de_1 .ta .zoom .img-z .img-z-lar{
+        position: relative;
+    }
+    main .de .de_1 .ta .zoom .img-z .img-z-lar #zoom-img{
+        position: absolute;
+        z-index: 99;
+    }
+    main .de .de_1 .ta .zoom .img-z .img-z-lar img{
+        border: none;
+        vertical-align: top;
+    }
+
     
     
     

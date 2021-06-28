@@ -188,6 +188,15 @@ main .ser a:hover{color: #fff; background-color: #a8855a;}
         text-align: center;
         color: #6d6d6d;
     }
+    main .ta::before{
+        content: '상품정보';
+        clear: both;
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        padding-bottom: 30px;
+        text-align: left;
+    }
     main .ta table{
         border: 0;
         border-collapse: collapse;
@@ -201,6 +210,7 @@ main .ser a:hover{color: #fff; background-color: #a8855a;}
         border: 0;
         padding-bottom: 30px;
         font-size: 14px;
+        display: none;
     }
     main .ta table thead tr th:nth-of-type(1){
         width: 5%; display: none;
@@ -233,8 +243,8 @@ main .ser a:hover{color: #fff; background-color: #a8855a;}
         font-size: 12px;
     }
     main .ta table tbody tr td:nth-of-type(1){width: 5%;}
-    main .ta table tbody tr td:nth-of-type(2){width: 10%;}
-    main .ta table tbody tr td:nth-of-type(3){width: 40%;}
+    main .ta table tbody tr td:nth-of-type(2){width: 10%; padding-left: 10px;}
+    main .ta table tbody tr td:nth-of-type(3){width: 40%; padding-left: 10px;}
     main .ta table tbody tr td:nth-of-type(4){width: 15%;}
     main .ta table tbody tr td:nth-of-type(5){width: 20%;}
     main .ta table tbody tr td:nth-of-type(6){width: 5%;}
