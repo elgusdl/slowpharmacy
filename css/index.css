@@ -178,6 +178,8 @@ main .ab .ab_2 div p{font-size: 14px;}
     position: relative;
     border-radius: 50px;
     overflow: hidden;
+    box-shadow: 3px 3px 5px rgba(93, 104, 90, 0.7);
+    backface-visibility: hidden;
 }
 .st .st_1 ul li figure::before{
     content: '';
@@ -288,8 +290,17 @@ main .work .wo ul li figure{
     position: relative;
     border-radius: 50px;
     overflow: hidden;
+
+    box-shadow: 3px 3px 5px rgba(93, 104, 90, 0.7);
+    backface-visibility: hidden;
 }
-main .work .wo ul li figure img{width: 100%;}
+main .work .wo ul li figure img{
+    width: 100%;
+    transition: .5s;
+}
+main .work .wo ul li figure:hover img{
+    transform: scale(1.1);
+}
 main .work .wo ul li figure figcaption{
     position: absolute;
     left: 0; top: 0;
@@ -590,6 +601,8 @@ main .top a{
         position: relative;
         border-radius: 50px;
         overflow: hidden;
+        box-shadow: 3px 3px 5px rgba(93, 104, 90, 0.7);
+        backface-visibility: hidden;
     }
     .st .st_1 ul li figure::before{
         content: '';
@@ -749,8 +762,16 @@ main .top a{
         position: relative;
         border-radius: 50px;
         overflow: hidden;
+        box-shadow: 3px 3px 5px rgba(93, 104, 90, 0.7);
+        backface-visibility: hidden;
     }
-    main .work .wo ul li figure img{width: 100%;}
+    main .work .wo ul li figure img{
+        width: 100%;
+        transition: .5s;
+    }
+    main .work .wo ul li figure:hover img{
+        transform: scale(1.1);
+    }
     main .work .wo ul li figure figcaption{
         position: absolute;
         left: 0; top: 0;

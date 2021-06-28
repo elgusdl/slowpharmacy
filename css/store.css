@@ -97,7 +97,11 @@ main .st ul li figure{
     overflow: hidden;
     transition: .5s;
 }
-main .st ul li figure:hover{border: 3px solid #a8855a;}
+main .st ul li figure:hover{
+    border: 3px solid #a8855a;
+    box-shadow: 1px 1px 5px rgba(93, 104, 90, 0.7);
+    backface-visibility: hidden;
+}
 main .st ul li figure img{
     width: 100%; height: 15vw;
 }
@@ -294,7 +298,11 @@ main .top a{
         overflow: hidden;
         transition: .5s;
     }
-    main .st ul li figure:hover{border: 3px solid #a8855a;}
+    main .st ul li figure:hover{
+        border: 3px solid #a8855a;
+        box-shadow: 1px 1px 5px rgba(93, 104, 90, 0.7);
+        backface-visibility: hidden;
+    }
     main .st ul li figure img{
         width: 100%; height: 35vw;
     }
