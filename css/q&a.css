@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 @import url('common.css');
 
 
@@ -36,12 +36,10 @@ main .title img{
 }
 
 
-
-
 /* table */
 main .ta{
     width: 70%;
-    margin: 175px auto 5%;
+    margin: 150px auto 5%;
     text-align: center;
     color: #6d6d6d;
 }
@@ -107,11 +105,10 @@ main .num ol li a{
 }
 
 
-
 /* main_ser */
 main .ser{
     text-align: center;
-    margin-bottom: 175px;
+    margin-bottom: 150px;
 }
 main .ser select{font-size: 14px; color: #6d6d6d;}
 main .ser select option{font-size: 14px; color: #6d6d6d;}
@@ -147,7 +144,100 @@ main .ser a:hover{color: #fff; background-color: #a8855a;}
 
 
 
-@media (max-width:767px){
+@media (min-width: 769px) and (max-width: 1374px){
+    
+    /* title */
+    main .title img{
+        width: 100%; height: 60vh;
+    }
+
+
+    /* table */
+    main .ta{
+        width: 80%;
+        margin: 130px auto 5%;
+        text-align: center;
+        color: #6d6d6d;
+    }
+    main .ta::before{
+        content: '상품정보';
+        clear: both;
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        padding-bottom: 30px;
+        text-align: left;
+    }
+    main .ta table{
+        border: 0;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    main .ta table thead{}
+    main .ta table thead tr{
+        border-bottom: 1px solid #5d685a;
+    }
+    main .ta table thead tr th{
+        border: 0;
+        padding-bottom: 30px;
+        font-size: 14px;
+        display: none;
+    }
+    main .ta table thead tr th:nth-of-type(1){
+        width: 5%; display: none;
+    }
+    main .ta table thead tr th:nth-of-type(2){
+        width: 20%;
+    }
+    main .ta table thead tr th:nth-of-type(3){
+        width: 51%; display: none;
+    }
+    main .ta table thead tr th:nth-of-type(4){
+        width: 8%; display: none;
+    }
+    main .ta table thead tr th:nth-of-type(5){
+        width: 10%; display: none;
+    }
+    main .ta table thead tr th:nth-of-type(6){
+        width: 5%; display: none;
+    }
+    main .ta table tbody{}
+    main .ta table tbody tr{
+        border-bottom: 1px dashed #5d685a;
+    }
+    main .ta table tbody tr:nth-last-of-type(1){
+        border-bottom: 1px solid #5d685a;
+    }
+    main .ta table tbody tr td{
+        border: 0;
+        padding: 20px 0;
+        font-size: 14px;
+    }
+    main .ta table tbody tr td:nth-of-type(1){width: 5%;}
+    main .ta table tbody tr td:nth-of-type(2){width: 15%; padding-left: 20px;}
+    main .ta table tbody tr td:nth-of-type(3){width: 40%; padding-left: 20px;}
+    main .ta table tbody tr td:nth-of-type(4){width: 10%;}
+    main .ta table tbody tr td:nth-of-type(5){width: 20%;}
+    main .ta table tbody tr td:nth-of-type(6){width: 5%;}
+    main .ta table tbody tr td small{
+        font-size: 12px;
+        color: #b4b4b4;
+    }
+    main .ta table tbody tr td img{width: 100%;}
+    main .ta table tbody tr td:nth-of-type(3){text-align: left;}
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+
     /* title */
     main .title{
         position: relative;
@@ -177,8 +267,6 @@ main .ser a:hover{color: #fff; background-color: #a8855a;}
     main .title img{
         width: 100%; height: 40vh;
     }
-
-
 
 
     /* table */
@@ -256,7 +344,6 @@ main .ser a:hover{color: #fff; background-color: #a8855a;}
     main .ta table tbody tr td:nth-of-type(3){text-align: left;}
 
 
-
     /* main_num */
     main .num{
         text-align: center;
@@ -277,7 +364,6 @@ main .ser a:hover{color: #fff; background-color: #a8855a;}
         font-weight: bold;
         font-size: 12px;
     }
-
 
 
     /* main_ser */

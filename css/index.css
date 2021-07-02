@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 @import url('common.css');
 
 
@@ -6,6 +6,10 @@
 /* main */
 main{}
 main .pho{}
+
+
+
+/* mobile-main */
 main .pho .ani{
     display: none;
     width: 100%; overflow: hidden;
@@ -29,19 +33,53 @@ main .pho .ani figure img{
     70%{transform: translateX(-200%);}
     100%{transform: translateX(-300%);}
 }
-main .pho iframe{
-    width: 100%; height: 1070px;
+
+
+
+
+/* pc-main */
+main .pho video{
+    width: 100%; height: 100%;
     position: relative;
     z-index:-1;
 }
-main .ab{
-    padding: 175px 15%;
+main .sc{
+    position: absolute;
+    left: 50%; bottom: 2%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    animation: sc 1s infinite alternate;
 }
+@keyframes sc {
+    0%{ transform: translateY(0%); }
+    35%{ transform: translateY(-20%); }
+    100%{ transform: translateY(0%); }
+}
+main .sc p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+
+    letter-spacing: 2px;
+}
+main .sc img{
+    transform: rotate(180deg);
+    width: 40px;
+}
+
+
+/* about */
+main .ab{padding: 150px 15%;}
 main .ab h2{
     font-size: 30px;
     letter-spacing: 1.2px;
     text-align: center;
-    color: #6d6d6d;
+    color: #5d685a;
 }
 main .ab h2::after{
     content: '';
@@ -51,94 +89,191 @@ main .ab h2::after{
     margin: 20px auto 80px;
     width: 30px;
 }
-main .ab .ab_1{
+main .ab .ab_text{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-    margin-bottom: 60px;
+    justify-content: space-between;
 }
-main .ab .ab_1 figure{
-    width: 50%; 
+
+/* about_슬로우파마씨 */
+main .ab .ab_text .ab_1{margin-right: 10px;}
+main .ab .ab_text .ab_1 figure{
+    position: relative;
+    width: 100%; 
     margin: 0;
 }
-main .ab .ab_1 figure img{width: 100%;}
-main .ab .ab_1 div{
-    width: 50%;
-    padding: 0 0 0 60px;
-    letter-spacing: 1.2px;
+main .ab .ab_text .ab_1 figure .img1{
+    width: 100%;
+    margin-bottom: 30px;
+}
+main .ab .ab_text .ab_1 figure .img2{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-bottom: 30px;
+    opacity: 0;
+    transition: .8s;
+}
+main .ab .ab_text .ab_1 figure:hover .img2{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-bottom: 30px;
+    opacity: 1;
+}
+main .ab .ab_text .ab_1 div{position: relative;}
+main .ab .ab_text .ab_1 div .te_l{
+    float: left;
+}
+main .ab .ab_text .ab_1 div .te_l h3{
+    font-size: 120px;
+    font-weight: bold;
+    color: #5d685a;
+    line-height: 0.8;
+    opacity: 0.3;
+}
+main .ab .ab_text .ab_1 div .te_l p{
+    position: absolute;
+    left: 30%; top: 34%;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: #5d685a;
+    line-height: 0.8;
+}
+main .ab .ab_text .ab_1 div .te_r{
+    float: right;
+    width: 80%;
+    color: #6d6d6d;
+    margin-top: 30px;
+}
+main .ab .ab_text .ab_1 div .te_r h3{font-size: 18px;}
+main .ab .ab_text .ab_1 div .te_r p{font-size: 14px;}
+
+/* about_식물을 처방하다 */
+main .ab .ab_text .ab_2{}
+main .ab .ab_text .ab_2 figure{
+    position: relative;
+    width: 100%; margin: 0;
+}
+main .ab .ab_text .ab_2 figure .img1{
+    width: 100%;
+    margin-bottom: 30px;
+}
+main .ab .ab_text .ab_2 figure .img2{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    margin-bottom: 30px;
+    opacity: 0;
+    transition: .8s;
+}
+main .ab .ab_text .ab_2 figure:hover .img2{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-bottom: 30px;
+    opacity: 1;
+}
+main .ab .ab_text .ab_2 div{position: relative;}
+main .ab .ab_text .ab_2 div .te_l{
+    float: left;
+}
+main .ab .ab_text .ab_2 div .te_l h3{
+    font-size: 120px;
+    font-weight: bold;
+    color: #5d685a;
+    line-height: 0.8;
+    opacity: 0.3;
+}
+main .ab .ab_text .ab_2 div .te_l p{
+    position: absolute;
+    left: 15%; top: 34%;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: #5d685a;
+    line-height: 0.8;
+}
+main .ab .ab_text .ab_2 div .te_r{
+    float: right;
+    width: 80%;
+    margin-top: 30px;
     color: #6d6d6d;
 }
-main .ab .ab_1 div h3{
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-main .ab .ab_1 div p{font-size: 14px;}
+main .ab .ab_text .ab_2 div h3{font-size: 18px;}
+main .ab .ab_text .ab_2 div p{font-size: 14px;}
 
-
-main .ab .ab_2{
+/* interview */
+main .ab .in{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
-main .ab .ab_2 figure{    
-    width: 50%; margin: 0;
+main .ab .in p{
+    color: #5d685a;
+    font-size: 14px;
+    line-height: 3;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-right: 14px;
 }
-main .ab .ab_2 figure img{width: 100%;}
-main .ab .ab_2 div{
-    width: 50%;
-    padding: 0 60px 0 0;
-    letter-spacing: 1.2px;
-    color: #6d6d6d;
+main .ab .in a{}
+main .ab .in a img{
+    width: 18px;
+    animation: in 3s infinite;
 }
-main .ab .ab_2 div h3{font-size: 18px;}
-main .ab .ab_2 div p{font-size: 14px;}
+@keyframes in {
+    0%{transform: translateX(0%);}
+    35%{transform: translateX(80%);}
+}
 
 
 
-/* main_middle */
-.ha{
+/* main_middle(news) */
+.news{
     position: relative;
 }
-.ha article{
+.news .text{
     position: absolute;
-    background: rgba(93, 104, 90, 0.7);
-    width: 100%; height: 600px;
+    top: 50%; left: 15%;
+    transform: translateY(-50%);
+}
+.news .text h2{
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 1.2px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.news .text p{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    font-weight: lighter;
+}
+.news .link{
+    position: absolute;
+    background-color: rgba(93, 104, 90, 0.5);
+    width: 100%; height: 100%;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    opacity: 0;
+    transition: .5s;
 }
-.ha article h2{
-    color: #fff;
-    font-size: 60px;
-    letter-spacing: 1.2px;
-    font-weight: lighter;
-}
-.ha article h2::after{    
-    content: '';
-    clear: both;
-    display: block;
-    border-bottom: 3px solid #fff;
-    margin: 20px auto 60px;
-    width: 60px;
-}
-.ha article p{
-    color: #fff;
-    font-size: 18px;
-    letter-spacing: 1.2px;
-    font-weight: lighter;
-}
-.ha img{
-    width: 100%; height: 600px;
-}
+.news .link:hover{opacity: 1;}
+.news .link a{}
+.news .link img{width: 24px; height: 24px;}
+.news .link img:nth-of-type(1){margin-right: 20px;}
+.news img{width: 100%;}
 
 
 
 /* main_store */
 .st{
-    padding: 175px 15%;
+    padding: 150px 15%;
     text-align: center;
     background-color: #f5f4f2;
 }
@@ -146,7 +281,7 @@ main .ab .ab_2 div p{font-size: 14px;}
     font-size: 30px;
     letter-spacing: 1.2px;
     text-align: center;
-    color: #6d6d6d;
+    color: #5d685a;
 }
 .st h2::after{
     content: '';
@@ -156,23 +291,24 @@ main .ab .ab_2 div p{font-size: 14px;}
     margin: 20px auto 80px;
     width: 30px;
 }
-.st h5{
-    font-size: 18px;
-    letter-spacing: 1.2px;
-    text-align: center;
-    color: #6d6d6d;
-    margin-bottom: 50px;
-}
 .st .st_1{position: relative;}
 .st .st_1 ul{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.st .st_1 ul li{
-    width: 25%;
+.st .st_1 ul li{}
+.st .st_1 ul li:nth-of-type(1){
+    width: 24%;
+    opacity: 0.8;
 }
 .st .st_1 ul li:nth-of-type(2){
     margin: 0 45px;
+    width: 30%;
+}
+.st .st_1 ul li:nth-of-type(3){
+    width: 24%;
+    opacity: 0.8;
 }
 .st .st_1 ul li figure{
     position: relative;
@@ -193,9 +329,7 @@ main .ab .ab_2 div p{font-size: 14px;}
     transition: .2s;
     z-index:2;
 }
-.st .st_1 ul li figure img{
-    width: 100%;
-}
+.st .st_1 ul li figure img{width: 100%;}
 .st .st_1 ul li figure figcaption{
     position: absolute;
     left: 0; top: 0;
@@ -222,9 +356,7 @@ main .ab .ab_2 div p{font-size: 14px;}
     color: #fff;
 }
 
-
-
-/* 화살버튼 */
+/* st_화살버튼 */
 .st .st_1 .bt{
     display: flex;
     justify-content: space-between;
@@ -234,16 +366,14 @@ main .ab .ab_2 div p{font-size: 14px;}
 }
 .st .st_1 .bt a{}
 .st .st_1 .bt a img{
-    width: 25px;
+    width: 20px;
 }
 
-
-
-/* more버튼 */
+/* st_more버튼 */
 .st .more{
     text-align: center;
     color: #6d6d6d;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 3;
     letter-spacing: 2px;
     font-weight: bold;
@@ -260,15 +390,44 @@ main .ab .ab_2 div p{font-size: 14px;}
 
 
 
-/* main_work */
-main .work{
-    padding: 175px 15%;
+/* main_middle(ha) */
+.ha{position: relative;}
+.ha .bg{
+    position: absolute;
+    background: rgba(93, 104, 90, 0.5);
+    width: 100%; height: 100%;
 }
+.ha .bg article{
+    position: absolute;
+    top: 50%; right: 15%;
+    transform: translateY(-50%);
+    text-align: right; 
+}
+.ha .bg article h2{
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 1.2px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    
+}
+.ha .bg article p{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    font-weight: lighter;
+}
+.ha img{width: 100%;}
+
+
+
+/* main_work */
+main .work{padding: 150px 15%;}
 main .work h2{
     font-size: 30px;
     letter-spacing: 1.2px;
     text-align: center;
-    color: #6d6d6d;
+    color: #5d685a;
 }
 main .work h2::after{
     content: '';
@@ -283,9 +442,7 @@ main .work .wo ul{
     display: flex;
     justify-content: space-between;
 }
-main .work .wo ul li{
-    width: 22.5%;
-}
+main .work .wo ul li{width: 22.5%;}
 main .work .wo ul li figure{
     position: relative;
     border-radius: 50px;
@@ -298,9 +455,7 @@ main .work .wo ul li figure img{
     width: 100%;
     transition: .5s;
 }
-main .work .wo ul li figure:hover img{
-    transform: scale(1.1);
-}
+main .work .wo ul li figure:hover img{transform: scale(1.1);}
 main .work .wo ul li figure figcaption{
     position: absolute;
     left: 0; top: 0;
@@ -324,15 +479,21 @@ main .work .wo ul li figure figcaption p{
 }
 main .work .wo ul li figure figcaption .link{}
 main .work .wo ul li figure figcaption .link a{}
-main .work .wo ul li figure figcaption .link a img{width: 25px; height: 25px;}
+main .work .wo ul li figure figcaption .link a img{width: 20px; height: 20px;}
 main .work .wo ul li figure figcaption .link a:nth-of-type(1){margin-right: 15px;}
 main .work .next{
     text-align: center;
-    margin: 50px;
+    margin: 50px 50px 0 50px;
 }
 main .work .next a{}
-main .work .next a img{width: 12px;}
+main .work .next a img{width: 10px;}
 main .work .next a:nth-of-type(1){margin-right: 10px;}
+main .work .next a:nth-of-type(3){display: none;}
+main .work .next a:nth-of-type(4){display: none;}
+main .work .next a:nth-of-type(5){display: none;}
+main .work .next a:nth-of-type(6){display: none;}
+main .work .next a:nth-of-type(7){display: none;}
+
 
 
 
@@ -430,6 +591,262 @@ main .top a{
 
 
 
+/* bg */
+main .fix-bg{
+    text-align: center;
+}
+main .fix-bg .bg1{
+    position: fixed;
+    left: -6%; bottom: -20%;
+    z-index: -3;
+    opacity: 0.06;
+    width: 24%;
+    transform: rotate(35deg);
+}
+main .fix-bg .bg2{
+    position: fixed;
+    right: -4%; top: -10%;
+    z-index: -3;
+    opacity: 0.06;
+    width: 20%;
+    transform: rotate(-40deg);
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 1374px){
+
+    /* pc-main */
+    main .pho video{margin-top: 70.99px;}
+    main .sc{display: none;}
+
+    /* about */
+    main .ab{padding: 100px 10%;}
+    main .ab h2{font-size: 24px;}
+
+
+    /* about_슬로우파마씨 */
+    main .ab .ab_text .ab_1 div{position: relative;}
+    main .ab .ab_text .ab_1 div .te_l{float: left;}
+    main .ab .ab_text .ab_1 div .te_l h3{font-size: 100px;}
+    main .ab .ab_text .ab_1 div .te_l p{
+        left: 30%; top: 34%;
+        font-size: 24px;
+    }
+    main .ab .ab_text .ab_1 div .te_r{
+        width: 100%;
+        margin-top: -26px;
+    }
+    main .ab .ab_text .ab_1 div .te_r h3{
+        margin-left: 30%;
+        font-size: 16px;
+    }
+
+
+    /* about_식물을 처방하다 */
+    main .ab .ab_text .ab_2 div{position: relative;}
+    main .ab .ab_text .ab_2 div .te_l{float: left;}
+    main .ab .ab_text .ab_2 div .te_l h3{font-size: 100px;}
+    main .ab .ab_text .ab_2 div .te_l p{
+        left: 7%; top: 34%;
+        font-size: 24px;
+    }
+    main .ab .ab_text .ab_2 div .te_r{
+        width: 100%;
+        margin-top: -26px;
+    }
+    main .ab .ab_text .ab_2 div .te_r h3{
+        margin-left: 30%;
+        font-size: 16px;
+    }
+
+
+    /* interview */
+    main .ab .in p{font-size: 14px;}
+    main .ab .in a img{width: 14px;}
+
+
+    /* main_middle(news) */
+    .news .text{top: 50%; left: 10%;}
+    .news .text h2{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .news .text p{font-size: 14px;}
+    .news .link img{width: 20px; height: 20px;}
+
+
+    /* main_store */
+    .st{
+        padding: 100px 10%;
+    }
+    .st h2{font-size: 24px;}
+    .st .st_1 ul li:nth-of-type(1){
+        width: 20%;
+        opacity: 0.8;
+    }
+    .st .st_1 ul li:nth-of-type(2){
+        margin: 0 26px;
+        width: 36%;
+    }
+    .st .st_1 ul li:nth-of-type(3){
+        width: 20%;
+        opacity: 0.8;
+    }
+    .st .st_1 ul li figure figcaption{
+        width: 100%; height: 100%;
+        line-height: 1.5;
+        padding: 0 30px;
+    }
+    .st .st_1 ul li figure figcaption p{
+        font-size: 12px;
+        font-weight: lighter;
+        color: #fff;
+    }
+    .st .st_1 ul li figure figcaption p b{
+        font-size: 14px;
+        color: #fff;
+    }
+
+    /* st_화살버튼 */
+    .st .st_1 .bt a img{width: 16px;}
+
+    /* st_more버튼 */
+    .st .more{
+        line-height: 2.4;
+        padding: 0 30px;
+    }
+
+
+
+    /* main_middle(ha) */
+    .ha .bg article{top: 50%; right: 10%;}
+    .ha .bg article h2{
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 5px;
+        
+    }
+    .ha .bg article p{font-size: 14px;}
+
+
+
+    /* main_work */
+    main .work{
+        padding: 100px 10%;
+    }
+    main .work h2{font-size: 24px;}
+    main .work .wo ul li{
+        width: 36%;
+        margin: 0 2.4%;
+        flex-shrink: 0;
+    }
+    main .work .next a img{
+        width: 8px;
+        margin-right: 5px;
+    }
+    main .work .next a:nth-of-type(1){margin-right: 0px;}
+    main .work .next a:nth-of-type(3){display: inline-block;}
+    main .work .next a:nth-of-type(4){display: inline-block;}
+    main .work .next a:nth-of-type(5){display: inline-block;}
+    main .work .next a:nth-of-type(6){display: inline-block;}
+    main .work .next a:nth-of-type(7){display: inline-block;}
+
+
+
+
+    /* main_login */
+    /* main .log_bg{
+        position: fixed;
+        left: 0; top: 0;
+        width: 100%; height: 100%;
+        background-color: rgba(93, 104, 90, 0.7);
+        z-index: 799;
+        opacity: 0;
+    }
+    main .log_bg .login{
+        position: fixed;
+        left: 50%; top: 55%;
+        transform: translate(-50%, -50%);
+        z-index: 800;
+
+        background-color: #d8d2c5;
+        width: 25%; height: 500px;
+        border-radius: 50px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    main .log_bg .login h5{
+        font-size: 30px;
+        letter-spacing: 1.2px;
+        text-align: center;
+        color: #6d6d6d;
+        margin-bottom: 40px;
+    }
+    main .log_bg .login h5::after{
+        content: '';
+        clear: both;
+        display: block;
+        border-bottom: 3px solid #5d685a;
+        margin: 20px auto 0;
+        width: 30px;
+    }
+    main .log_bg .login .log_ip{}
+    main .log_bg .login .log_ip .te{}
+    main .log_bg .login .log_ip .te input{
+        border: 0; background-color: rgba(0, 0, 0, 0);
+        border-bottom: 2px solid #6d6d6d;
+        width: 200px;
+
+        text-align: center;
+        color: #6d6d6d;
+        font-size: 14px;
+        outline-style: none;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        letter-spacing: 1.2px;
+    }
+    main .log_bg .login .log_ip .bt{margin-bottom: 5px;}
+    main .log_bg .login .log_ip .bt a{
+        font-size: 18px;
+        letter-spacing: 1.2px;
+        color: #6d6d6d;
+    }
+    main .log_bg .login .log_ip .bt a:nth-of-type(1){margin-right: 10px;}
+    main .log_bg .login .log_ip .bt a:hover{color: #a8855a;}
+    main .log_bg .login .log_ip a{
+        font-size: 14px;
+        letter-spacing: 1.2px;
+        color: #6d6d6d;
+    }
+    main .log_bg .login .log_ip a:hover{color: #a8855a;} */
+
+
+    /* bg */
+    main .fix-bg .bg1{
+        left: 0%; bottom: -10%;
+        width: 26%;
+    }
+    main .fix-bg .bg2{
+        right: 0%; top: -10%;
+        width: 26%;
+    }
+}
+
+
+
+
 
 
 
@@ -441,8 +858,6 @@ main .top a{
 @media (max-width:767px){
 
     /* main */
-    main{}
-    main .pho{}
     main .pho .ani{
         display: block;
         width: 100%; overflow: hidden;
@@ -454,11 +869,11 @@ main .top a{
         display: flex;
         justify-content: flex-start;
     
-        animation: ani 10s infinite;
+        animation: ani 13s infinite;
     }
     main .pho .ani figure img{
         width: 100%;
-        margin-top: 54px;
+        margin-top: 52px;
         flex-shrink: 0;
     }
     @keyframes ani {
@@ -476,126 +891,225 @@ main .top a{
     main .pho .next a{}
     main .pho .next a img{width: 10px; margin-right: 10px;}
     main .pho .next a:nth-last-of-type(1){margin-right: 0px;}
-    main .pho iframe{
-        width: 100%; height: 1080px;
+    main .pho video{display: none;}
+    main .pho .sc{display: none;}
+
+
+    /* about */
+    main .ab{padding: 60px 10%;}
+    main .ab h2{font-size: 22px;}
+    main .ab h2::after{margin: 10px auto 40px;}
+    main .ab .ab_text{display: block;}
+
+    /* about_슬로우파마씨 */
+    main .ab .ab_text .ab_1{margin-right: 0px;}
+    main .ab .ab_text .ab_1 figure{
         position: relative;
-        z-index: -1;
-        display: none;
-    }
-    main .ab{
-        padding: 100px 10%;
-    }
-    main .ab h2{
-        font-size: 26px;
-        letter-spacing: 1.2px;
-        text-align: center;
-        color: #6d6d6d;
-    }
-    main .ab h2::after{
-        content: '';
-        clear: both;
-        display: block;
-        border-bottom: 3px solid #5d685a;
-        margin: 10px auto 50px;
-        width: 30px;
-    }
-    main .ab .ab_1{
-        display: block;
-        justify-content: space-around;
-        align-items: center;
-        
-        margin-bottom: 60px;
-    }
-    main .ab .ab_1 figure{
         width: 100%; 
         margin: 0;
     }
-    main .ab .ab_1 figure img{width: 100%;}
-    main .ab .ab_1 div{
+    main .ab .ab_text .ab_1 div{position: relative;}
+    main .ab .ab_text .ab_1 div .te_l{
+        float: right;
+    }
+    main .ab .ab_text .ab_1 div .te_l h3{
+        font-size: 60px;
+        font-weight: bold;
+        color: #5d685a;
+        line-height: 0.8;
+        opacity: 0.3;
+    }
+    main .ab .ab_text .ab_1 div .te_l p{
+        position: absolute;
+        left: 22%; top: 34%;
+
+        font-size: 18px;
+        font-weight: bold;
+        color: #5d685a;
+        line-height: 0.8;
+    }
+    main .ab .ab_text .ab_1 div .te_r{
+        float: right;
         width: 100%;
-        padding: 0 0 0 0px;
-        letter-spacing: 1.2px;
         color: #6d6d6d;
-        text-align: center;
-        margin-top: 10px;
+        margin-top: -20px;
     }
-    main .ab .ab_1 div h3{
-        font-size: 16px;
-        margin-bottom: 0px;
+    main .ab .ab_text .ab_1 div .te_r h3{font-size: 16px;}
+    main .ab .ab_text .ab_1 div .te_r p{
+        font-size: 12px;
+        margin-bottom: 30px;
     }
-    main .ab .ab_1 div p{font-size: 14px;}
-
-
-    main .ab .ab_2{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-    }
-    main .ab .ab_2 figure{    
+    /* about_식물을 처방하다 */
+    main .ab .ab_text .ab_2{}
+    main .ab .ab_text .ab_2 figure{
+        position: relative;
         width: 100%; margin: 0;
-        order: 1;
     }
-    main .ab .ab_2 figure img{width: 100%;}
-    main .ab .ab_2 div{
+    main .ab .ab_text .ab_2 figure .img1{
         width: 100%;
-        padding: 0 0px 0 0;
-        letter-spacing: 1.2px;
-        color: #6d6d6d;
-        text-align: center;
-        margin-top: 10px;
-        order: 2;
+        margin-bottom: 30px;
     }
-    main .ab .ab_2 div h3{
-        font-size: 16px;
-        margin-bottom: 0px;
+    main .ab .ab_text .ab_2 figure .img2{
+        position: absolute;
+        right: 0;
+        width: 100%;
+        margin-bottom: 30px;
+        opacity: 0;
+        transition: .8s;
     }
-    main .ab .ab_2 div p{font-size: 14px;}
+    main .ab .ab_text .ab_2 figure:hover .img2{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        margin-bottom: 30px;
+        opacity: 1;
+    }
+    main .ab .ab_text .ab_2 div{position: relative;}
+    main .ab .ab_text .ab_2 div .te_l{
+        float: right;
+    }
+    main .ab .ab_text .ab_2 div .te_l h3{
+        font-size: 60px;
+        font-weight: bold;
+        color: #5d685a;
+        line-height: 0.8;
+        opacity: 0.3;
+    }
+    main .ab .ab_text .ab_2 div .te_l p{
+        position: absolute;
+        left: -5%; top: 34%;
 
+        font-size: 18px;
+        font-weight: bold;
+        color: #5d685a;
+        line-height: 0.8;
+    }
+    main .ab .ab_text .ab_2 div .te_r{
+        float: right;
+        width: 100%;
+        margin-top: -26px;
+        color: #6d6d6d;
+    }
+    main .ab .ab_text .ab_2 div h3{font-size: 16px;}
+    main .ab .ab_text .ab_2 div p{
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
+    /* interview */
+    main .ab .in{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 0px auto 0;
+        width: 100%;
+
+    }
+    main .ab .in p{
+        color: #5d685a;
+        font-size: 12px;
+        line-height: 3;
+        letter-spacing: 2px;
+        font-weight: bold;
+        margin-right: 12px;
+    }
+    main .ab .in a{}
+    main .ab .in a img{
+        width: 12px;
+        animation: in 3s infinite;
+    }
+    @keyframes in {
+        0%{transform: translateX(0%);}
+        35%{transform: translateX(80%);}
+    }
+
+
+
+
+
+    /* main_middle(news) */
+    .news{
+        position: relative;
+    }
+    .news .text{
+        position: absolute;
+        top: 50%; left: 10%;
+        transform: translateY(-50%);
+    }
+    .news .text h2{
+        color: #fff;
+        font-size: 24px;
+        letter-spacing: 1.2px;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+    .news .text p{
+        color: #fff;
+        font-size: 12px;
+        letter-spacing: 1.2px;
+        font-weight: lighter;
+    }
+    .news .link{
+        position: absolute;
+        background-color: rgba(93, 104, 90, 0.5);
+        width: 100%; height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: .5s;
+    }
+    .news .link:hover{opacity: 1;}
+    .news .link a{}
+    .news .link img{width: 20px; height: 20px;}
+    .news .link img:nth-of-type(1){margin-right: 20px;}
+    .news img{width: 100%; height: 100px;}
 
 
 
 
     /* main_store */
     .st{
-        padding: 100px 10%;
+        padding: 60px 10%;
         text-align: center;
         background-color: #f5f4f2;
     }
     .st h2{
-        font-size: 26px;
+        font-size: 22px;
         letter-spacing: 1.2px;
         text-align: center;
-        color: #6d6d6d;
+        color: #5d685a;
     }
     .st h2::after{
         content: '';
         clear: both;
         display: block;
         border-bottom: 3px solid #5d685a;
-        margin: 10px auto 50px;
+        margin: 10px auto 40px;
         width: 30px;
-    }
-    .st h5{
-        font-size: 18px;
-        letter-spacing: 1.2px;
-        text-align: center;
-        color: #6d6d6d;
-        margin-bottom: 30px;
     }
     .st .st_1{position: relative;}
     .st .st_1 ul{
         display: flex;
-        justify-content: flex-start;
-        overflow: hidden;
+        justify-content: center;
+        align-items: center;
     }
-    .st .st_1 ul li{
-        width: 70%;
-        margin: 0 15%;
-        flex-shrink: 0;
+    .st .st_1 ul li{}
+    .st .st_1 ul li:nth-of-type(1){
+        width: 60%;
+        opacity: 1;
     }
     .st .st_1 ul li:nth-of-type(2){
-        margin: 0 0%;
+        display: none;
+        margin: 0 45px;
+        width: 30%;
+    }
+    .st .st_1 ul li:nth-of-type(3){
+        display: none;
+        width: 24%;
+        opacity: 0.8;
     }
     .st .st_1 ul li figure{
         position: relative;
@@ -608,7 +1122,7 @@ main .top a{
         content: '';
         clear: both;
         display: block;
-        width: 100%; height: 100%;
+        width:100%; height: 100%;
         border-radius: 50px;
 
         position: absolute; 
@@ -616,9 +1130,7 @@ main .top a{
         transition: .2s;
         z-index:2;
     }
-    .st .st_1 ul li figure img{
-        width: 100%;
-    }
+    .st .st_1 ul li figure img{width: 100%;}
     .st .st_1 ul li figure figcaption{
         position: absolute;
         left: 0; top: 0;
@@ -645,11 +1157,7 @@ main .top a{
         color: #fff;
     }
 
-
-
-
-    
-    /* 화살버튼 */
+    /* st_화살버튼 */
     .st .st_1 .bt{
         display: flex;
         justify-content: space-between;
@@ -659,17 +1167,15 @@ main .top a{
     }
     .st .st_1 .bt a{}
     .st .st_1 .bt a img{
-        width: 18px;
+        width: 16px;
     }
 
-
-
-    /* more버튼 */
+    /* st_more버튼 */
     .st .more{
         text-align: center;
         color: #6d6d6d;
         font-size: 12px;
-        line-height: 3;
+        line-height: 2;
         letter-spacing: 2px;
         font-weight: bold;
 
@@ -677,7 +1183,7 @@ main .top a{
         border-radius: 40px;
         padding: 0 30px;
         margin: 0 auto;
-        margin-top: 50px;
+        margin-top: 40px;
         display: inline-block;
         transition: .5s;
     }
@@ -687,43 +1193,34 @@ main .top a{
 
 
 
-    /* main_middle */
-    .ha{
-        position: relative;
-    }
-    .ha article{
+   /* main_middle(ha) */
+    .ha{position: relative;}
+    .ha .bg{
         position: absolute;
-        background: rgba(93, 104, 90, 0.7);
-        width: 100%; height: 200px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        background: rgba(93, 104, 90, 0.5);
+        width: 100%; height: 100%;
     }
-    .ha article h2{
+    .ha .bg article{
+        position: absolute;
+        top: 50%; right: 10%;
+        transform: translateY(-50%);
+        text-align: right; 
+    }
+    .ha .bg article h2{
         color: #fff;
-        font-size: 26px;
+        font-size: 24px;
+        letter-spacing: 1.2px;
+        font-weight: lighter;
+        margin-bottom: 5px;
+        
+    }
+    .ha .bg article p{
+        color: #fff;
+        font-size: 12px;
         letter-spacing: 1.2px;
         font-weight: lighter;
     }
-    .ha article h2::after{    
-        content: '';
-        clear: both;
-        display: block;
-        border-bottom: 3px solid #fff;
-        margin: 10px auto 30px;
-        width: 30px;
-    }
-    .ha article p{
-        color: #fff;
-        font-size: 14px;
-        letter-spacing: 1.2px;
-        font-weight: lighter;
-    }
-    .ha img{
-        width: 100%; height: 200px;
-    }
+    .ha img{width: 100%; height: 100px;}
 
 
 
@@ -731,10 +1228,10 @@ main .top a{
 
     /* main_work */
     main .work{
-        padding: 100px 10%;
+        padding: 60px 10%;
     }
     main .work h2{
-        font-size: 26px;
+        font-size: 22px;
         letter-spacing: 1.2px;
         text-align: center;
         color: #6d6d6d;
@@ -744,7 +1241,7 @@ main .top a{
         clear: both;
         display: block;
         border-bottom: 3px solid #5d685a;
-        margin: 10px auto 50px;
+        margin: 10px auto 40px;
         width: 30px;
     }
     main .work .wo{position: relative;}
@@ -754,8 +1251,8 @@ main .top a{
         overflow: hidden;
     }
     main .work .wo ul li{
-        width: 70%;
-        margin: 0 15%;
+        width: 60%;
+        margin: 0 5%;
         flex-shrink: 0;
     }
     main .work .wo ul li figure{
@@ -795,15 +1292,23 @@ main .top a{
     }
     main .work .wo ul li figure figcaption .link{}
     main .work .wo ul li figure figcaption .link a{}
-    main .work .wo ul li figure figcaption .link a img{width: 20px; height: 20px;}
+    main .work .wo ul li figure figcaption .link a img{width: 18px; height: 18px;}
     main .work .wo ul li figure figcaption .link a:nth-of-type(1){margin-right: 15px;}
     main .work .next{
         text-align: center;
         margin: 50px auto 0;
     }
     main .work .next a{}
-    main .work .next a img{width: 10px;}
-    main .work .next a:nth-of-type(1){margin-right: 10px;}
+    main .work .next a img{
+        width: 8px;
+        margin-right: 5px;
+    }
+    main .work .next a:nth-of-type(1){margin-right: 0px;}
+    main .work .next a:nth-of-type(3){display: inline-block;}
+    main .work .next a:nth-of-type(4){display: inline-block;}
+    main .work .next a:nth-of-type(5){display: inline-block;}
+    main .work .next a:nth-of-type(6){display: inline-block;}
+    main .work .next a:nth-of-type(7){display: inline-block;}
 
 
 
@@ -902,4 +1407,22 @@ main .top a{
         color: #6d6d6d;
     }
     main .log_bg .login .log_ip a:hover{color: #a8855a;} */
+
+    /* bg */
+    main .fix-bg{display: none;}
+    main .fix-bg .bg1{
+        position: fixed;
+        left: 0; bottom: 0;
+        z-index: -3;
+        opacity: 0.13;
+        width: 28%;
+    }
+    main .fix-bg .bg2{
+        position: fixed;
+        right: 0; top: 0;
+        z-index: -3;
+        opacity: 0.1;
+        width: 35%;
+    }
+
 }

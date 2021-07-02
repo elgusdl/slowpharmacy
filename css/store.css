@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 @import url('common.css');
 
 
@@ -54,10 +54,9 @@ main .title img{
 
 
 
-
-
+/* st */
 main .st{
-    padding: 175px 15% 0;
+    padding: 150px 15% 0;
 }
 main .st h2{
     font-size: 30px;
@@ -151,7 +150,7 @@ main .st ul li figure .up .sha img{
 /* main_num */
 main .num{
     text-align: center;
-    margin-bottom: 175px;
+    margin-bottom: 150px;
 }
 main .num p{display: inline;}
 main .num p a{}
@@ -202,9 +201,56 @@ main .top a{
 
 
 
+@media (min-width: 769px) and (max-width: 1374px){
+    /* title */
+    main .title img{
+        width: 100%; height: 60vh;
+    }
+
+
+    /* st */
+    main .st{
+        padding: 130px 10% 50px;
+    }
+    main .st ul li{
+        width: 47%;
+        margin-bottom: 5%;
+        cursor: pointer;
+    }
+    main .st ul li figure img{
+        width: 100%; height: 35vw;
+    }
+    main .st ul li figure .bottom p b{font-size: 14px;}
+    main .st ul li figure .up{
+        position: absolute;
+        left: 0; top: 0;
+        color: #fff;
+        background: rgba(93, 104, 90, 0.7);
+        width: 100%; height: 35vw;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 0 20px;
+
+        line-height: 1.5;
+        letter-spacing: 1.2px;
+        opacity: 0;
+        transition: .5s;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 /* media */
-@media (max-width:767px){
+@media (max-width:768px){
 
     /* title */
     main .title{
@@ -254,9 +300,7 @@ main .top a{
     }
 
 
-
-
-
+    /* st */
     main .st{
         padding: 100px 10% 50px;
     }
@@ -351,7 +395,6 @@ main .top a{
     }
 
 
-
     /* main_num */
     main .num{
         text-align: center;
@@ -375,7 +418,6 @@ main .top a{
         margin-right: 15px;
         color: #a8855a;
     }
-
 
 
     /* main_top */

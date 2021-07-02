@@ -1,12 +1,12 @@
-@charset 'utf-8';
+@charset "utf-8";
 @import url('common.css');
 
 
 
 
-
+/* detail */
 main .de{
-    padding: 259px 15%;
+    padding: 205px 15%;
 }
 main .de h2{
     font-size: 40px;
@@ -136,9 +136,6 @@ main .de .de_1 .ta .zoom .img-z .img-z-lar img{
 }
 
 
-
-
-
 /* de2 */
 main .de2{
     margin: 0 auto 240px;
@@ -159,7 +156,6 @@ main .de2 .de2_1 figcaption p{
     white-space: pre-line;
 }
 
-
 main .de2 .de2_2{}
 main .de2 .de2_2 img{}
 main .de2 .de2_2 figcaption{
@@ -174,9 +170,6 @@ main .de2 .de2_2 figcaption p{
 }
 
 
-
-
-
 /* de3 - de3_1 */
 main .de3{
     display: flex;
@@ -184,7 +177,7 @@ main .de3{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 25%;
+    width: 45%;
     margin: 0 auto;
 }
 main .de3 .de3_1{
@@ -336,7 +329,6 @@ main .de3 .de3_5 ul li p{
 }
 
 
-
 /* main_top */
 main .top{
     position: fixed;
@@ -365,26 +357,9 @@ main .top a{
 
 
 
-
-@media (max-width:767px){
-
+@media (min-width: 769px) and (max-width: 1374px){
     main .de{
-        padding: 155px 15% 100px;
-    }
-    main .de h2{
-        font-size: 26px;
-        text-align: center;
-        color: #6d6d6d;
-        letter-spacing: 2px;
-    }
-    main .de h2::after{
-        content: '';
-        clear: both;
-        display: block;
-    
-        border-bottom: 3px solid #5d685a;
-        margin: 10px auto 50px;
-        width: 30px;
+        padding: 185px 10% 180px;
     }
     main .de .de_1{}
     main .de .de_1::after{
@@ -538,6 +513,346 @@ main .top a{
     }
     
     
+    /* de3 - de3_1 */
+    main .de3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+    main .de3 .de3_1{
+        color: #6d6d6d;
+    }
+    main .de3 .de3_1 h5{
+        font-size: 16px;
+    }
+    main .de3 .de3_1 h5::after{
+        content: '';
+        clear: both;
+        display: block;
+    
+        border-bottom: 2px solid #5d685a;
+        width: 30px;
+        margin: 10px auto 30px;
+    }
+    main .de3 .de3_1 img{width: 100%;}
+    main .de3 .de3_1 p{
+        text-align: center;
+        margin: 30px 0 60px;
+        letter-spacing: 1.2px;
+        line-height: 1.5;
+        font-size: 12px;
+    }
+    
+    
+    /* de3 - de3_2 */
+    main .de3 .de3_2{
+        color: #6d6d6d;
+    }
+    main .de3 .de3_2 h5{
+        font-size: 16px;
+    }
+    main .de3 .de3_2 h5::after{
+        content: '';
+        clear: both;
+        display: block;
+    
+        border-bottom: 2px solid #5d685a;
+        width: 30px;
+        margin: 10px auto 30px;
+    }
+    main .de3 .de3_2 .te_1{
+        letter-spacing: 1.2px;
+        line-height: 1.5;
+        font-size: 12px;
+        margin-bottom: 24px;
+    }
+    main .de3 .de3_2 figure{}
+    main .de3 .de3_2 figure img{}
+    main .de3 .de3_2 .te_2{
+        font-size: 12px;
+        text-align: center;
+        margin: 10px 0 60px;
+    }
+
+    
+    /* de3 - de3_3 */
+    main .de3 .de3_3{
+        color: #6d6d6d;
+    }
+    main .de3 .de3_3 h5{
+        font-size: 16px;
+    }
+    main .de3 .de3_3 h5::after{
+        content: '';
+        clear: both;
+        display: block;
+    
+        border-bottom: 2px solid #5d685a;
+        width: 30px;
+        margin: 10px auto 30px;
+    }
+    main .de3 .de3_3 .te_1{
+        letter-spacing: 1.2px;
+        line-height: 1.5;
+        font-size: 12px;
+        margin-bottom: 24px;
+    }
+    main .de3 .de3_3 .im_1{}
+    main .de3 .de3_3 .im_1 img{}
+    main .de3 .de3_3 .te_2{
+        font-size: 12px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    main .de3 .de3_3 .im_2{}
+    main .de3 .de3_3 .im_2 img{
+        margin-bottom: 0px;
+    }
+    main .de3 .de3_3 .im_2 img:nth-of-type(2){
+        margin-bottom: 60px;
+    }
+    
+    
+    /* de3 - de3_4 */
+    main .de3 .de3_4{
+        color: #6d6d6d;
+    }
+    main .de3 .de3_4 h5{
+        font-size: 16px;
+    }
+    main .de3 .de3_4 h5::after{
+        content: '';
+        clear: both;
+        display: block;
+    
+        border-bottom: 2px solid #5d685a;
+        width: 30px;
+        margin: 10px auto 30px;
+    }
+    main .de3 .de3_4 .te_1{
+        letter-spacing: 1.2px;
+        line-height: 1.5;
+        font-size: 12px;
+        margin-bottom: 60px;
+    }
+    
+    
+    /* de3 - de3_5 */
+    main .de3 .de3_5{
+        color: #6d6d6d;
+        margin-bottom: 120px;
+    }
+    main .de3 .de3_5 h5{
+        font-size: 16px;
+    }
+    main .de3 .de3_5 h5::after{
+        content: '';
+        clear: both;
+        display: block;
+    
+        border-bottom: 2px solid #5d685a;
+        width: 30px;
+        margin: 10px auto 30px;
+    }
+    main .de3 .de3_5 ul{}
+    main .de3 .de3_5 ul li{}
+    main .de3 .de3_5 ul li .ta{
+        letter-spacing: 1.2px;
+        line-height: 1.5;
+        font-size: 12px;
+        margin-bottom: 14px;
+        font-weight: bold;
+    }
+    main .de3 .de3_5 ul li p{
+        letter-spacing: 1.2px;
+        line-height: 1.5;
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+
+    main .de{
+        padding: 155px 15% 100px;
+    }
+    main .de h2{
+        font-size: 26px;
+        text-align: center;
+        color: #6d6d6d;
+        letter-spacing: 2px;
+    }
+    main .de h2::after{
+        content: '';
+        clear: both;
+        display: block;
+    
+        border-bottom: 3px solid #5d685a;
+        margin: 10px auto 50px;
+        width: 30px;
+    }
+    main .de .de_1{}
+    main .de .de_1::after{
+        content: '';
+        clear: both;
+        display: block;
+    }
+    main .de .de_1 figure{
+        float: left;
+        width: 100%;
+    }
+    main .de .de_1 figure img{width: 100%;}
+    main .de .de_1 .ta{
+        float: right;
+        color: #6d6d6d;
+        width: 100%;
+    }
+    main .de .de_1 .ta h3{
+        border-bottom: 1px solid #5d685a;
+        font-size: 16px;
+        color: #6d6d6d;
+        padding: 30px 30px 30px;
+    
+    }
+    main .de .de_1 .ta table{
+        border: 0;
+        padding: 30px 30px 15px 30px;
+        font-size: 14px;
+        width: 100%;
+    }
+    main .de .de_1 .ta span{
+        display: block;
+        border-bottom: 1px dashed #5d685a;
+        margin: 0;
+    }
+    main .de .de_1 .ta table tbody{}
+    main .de .de_1 .ta table tbody tr{}
+    main .de .de_1 .ta table tbody tr th{
+        font-weight: normal;
+        text-align: left;
+        vertical-align: middle;
+        border: 0;
+        padding-bottom: 15px;
+        width: 35%;
+        font-size: 14px;
+    }
+    main .de .de_1 .ta table tbody tr td{
+        vertical-align: middle;
+        border: 0;
+        padding-bottom: 15px;
+        width: 100%;
+        font-family: 'Noto Sans KR';
+        font-size: 14px;
+    }
+    main .de .de_1 .ta table tbody tr td select{
+        width: 100%;
+        color: #6d6d6d;
+        font-size: 14px;
+    }
+    main .de .de_1 .ta table tbody tr td select option{
+        font-size: 14px;
+    }
+    main .de .de_1 .ta .bt{text-align: center;}
+    main .de .de_1 .ta .bt a{
+        text-align: center;
+        color: #6d6d6d;
+        font-size: 12px;
+        line-height: 3;
+        letter-spacing: 2px;
+        font-weight: bold;
+    
+        border: 3px solid #a8855a;
+        border-radius: 40px;
+        padding: 0 20px;
+        margin: 0 auto;
+        margin-top: 30px;
+        display: inline-block;
+        transition: .5s;
+    }
+    main .de .de_1 .ta .bt a:nth-child(1){margin-right: 10px;}
+    main .de .de_1 .ta .bt > a:hover{color: #fff; background-color: #a8855a;}
+    
+    /* zoom */
+    main .de .de_1 .ta .zoom{
+        position: absolute;
+        top: 50%; left: 50%;
+        z-index: 100;
+        display: none;
+    }
+    main .de .de_1 .ta .zoom .img-z{
+        position: absolute;
+        z-index: 999;
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        background: #fff;
+        border: 1px solid #5d685a;
+    }
+    main .de .de_1 .ta .zoom .img-z .img-z-lar{
+        position: relative;
+    }
+    main .de .de_1 .ta .zoom .img-z .img-z-lar #zoom-img{
+        position: absolute;
+        z-index: 99;
+    }
+    main .de .de_1 .ta .zoom .img-z .img-z-lar img{
+        border: none;
+        vertical-align: top;
+    }
+
+    
+    /* de2 */
+    main .de2{
+        width: 70%;
+        margin: 0 auto 120px;
+        text-align: center;
+    }
+    main .de2 .de2_1{
+        margin-bottom: 100px;
+    }
+    main .de2 .de2_1 img{width: 100%;}
+    main .de2 .de2_1 figcaption{
+        color: #6d6d6d;
+        letter-spacing: 1.2px;
+        line-height: 1.5;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    main .de2 .de2_1 figcaption p{
+        white-space: pre-line;
+        font-size: 14px;
+    }
+    
+    
+    main .de2 .de2_2{}
+    main .de2 .de2_2 img{width: 100%;}
+    main .de2 .de2_2 figcaption{
+        color: #6d6d6d;
+        letter-spacing: 1.2px;
+        line-height: 1.5;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    main .de2 .de2_2 figcaption p{
+        white-space: pre-line;
+        font-size: 14px;
+    }
+    
+    
     
     
     
@@ -630,7 +945,7 @@ main .top a{
         margin-bottom: 24px;
     }
     main .de3 .de3_3 .im_1{}
-    main .de3 .de3_3 .im_1 img{width: 100%;}
+    main .de3 .de3_3 .im_1 img{}
     main .de3 .de3_3 .te_2{
         font-size: 12px;
         text-align: center;
