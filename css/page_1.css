@@ -140,6 +140,25 @@ main .de .de_1 .ta .zoom .img-z .img-z-lar img{
 main .de2{
     margin: 0 auto 240px;
     text-align: center;
+    width: 70%;
+}
+main .de2 .de2_1{
+    margin-bottom: 200px;
+}
+main .de2 .de2_1 img{
+    margin-bottom: 50px;
+}
+main .de2 .de2_1 p{
+    color: #6d6d6d;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+    margin: 0 0 50px 0;
+    font-size: 14px;
+}
+
+/* main .de2{
+    margin: 0 auto 240px;
+    text-align: center;
 }
 main .de2 .de2_1{
     margin-bottom: 200px;
@@ -167,7 +186,7 @@ main .de2 .de2_2 figcaption{
 }
 main .de2 .de2_2 figcaption p{
     white-space: pre-line;
-}
+} */
 
 
 /* de3 - de3_1 */
@@ -338,6 +357,7 @@ main .top{
     background-color: #a8855a;
     width: 70px; height: 50px;
     border-radius: 30px 0 0 30px;
+    display: none;
 }
 main .top a{
     display: flex;
@@ -348,6 +368,7 @@ main .top a{
     letter-spacing: 1.2px;
     font-size: 18px;
 }
+main .top.active{display: block;}
 
 
 

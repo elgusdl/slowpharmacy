@@ -15,51 +15,23 @@
     <meta name="twitter:url" content="https://elgusdl.github.io/slowpharmacy/">
     <meta name="twitter:image" content="img/main/ab_1.png">
     <meta name="twitter:description" content="PLANTS MAKE YOU HAPPIER">
+    <title>Document</title>
 
     <link rel="shortcut icon" href="img/icon/icon16.ico">
     <link rel="apple-touch-icon-precomposed" sizes="114*114" rel="img/icon/icon114.png">
-    <title>Document</title>
 
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link href="css/index.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="js/slick.min.js"></script>
+    <script defer src="./js/common.js"></script>
+    <script defer src="./js/index.js"></script>
 </head>
 <body>
     
 
-    <header>
-        <div>
-            <h1><a href="index.html"><img src="img/icon/NLOGO.png" alt="없음"></a></h1>
-            <a class="mobile"><img src="img/icon/me_da.png" alt="없음"></a>
-            <nav class="meleft">
-                <ul>
-                    <li>
-                        <a class="me_ta" href="#ab">ABOUT US</a>
-                    </li>
-                    <li>
-                        <a class="me_ta" href="store.html">STORE</a>
-                        <div>
-                            <a href="store.html"># cactus 비커 선인장</a>
-                            <a href="#"># plant specimen 식물표본</a>
-                            <a href="#"># terrarium 테라리움</a>
-                            <a href="#"># tillandsia 틸란시아</a>
-                            <a href="#"># accessory 장식,도구</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a class="me_ta" href="q&a.html">COMMUNITY</a>
-                        <div>
-                            <a href="q&a.html">Q & A</a>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-            <nav class="meright">
-                <a href="cart.html"><img src="img/icon/cart.png" alt="없음"></a>
-                <a href="#log"><img src="img/icon/pe.png" alt="없음"></a>
-                <a href="https://www.instagram.com/slow_pharmacy/"><img src="img/icon/insta.png" alt="없음"></a>
-            </nav>
-        </div>
-        <p class="bg"></p>
-    </header>
+    <header></header>
 
 
     <main>
@@ -67,18 +39,18 @@
 
         <div class="pho">
             <div class="ani">
-                <figure>
+                <figure class="slider photo">
                     <img src="img/main/mo_header1.jpg" alt="없음">
                     <img src="img/main/mo_header2.jpg" alt="없음">
                     <img src="img/main/mo_header3.jpg" alt="없음">
                     <img src="img/main/mo_header4.jpg" alt="없음">
                 </figure>
-                <div class="next">
+                <!-- <div class="next">
                     <a href="#"><img src="img/icon/greenc.png" alt="없음"></a>
                     <a href="#"><img src="img/icon/grayc.png" alt="없음"></a>
                     <a href="#"><img src="img/icon/grayc.png" alt="없음"></a>
                     <a href="#"><img src="img/icon/grayc.png" alt="없음"></a>
-                </div>
+                </div> -->
             </div>
             <video autoplay muted controls loop poster="img/main/mo_header1.jpg">
                 <source src="img/main/main_vdo.mp4" type="video/mp4">
@@ -88,6 +60,23 @@
                 <img src="img/icon/me_up.png" alt="없음">
             </div>
         </div>
+
+        <script type="text/javascript">
+  
+            $(".ani .photo").slick({
+              arrows: false,
+              dots: true,
+              infinite: true,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              autoplay:true,
+              autoplaySpeed:900
+            });
+              
+        </script>
+
+
+
 
         <article class="ab" id="ab">
             <h2>ABOUT US</h2>
@@ -146,6 +135,9 @@
             </div>
         </article>
 
+
+
+
         <div class="news">
             <article class="text">
                 <h2>WE ARE HIRING</h2>
@@ -158,10 +150,13 @@
             <img src="img/main/news.png" alt="없음">
         </div>
 
+
+
+
         <article class="st">
             <h2>FAVORITE</h2>
             <div class="st_1">
-                <ul>
+                <ul class="slider fvt">
                     <li>
                         <figure>
                             <img src="img/ma_st/st1.png" alt="없음">
@@ -171,7 +166,7 @@
                                     <br>
                                     테라리움이란 라틴어의 terra '땅, 흙'과 arium '어항과 같은 용기'의 합성어로<br>
                                     <br>
-                                    용기 속에 흙을 채우고 각종 식물을 아름답게 배치하여 기르면서 감상하는 방법.
+                                    용기 속에 흙을 채우고, 식물을 배치하여 기르면서 감상하는 방법.
                                 </p>
                             </figcaption>
                         </figure>
@@ -183,9 +178,9 @@
                                 <p>
                                     <b>식물표본_200ml_Green</b><br>
                                     <br>
-                                    병 안의 식물은 보존액에 담겨 오랫동안 감상할 수 있습니다.<br>
+                                    병 안 식물은 보존액에 담겨 오랫동안 감상할 수 있습니다.<br>
                                     <br>
-                                    보존상황에 따라 다르지만, 일년이 지나도 색이나 모양의 변화없이 감상 하실 수 있습니다.<br>
+                                    상황에 따라 다르지만, 일년이 지나도 변화없이 감상 하실 수 있습니다.<br>
                                     
                                 </p>
                             </figcaption>
@@ -196,24 +191,80 @@
                             <img src="img/ma_st/st3.png" alt="없음">
                             <figcaption>
                                 <p>
-                                    <b>개업선물 / 집들이 선물세트</b><br>
+                                    <b>개업 / 집들이 선물세트</b><br>
                                     <br>
-                                    특별한 선물을 찾으신다면 선인장 선물 세트와
-                                    선인장 + 이끼 테라리움 세트 추천드려요.<br>
+                                    특별한 선물을 찾는다면 선인장 세트와 선인장+이끼 세트 추천드려요.<br>
                                     <br>
-                                    선인장을 볼 때마다 선물한 당신의 따뜻한 마음을 되새길 겁니다.
+                                    선인장을 볼 때마다 당신의 따뜻한 마음을 되새길 겁니다.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="img/ma_st/st4.png" alt="없음">
+                            <figcaption>
+                                <p>
+                                    <b>Cube_Boskke_Triple</b><br>
+                                    <br>
+                                    흙, 수분, 뿌리 등 보이지 않던 부분들을 보여줍니다.<br>
+                                    <br>
+                                    도시에서 바쁜 삶을 살아가는 사람들에게 적합한 화분입니다.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="img/ma_st/st5.png" alt="없음">
+                            <figcaption>
+                                <p>
+                                    <b>침착해 30 모래시계</b><br>
+                                    <br>
+                                    시간의 흐름을 눈으로 볼 수 있는 모래시계는 매력적입니다.<br>
+                                    <br>
+                                    바삐 살고 있는 친구, 연인에게 쉼을 선물해보는 건 어떨까요?
                                 </p>
                             </figcaption>
                         </figure>
                     </li>
                 </ul>
-                <p class="bt">
+                <!-- <p class="bt">
                     <a><img src="img/icon/bt1.png" alt="없음"></a>
                     <a><img src="img/icon/bt2.png" alt="없음"></a>
-                </p>
+                </p> -->
             </div>
             <a href="store.html" class="more">MORE</a>
         </article>
+
+        <script type="text/javascript">
+
+            $(".fvt").slick({
+                arrow: true,
+                infinite: true,
+                centerMode: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+
+                responsive: [ 
+					{  
+						breakpoint: 767,
+						settings: {
+							arrows: true,
+                            // dots: true,
+                            infinite: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            autoplay:true,
+                            autoplaySpeed:3000
+						}
+					}
+				]
+            });
+
+        </script>
+
+
 
         <div class="ha">
             <div class="bg">
@@ -225,10 +276,12 @@
             <img src="img/main/happy2.png" alt="없음">
         </div>
 
+
+
         <article class="work">
             <h2>WORK</h2>
             <div class="wo">
-                <ul>
+                <ul class="slider">
                     <li>
                         <figure>
                             <img src="img/ma_work/1cont.jpg" alt="없음">
@@ -285,35 +338,90 @@
                             </figcaption>
                         </figure>
                     </li>
+                    <li>
+                        <figure>
+                            <img src="img/ma_work/5inni.jpg" alt="없음">
+                            <figcaption>
+                                <p>
+                                    이니스프리
+                                </p>
+                                <div class="link">
+                                    <a href="https://www.instagram.com/p/BVO9MckBaDr/"><img src="img/icon/insta2.png" alt="없음"></a>
+                                    <a href="https://blog.naver.com/designpress2016/221313845591"><img src="img/icon/home.png" alt="없음"></a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="img/ma_work/6stra.jpg" alt="없음">
+                            <figcaption>
+                                <p>
+                                    스텔라아르뚜아
+                                </p>
+                                <div class="link">
+                                    <a href="https://www.instagram.com/p/Ba1Z1aOBRUV/"><img src="img/icon/insta2.png" alt="없음"></a>
+                                    <a href="https://blog.naver.com/designpress2016/221313845591"><img src="img/icon/home.png" alt="없음"></a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="img/ma_work/7yh.jpg" alt="없음">
+                            <figcaption>
+                                <p>
+                                    윤현상재
+                                </p>
+                                <div class="link">
+                                    <a href="https://www.instagram.com/p/BIePP8NgAKx/"><img src="img/icon/insta2.png" alt="없음"></a>
+                                    <a href="https://blog.naver.com/designpress2016/221316074854"><img src="img/icon/home.png" alt="없음"></a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
                 </ul>
             </div>
-            <div class="next">
+            <!-- 모바일버전 -->
+            <!-- <div class="next">
                 <a href="#"><img src="img/icon/greenc.png" alt="없음"></a>
                 <a href="#"><img src="img/icon/grayc.png" alt="없음"></a>
-                <a href="#"><img src="img/icon/grayc.png" alt="없음"></a>
-                <a href="#"><img src="img/icon/grayc.png" alt="없음"></a>
-                <a href="#"><img src="img/icon/grayc.png" alt="없음"></a>
-                <a href="#"><img src="img/icon/grayc.png" alt="없음"></a>
-                <a href="#"><img src="img/icon/grayc.png" alt="없음"></a>
-            </div>
+            </div> -->
         </article>
 
-        <!-- <div class="log_bg">
-            <article class="login" id="log">
-                <h5>LOGIN</h5>
-                <div class="log_ip">
-                    <div class="te">
-                        <input type="text" name="id" placeholder="ID"><br>
-                        <input type="text" name="pw" placeholder="PASSWORD">
-                    </div>
-                    <div class="bt">
-                        <a href="#">OK</a>
-                        <a href="#">JOIN</a>
-                    </div>
-                    <a href="#">Forgot Your ID / Password ?</a>
-                </div>
-            </article>
-        </div> -->
+        <script type="text/javascript">
+
+        $(function(){
+			$(".wo .slider").slick({
+                arrows: false,
+                dots: true,
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                autoplay:true,
+                autoplaySpeed:3000,
+				
+				responsive: [ 
+					{  
+						breakpoint: 767,
+						settings: {
+							arrows: false,
+                            dots: false,
+                            infinite: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            autoplay:true,
+                            autoplaySpeed:3000
+						}
+					}
+				]
+
+			});
+  		})
+              
+        </script>
+
+
 
         <div class="top">
             <a href="#">TOP</a>
@@ -327,22 +435,7 @@
     </main>
 
 
-    <footer>
-        <div>
-            <p>
-                @ 2014 슬로우파마씨 ALL RIGHT RESERVED
-            </p>
-            <p>
-                COMPANY : 슬로우파마씨<br>
-                TEL : 02-548-9937 / E-MAIL : info@slowpharmacy.com / ADDRESS : 04074 서울특별시 마포구 와우산로 15 (상수동)<br>
-                OWNER : 이은혜 / BUSINESS LICENSE : 6982900322 / MAIL-ORDER LICENSE : 신고준비중 / PERSONAL INFO MANAGER : 이은혜<br>
-                HOSTING BY CAFE24DESIGN BY GL-DESIGN.CO.KR
-            </p>
-            <p>
-                AGREEMENT  /  PRIVACY POLICY  /  GUIDE
-            </p>
-        </div>
-    </footer>
+    <footer></footer>
 
 
 </body>

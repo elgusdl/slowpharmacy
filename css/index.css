@@ -9,7 +9,6 @@ main .pho{}
 
 
 
-/* mobile-main */
 main .pho .ani{
     display: none;
     width: 100%; overflow: hidden;
@@ -20,19 +19,19 @@ main .pho .ani figure{
     display: flex;
     justify-content: flex-start;
 
-    animation: ani 10s infinite;
+    /* animation: ani 10s infinite; */
 }
 main .pho .ani figure img{
     width: 100%;
     margin-top: 54px;
     flex-shrink: 0;
 }
-@keyframes ani {
+/* @keyframes ani {
     0%{transform: translateX(0%);}
     35%{transform: translateX(-100%);}
     70%{transform: translateX(-200%);}
     100%{transform: translateX(-300%);}
-}
+} */
 
 
 
@@ -46,11 +45,7 @@ main .pho video{
 main .sc{
     position: absolute;
     left: 50%; bottom: 2%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    transform: translateX(-50%);
 
     animation: sc 1s infinite alternate;
 }
@@ -74,7 +69,16 @@ main .sc img{
 
 
 /* about */
-main .ab{padding: 150px 15%;}
+main .ab{
+    padding: 150px 15%;
+
+    transition: 1s;
+    transform: translateY(300px);
+}
+main .ab.active{            
+
+    transform: translateY(0px);
+}
 main .ab h2{
     font-size: 30px;
     letter-spacing: 1.2px;
@@ -233,6 +237,12 @@ main .ab .in a img{
 /* main_middle(news) */
 .news{
     position: relative;
+    transition: 2s;
+    transform: translateX(-100%);
+}
+.news.active{
+    position: relative;
+    transform: translateX(0%);
 }
 .news .text{
     position: absolute;
@@ -276,7 +286,11 @@ main .ab .in a img{
     padding: 150px 15%;
     text-align: center;
     background-color: #f5f4f2;
+
+    transition: 3s;
+    transform: translateY(250px);
 }
+.st.active{transform: translateY(0px);}
 .st h2{
     font-size: 30px;
     letter-spacing: 1.2px;
@@ -293,24 +307,25 @@ main .ab .in a img{
 }
 .st .st_1{position: relative;}
 .st .st_1 ul{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
-.st .st_1 ul li{}
+.st .st_1 ul li{padding: 30px 0;}
 .st .st_1 ul li:nth-of-type(1){
-    width: 24%;
-    opacity: 0.8;
+    /* width: 24%; */
+    /* opacity: 0.8; */
 }
 .st .st_1 ul li:nth-of-type(2){
-    margin: 0 45px;
-    width: 30%;
+    
+    /* width: 30%; */
 }
 .st .st_1 ul li:nth-of-type(3){
-    width: 24%;
-    opacity: 0.8;
+    /* width: 24%; */
+    /* opacity: 0.8; */
 }
 .st .st_1 ul li figure{
+    width: 72%; margin:0 auto;
     position: relative;
     border-radius: 50px;
     overflow: hidden;
@@ -369,6 +384,7 @@ main .ab .in a img{
     width: 20px;
 }
 
+
 /* st_more버튼 */
 .st .more{
     text-align: center;
@@ -391,7 +407,15 @@ main .ab .in a img{
 
 
 /* main_middle(ha) */
-.ha{position: relative;}
+.ha{
+    position: relative;
+    transition: 2s;
+    transform: translateX(100%);
+}
+.ha.active{
+    position: relative;
+    transform: translateX(0%);
+}
 .ha .bg{
     position: absolute;
     background: rgba(93, 104, 90, 0.5);
@@ -422,7 +446,13 @@ main .ab .in a img{
 
 
 /* main_work */
-main .work{padding: 150px 15%;}
+main .work{
+    padding: 150px 15%;
+
+    transition: 3s;
+    transform: translateY(250px);
+}
+main .work.active{transform: translateY(0px);}
 main .work h2{
     font-size: 30px;
     letter-spacing: 1.2px;
@@ -439,20 +469,24 @@ main .work h2::after{
 }
 main .work .wo{position: relative;}
 main .work .wo ul{
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
 }
-main .work .wo ul li{width: 22.5%;}
+main .work .wo ul li{
+    width: 22.5%; 
+    padding: 25px 0;
+}
 main .work .wo ul li figure{
     position: relative;
-    border-radius: 50px;
-    overflow: hidden;
-
-    box-shadow: 3px 3px 5px rgba(93, 104, 90, 0.7);
     backface-visibility: hidden;
+    text-align: center;
+    border-radius: 50px;
+    width: 90%; margin: 0 auto;
+    box-shadow: 3px 3px 5px rgba(93, 104, 90, 0.7);
+    overflow: hidden;
 }
 main .work .wo ul li figure img{
-    width: 100%;
+    width: 100%; margin:0 auto;
     transition: .5s;
 }
 main .work .wo ul li figure:hover img{transform: scale(1.1);}
@@ -478,7 +512,7 @@ main .work .wo ul li figure figcaption p{
     color: #fff;
 }
 main .work .wo ul li figure figcaption .link{}
-main .work .wo ul li figure figcaption .link a{}
+main .work .wo ul li figure figcaption .link a{display: inline-block;}
 main .work .wo ul li figure figcaption .link a img{width: 20px; height: 20px;}
 main .work .wo ul li figure figcaption .link a:nth-of-type(1){margin-right: 15px;}
 main .work .next{
@@ -497,77 +531,6 @@ main .work .next a:nth-of-type(7){display: none;}
 
 
 
-/* main_login */
-/* main .log_bg{
-    position: fixed;
-    left: 0; top: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(93, 104, 90, 0.7);
-    z-index: 799;
-    opacity: 0;
-}
-main .log_bg .login{
-    position: fixed;
-    left: 50%; top: 55%;
-    transform: translate(-50%, -50%);
-    z-index: 800;
-
-    background-color: #d8d2c5;
-    width: 25%; height: 500px;
-    border-radius: 50px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-main .log_bg .login h5{
-    font-size: 30px;
-    letter-spacing: 1.2px;
-    text-align: center;
-    color: #6d6d6d;
-    margin-bottom: 40px;
-}
-main .log_bg .login h5::after{
-    content: '';
-    clear: both;
-    display: block;
-    border-bottom: 3px solid #5d685a;
-    margin: 20px auto 0;
-    width: 30px;
-}
-main .log_bg .login .log_ip{}
-main .log_bg .login .log_ip .te{}
-main .log_bg .login .log_ip .te input{
-    border: 0; background-color: rgba(0, 0, 0, 0);
-    border-bottom: 2px solid #6d6d6d;
-    width: 200px;
-
-    text-align: center;
-    color: #6d6d6d;
-    font-size: 14px;
-    outline-style: none;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    letter-spacing: 1.2px;
-}
-main .log_bg .login .log_ip .bt{margin-bottom: 5px;}
-main .log_bg .login .log_ip .bt a{
-    font-size: 18px;
-    letter-spacing: 1.2px;
-    color: #6d6d6d;
-}
-main .log_bg .login .log_ip .bt a:nth-of-type(1){margin-right: 10px;}
-main .log_bg .login .log_ip .bt a:hover{color: #a8855a;}
-main .log_bg .login .log_ip a{
-    font-size: 14px;
-    letter-spacing: 1.2px;
-    color: #6d6d6d;
-}
-main .log_bg .login .log_ip a:hover{color: #a8855a;} */
-
-
 
 /* main_top */
 main .top{
@@ -578,6 +541,7 @@ main .top{
     background-color: #a8855a;
     width: 70px; height: 50px;
     border-radius: 30px 0 0 30px;
+    display: none;
 }
 main .top a{
     display: flex;
@@ -588,6 +552,7 @@ main .top a{
     letter-spacing: 1.2px;
     font-size: 18px;
 }
+main .top.active{display: block;}
 
 
 
@@ -622,6 +587,7 @@ main .fix-bg .bg2{
 
 
 @media (min-width: 769px) and (max-width: 1374px){
+
 
     /* pc-main */
     main .pho video{margin-top: 70.99px;}
@@ -683,22 +649,23 @@ main .fix-bg .bg2{
     .news .link img{width: 20px; height: 20px;}
 
 
+    
     /* main_store */
     .st{
         padding: 100px 10%;
     }
     .st h2{font-size: 24px;}
     .st .st_1 ul li:nth-of-type(1){
-        width: 20%;
-        opacity: 0.8;
+        /* width: 20%;
+        opacity: 0.8; */
     }
     .st .st_1 ul li:nth-of-type(2){
-        margin: 0 26px;
-        width: 36%;
+        /* margin: 0 26px;
+        width: 36%; */
     }
     .st .st_1 ul li:nth-of-type(3){
-        width: 20%;
-        opacity: 0.8;
+        /* width: 20%;
+        opacity: 0.8; */
     }
     .st .st_1 ul li figure figcaption{
         width: 100%; height: 100%;
@@ -745,7 +712,7 @@ main .fix-bg .bg2{
     main .work h2{font-size: 24px;}
     main .work .wo ul li{
         width: 36%;
-        margin: 0 2.4%;
+        /* margin: 0 2.4%; */
         flex-shrink: 0;
     }
     main .work .next a img{
@@ -759,78 +726,6 @@ main .fix-bg .bg2{
     main .work .next a:nth-of-type(6){display: inline-block;}
     main .work .next a:nth-of-type(7){display: inline-block;}
 
-
-
-
-    /* main_login */
-    /* main .log_bg{
-        position: fixed;
-        left: 0; top: 0;
-        width: 100%; height: 100%;
-        background-color: rgba(93, 104, 90, 0.7);
-        z-index: 799;
-        opacity: 0;
-    }
-    main .log_bg .login{
-        position: fixed;
-        left: 50%; top: 55%;
-        transform: translate(-50%, -50%);
-        z-index: 800;
-
-        background-color: #d8d2c5;
-        width: 25%; height: 500px;
-        border-radius: 50px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-    main .log_bg .login h5{
-        font-size: 30px;
-        letter-spacing: 1.2px;
-        text-align: center;
-        color: #6d6d6d;
-        margin-bottom: 40px;
-    }
-    main .log_bg .login h5::after{
-        content: '';
-        clear: both;
-        display: block;
-        border-bottom: 3px solid #5d685a;
-        margin: 20px auto 0;
-        width: 30px;
-    }
-    main .log_bg .login .log_ip{}
-    main .log_bg .login .log_ip .te{}
-    main .log_bg .login .log_ip .te input{
-        border: 0; background-color: rgba(0, 0, 0, 0);
-        border-bottom: 2px solid #6d6d6d;
-        width: 200px;
-
-        text-align: center;
-        color: #6d6d6d;
-        font-size: 14px;
-        outline-style: none;
-        padding-bottom: 10px;
-        margin-bottom: 20px;
-        letter-spacing: 1.2px;
-    }
-    main .log_bg .login .log_ip .bt{margin-bottom: 5px;}
-    main .log_bg .login .log_ip .bt a{
-        font-size: 18px;
-        letter-spacing: 1.2px;
-        color: #6d6d6d;
-    }
-    main .log_bg .login .log_ip .bt a:nth-of-type(1){margin-right: 10px;}
-    main .log_bg .login .log_ip .bt a:hover{color: #a8855a;}
-    main .log_bg .login .log_ip a{
-        font-size: 14px;
-        letter-spacing: 1.2px;
-        color: #6d6d6d;
-    }
-    main .log_bg .login .log_ip a:hover{color: #a8855a;} */
 
 
     /* bg */
@@ -869,19 +764,19 @@ main .fix-bg .bg2{
         display: flex;
         justify-content: flex-start;
     
-        animation: ani 13s infinite;
+        /* animation: ani 13s infinite; */
     }
     main .pho .ani figure img{
         width: 100%;
         margin-top: 52px;
         flex-shrink: 0;
     }
-    @keyframes ani {
+    /* @keyframes ani {
         0%{transform: translateX(0%);}
         35%{transform: translateX(-100%);}
         70%{transform: translateX(-200%);}
         100%{transform: translateX(-300%);}
-    }
+    } */
     main .pho .next{
         position: absolute;
         left: 50%; bottom: 0;
@@ -1092,24 +987,24 @@ main .fix-bg .bg2{
     }
     .st .st_1{position: relative;}
     .st .st_1 ul{
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         align-items: center;
     }
     .st .st_1 ul li{}
     .st .st_1 ul li:nth-of-type(1){
-        width: 60%;
-        opacity: 1;
+        /* width: 60%; */
+        /* opacity: 1; */
     }
     .st .st_1 ul li:nth-of-type(2){
-        display: none;
-        margin: 0 45px;
-        width: 30%;
+        /* display: none; */
+        /* margin: 0 45px;
+        width: 30%; */
     }
     .st .st_1 ul li:nth-of-type(3){
-        display: none;
-        width: 24%;
-        opacity: 0.8;
+        /* display: none; */
+        /* width: 24%;
+        opacity: 0.8; */
     }
     .st .st_1 ul li figure{
         position: relative;
@@ -1252,7 +1147,7 @@ main .fix-bg .bg2{
     }
     main .work .wo ul li{
         width: 60%;
-        margin: 0 5%;
+        /* margin: 0 5%; */
         flex-shrink: 0;
     }
     main .work .wo ul li figure{
@@ -1336,77 +1231,6 @@ main .fix-bg .bg2{
 
 
 
-
-
-    /* main_login
-    main .log_bg{
-        position: fixed;
-        left: 0; top: 0;
-        width: 100%; height: 100%;
-        background-color: rgba(93, 104, 90, 0.7);
-        z-index: 799;
-        opacity: 1;
-    }
-    main .log_bg .login{
-        position: fixed;
-        left: 50%; top: 55%;
-        transform: translate(-50%, -60%);
-        z-index: 800;
-
-        background-color: #d8d2c5;
-        width: 80%; height: 300px;
-        border-radius: 50px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-    main .log_bg .login h5{
-        font-size: 26px;
-        letter-spacing: 1.2px;
-        text-align: center;
-        color: #6d6d6d;
-        margin-bottom: 30px;
-    }
-    main .log_bg .login h5::after{
-        content: '';
-        clear: both;
-        display: block;
-        border-bottom: 3px solid #5d685a;
-        margin: 10px auto 0;
-        width: 30px;
-    }
-    main .log_bg .login .log_ip{}
-    main .log_bg .login .log_ip .te{}
-    main .log_bg .login .log_ip .te input{
-        border: 0; background-color: rgba(0, 0, 0, 0);
-        border-bottom: 2px solid #6d6d6d;
-        width: 150px;
-
-        text-align: center;
-        color: #6d6d6d;
-        font-size: 14px;
-        outline-style: none;
-        padding-bottom: 10px;
-        margin-bottom: 20px;
-        letter-spacing: 1.2px;
-    }
-    main .log_bg .login .log_ip .bt{margin-bottom: 5px;}
-    main .log_bg .login .log_ip .bt a{
-        font-size: 14px;
-        letter-spacing: 1.2px;
-        color: #6d6d6d;
-    }
-    main .log_bg .login .log_ip .bt a:nth-of-type(1){margin-right: 10px;}
-    main .log_bg .login .log_ip .bt a:hover{color: #a8855a;}
-    main .log_bg .login .log_ip a{
-        font-size: 12px;
-        letter-spacing: 1.2px;
-        color: #6d6d6d;
-    }
-    main .log_bg .login .log_ip a:hover{color: #a8855a;} */
 
     /* bg */
     main .fix-bg{display: none;}

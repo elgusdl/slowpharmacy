@@ -1,0 +1,949 @@
+{
+    "title":
+        {
+            "beaker":"# CACTUS 비커선인장",
+            "plant":"# PLANT SPECIMEN 식물표본",
+            "terra":"# TERRARIUM 테라리움",
+            "tillan":"# TILLANDSIA 틸란시아",
+            "acc":"# ACCESSORY 장식,도구"
+        },
+    "beaker":[
+        {
+            "name":"용비",
+            "price":"53,000원",
+            "code":"P00000CZ",
+            "photo":"img/product/beaker/1 img/Screenshot 2021-06-10 at 21.45.08.jpg",
+            "ho-tit":"용신목의 변이종인 <br>'용비'",
+            "ho-text":"가슴선인장, 용암, 크리스마스 트리 등 별명을 가지고 있고, 색도 모양도 크리스마스를 연상케 합니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/1 img/Screenshot 2021-06-10 at 21.46.23.jpg"},
+                {"de-text":"용신목의 변이종인 '용비'<br><br>가슴선인장, 용암, 크리스마스 트리 등 많은 별명을 가지고 있어요.<br>색도 모양도 크리스마스를 연상케 하는 듯 싶은데<br><br>보는 사람 눈에 모두 다르겠죠?"},
+                {"de-pho":"img/product/beaker/1 img/Screenshot 2021-06-10 at 21.46.37.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 70mm x 세로 210mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"}
+            ]
+        },
+        {
+            "name":"홍채각",
+            "price":"31,500원",
+            "code":"P00000CY",
+            "photo":"img/product/beaker/2 hong/Screenshot 2021-06-10 at 21.57.27.jpg",
+            "ho-tit":"빨간 토끼 귀처럼 생긴 <br>'홍채각'",
+            "ho-text":"붉은 모습이 다른 초록 선인장들 사이에 있으면 눈에 띈답니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/2 hong/Screenshot 2021-06-10 at 21.57.50.jpg"},
+                {"de-text":"'홍채각' 빨간 토끼 귀처럼 생긴 홍채각 입니다.<br><br>붉은 모습이 다른 초록 선인장들 사이에 있으면 눈에 확 띠는 것 같아요!! <br>또 잎이 붙어있어 더 유니크한 모양이예요."},
+                {"de-pho":"img/product/beaker/2 hong/Screenshot 2021-06-10 at 21.58.03.jpg"},
+                {"de-text":"너무 아름답게 나온 컷! <br><br>이렇게 선인장 사진을 찍고 있다보면 <br>선인장 증명사진을 찍는 기분이랍니다. <br><br>하나하나 다른 모습, 다른 매력에 더 빠지게 되는 것 같아요."},
+                {"de-text":"[선인장 사이즈]<br>가로 110mm x 세로 260mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"}
+            ]
+        },
+        {
+            "name":"리치아이",
+            "price":"21,500원",
+            "code":"P00000CX",
+            "photo":"img/product/beaker/3 eye/Screenshot 2021-06-10 at 21.58.33.jpg",
+            "ho-tit":"해변을 떠오르게 하는 <br>'리치아이'",
+            "ho-text":"작은 나무같이 생긴 식물들은 실제 나무의 미니어쳐같은 느낌으로 너무 귀여워요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/3 eye/Screenshot 2021-06-10 at 21.59.10.jpg"},
+                {"de-text":"해변을 떠오르게 하는 '리치아이' <br><br>작은 나무같이 생긴 식물들은 실제 나무의 미니어쳐같은 느낌으로 너무 귀여워요. <br>제가 좋아하는 솔방울처럼도 생긴 '리치아이'"},
+                {"de-pho":"img/product/beaker/3 eye/Screenshot 2021-06-10 at 21.59.23.jpg"},
+                {"de-text":"왠지 이 아이를 보고있으면 바캉스 떠나고 싶어지네요."},
+                {"de-pho":"img/product/beaker/3 eye/Screenshot 2021-06-10 at 21.59.46.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 35mm x 세로 80mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"}
+            ]
+        },
+        {
+            "name":"은사",
+            "price":"19,500원",
+            "code":"P00000CW",
+            "photo":"img/product/beaker/4 ensa/Screenshot 2021-06-10 at 22.00.06.jpg",
+            "ho-tit":"가시색이 은색이여서 <br>'은사'",
+            "ho-text":"꽃이 너무 예쁘게 핀 은사는 마치 속눈썹을 연상시키는 아름다운 선인장이예요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/4 ensa/Screenshot 2021-06-10 at 22.00.25.jpg"},
+                {"de-text":"'은사' <br><br>황금사와 비슷하게 생겼지만 <br>황금사의 가시가 황금이라면 은사의 가시색은 은색이예요. <br><br>두가지를 함께 놓고 보면 확연히 다르답니다!! <br><br>꽃이 너무 예쁘게 핀 은사는 마치 속눈썹을 연상시키는 아름다운 선인장이예요. <br><br>요즘 한창 꽃이 올라오는 시기이랍니다!!"},
+                {"de-pho":"img/product/beaker/4 ensa/Screenshot 2021-06-10 at 22.00.36.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 35mm x 세로 95mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"}
+            ]
+        },
+        {
+            "name":"홍장군",
+            "price":"19,500원",
+            "code":"P00000CV",
+            "photo":"img/product/beaker/5 jang/Screenshot 2021-06-10 at 22.01.15.jpg",
+            "ho-tit":"울끈불끈 근육남 <br>'홍장군'",
+            "ho-text":"초록색에 빨간포인트 그리고 울끈불끈 통통한 몸까지 귀여운 요소를 너무 잘 아는 선인장입니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/5 jang/Screenshot 2021-06-10 at 22.01.35.jpg"},
+                {"de-text":"가장 반응이 뜨거웠던 '홍장군'이 입고되었습니다!! <br><br>초록색에 빨간포인트 그리고 울끈불끈 통통한 몸까지 <br>귀여운 요소를 너무 잘 아는 선인장이예요"},
+                {"de-pho":"img/product/beaker/5 jang/Screenshot 2021-06-10 at 22.01.48.jpg"},
+                {"de-pho":"img/product/beaker/5 jang/Screenshot 2021-06-10 at 22.02.00.jpg"},
+                {"de-text":"빨간색 뿔 부분은 영원히 붙어있지는 않아요. <br>떨어졌다고 너무 슬퍼하지 마세요! <br><br>털 갈이 하듯 떨어졌다 새로나기도 하며 반복한답니다!!"},
+                {"de-pho":"img/product/beaker/5 jang/Screenshot 2021-06-10 at 22.02.12.jpg"},
+                {"de-text":"역시 생김새도 하나하나 다른 홍장군! <br>울끈불끈 근육남처럼 생겨 보고만 있어도 힘이 나요!! <br><br>힘!!"},
+                {"de-text":"[선인장 사이즈]<br>가로 30mm x 세로 85mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"}
+            ]
+        },
+        {
+            "name":"선물세트",
+            "price":"50,000원~",
+            "code":"P00000CC",
+            "photo":"img/product/beaker/6 preset/Screenshot 2021-06-10 at 22.02.29.jpg",
+            "ho-tit":"'개업선물'/'집들이 선물'",
+            "ho-text":"특별한 선물을 찾으신다면 선물 세트를 추천합니다. 더 특별한 테라리움 세트도 추천드려요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/6 preset/Screenshot 2021-06-10 at 22.02.43.jpg"},
+                {"de-text":"'개업선물', '집들이 선물' <br><br>주변에 지인이 가게를 열었나요? <br>신혼집에 집들이를 가시나요? <br><br>특별한 선물을 찾으신다면 선인장 선물 세트를 추천합니다. <br>물론 더 특별한 선인장 + 이끼 테라리움 세트도 추천드려요. <br><br>아마 오래오래 선인장을 볼 때마다 <br>선물한 당신의 따뜻한 마음을 되새길 겁니다."},
+                {"de-pho":"img/product/beaker/6 preset/Screenshot 2021-06-10 at 22.02.54.jpg"},
+                {"de-text":"구성은 5만원~10만원~20만원 선으로 가능해요. <br>장바구니에 멋진 선인장과 이끼 테라리움을 담아 세트로 선물해보세요!! <br><br>꽃배달 전문차량으로 안전하게 배달지까지 보내드립니다."},
+                {"de-pho":"img/product/beaker/6 preset/Screenshot 2021-06-10 at 22.03.05.jpg"},
+                {"de-pho":"img/product/beaker/6 preset/Screenshot 2021-06-10 at 22.03.16.jpg"},
+                {"de-pho":"img/product/beaker/6 preset/Screenshot 2021-06-10 at 22.03.26.jpg"},
+                {"de-pho":"img/product/beaker/6 preset/Screenshot 2021-06-10 at 22.03.38.jpg"},
+                {"de-text":"계절과 농장상황에 따라 위의 이미지와 동일한 구성이 어려울 수 있습니다. <br>사이트 내에서 '품절'이지 않은 상품들을 장바구니에 담아주세요."},
+                {"de-pho":"img/product/beaker/6 preset/Screenshot 2021-06-10 at 22.03.48.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"소정",
+            "price":"19,500원",
+            "code":"P00000CB",
+            "photo":"img/product/beaker/7 so_s,m/Screenshot 2021-06-10 at 22.04.06.jpg",
+            "ho-tit":"갓난아이 머리같은 <br>'소정'",
+            "ho-text":"하~얀 털이 너무 귀여워요. 살살 쓰다듬어 줄 수도 있어서 더 좋아요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/7 so_s,m/Screenshot 2021-06-10 at 22.04.29.jpg"},
+                {"de-text":"'소정' 갓난아이 머리같은 소정. <br><br>하~얀 털이 너무 귀여워요. <br>살살 쓰다듬어 줄 수도 있어서 더 좋아요."},
+                {"de-pho":"img/product/beaker/7 so_s,m/Screenshot 2021-06-10 at 22.04.42.jpg"},
+                {"de-pho":"img/product/beaker/7 so_s,m/Screenshot 2021-06-10 at 22.04.55.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 50mm x 세로 50mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/7 so_s,m/Screenshot 2021-06-10 at 22.05.06.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"용신목",
+            "price":"97,000원",
+            "code":"P00000CA",
+            "photo":"img/product/beaker/8 yong/Screenshot 2021-06-10 at 22.05.27.jpg",
+            "ho-tit":"가장 핫하고 인기있는 아이 <br>'용신목'",
+            "ho-text":"보고있으면 자꾸만 '화이팅! 아자아자!'하는 것 같아요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/8 yong/Screenshot 2021-06-10 at 22.05.40.jpg"},
+                {"de-text":"'용신목' <br><br>단연 선인장 중 가장 핫하고 인기있는 아이는 '용신목'이겠죠. <br>보고있으면 자꾸만 '화이팅! 아자아자!'하는 것 같아요."},
+                {"de-pho":"img/product/beaker/8 yong/Screenshot 2021-06-10 at 22.05.48.jpg"},
+                {"de-pho":"img/product/beaker/8 yong/Screenshot 2021-06-10 at 22.05.57.jpg"},
+                {"de-pho":"img/product/beaker/8 yong/Screenshot 2021-06-10 at 22.06.06.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 15~20mm x 세로 18~23mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/8 yong/Screenshot 2021-06-10 at 22.06.14.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"라메리",
+            "price":"53,000원",
+            "code":"P00000BZ",
+            "photo":"img/product/beaker/9 mery/Screenshot 2021-06-10 at 22.06.39.jpg",
+            "ho-tit":"사막의 야자수 <br>'라메리'",
+            "ho-text":"마치 제주도의 은갈치를 연상시키는 광택있는 표면에 날카롭고 두꺼운 가시가 있어요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/9 mery/Screenshot 2021-06-10 at 22.07.01.jpg"},
+                {"de-text":"사막의 야자수 '라메리'<br><br> '라메리'의 표면은 너무 매력적입니다. <br>마치 제주도의 은갈치를 연상시키는 광택있는 표면에 <br>아주 날카롭고 두꺼운 가시가 있어요. <br><br>투블럭 컷을 한 듯한 잎은 얼마나 또 매력적인가요."},
+                {"de-pho":"img/product/beaker/9 mery/Screenshot 2021-06-10 at 22.07.14.jpg"},
+                {"de-pho":"img/product/beaker/9 mery/Screenshot 2021-06-10 at 22.07.24.jpg"},
+                {"de-pho":"img/product/beaker/9 mery/Screenshot 2021-06-10 at 22.07.34.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 55mm x 세로 270mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/9 mery/Screenshot 2021-06-10 at 22.07.46.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"난봉옥",
+            "price":"36,000원",
+            "code":"P00000BY",
+            "photo":"./img/product/beaker/10 nan/Screenshot 2021-06-10 at 22.08.03.jpg",
+            "ho-tit":"지조가 있는 여자의 이름같은 <br>'난봉옥'",
+            "ho-text":"별모양 같기도 돌 같기도 한 모습을 하고 있어요.",
+            "ho-share":"./img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/10 nan/Screenshot 2021-06-10 at 22.08.14.jpg"},
+                {"de-text":"'난봉옥' <br><br>지조가 있는 여자의 이름같은 '난봉옥'<br><br> 별모양 같기도 돌 같기도 한 모습을 하고 있어요. <br>가끔 악어처럼 느껴지기도 코끼리처럼 느껴지기도 하는 매력적인 '난봉옥'"},
+                {"de-pho":"img/product/beaker/10 nan/Screenshot 2021-06-10 at 22.08.22.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 65mm x 세로 60mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/10 nan/Screenshot 2021-06-10 at 22.08.29.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"오베사",
+            "price":"22,500원",
+            "code":"P00000BX",
+            "photo":"img/product/beaker/11 oh/Screenshot 2021-06-10 at 22.08.46.jpg",
+            "ho-tit":"지구처럼 둥글게 생긴 <br>'오베사'",
+            "ho-text":"동그랗고 매끈매끈한데다가 무늬마져 너무 매력적인 다육식물!",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/11 oh/Screenshot 2021-06-10 at 22.08.58.jpg"},
+                {"de-text":"지구처럼 둥글게 생긴 '오베사' <br><br>이렇게 동그랗고 매끈매끈한데다가 무늬마져 너무 매력적인 다육식물!! <br>크기는 작아도 가격은 차별있는 다육식물 입니다. <br><br>놀라운 사실은 '오베사'에게는 암수가 나뉘어져 있어요. <br>꽃을 피우면 암수 구분이 쉬워지는데요. <br><br>이미지처럼 꽃가루 없이 세갈래의 암술만 있다면 암꽃! <br>노란 꽃가루를 품고있다면 수꽃! <br><br>꽃이 피면 수꽃의 꽃가루를 암꽃에게 뭍혀준데요."},
+                {"de-pho":"img/product/beaker/11 oh/Screenshot 2021-06-10 at 22.09.07.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 45mm x 세로 45mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/11 oh/Screenshot 2021-06-10 at 22.09.14.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"백기린",
+            "price":"9,800원",
+            "code":"P00000BW",
+            "photo":"img/product/beaker/12 backgi_s/Screenshot 2021-06-10 at 22.09.44.jpg",
+            "ho-tit":"색이 너무 오묘한 <br>'백기린'",
+            "ho-text":"크기는 작지만 오묘한 색감에 빠져드실 거예요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/12 backgi_s/Screenshot 2021-06-10 at 22.09.55.jpg"},
+                {"de-text":"'백기린' <br><br>키가 크고 허여멀건했던 교회오빠같이 생긴 '백기린' <br>색이 너무 오묘한 '백기린'"},
+                {"de-pho":"img/product/beaker/12 backgi_s/Screenshot 2021-06-10 at 22.10.25.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 20mm x 세로 50mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/12 backgi_s/Screenshot 2021-06-10 at 22.10.33.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"사해파",
+            "price":"9,800원",
+            "code":"P00000BV",
+            "photo":"img/product/beaker/13 sah/Screenshot 2021-06-10 at 22.11.04.jpg",
+            "ho-tit":"괴물 이빨처럼 가시를 가진 <br>'사해파'",
+            "ho-text":"마치 상어의 입같죠?",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/13 sah/Screenshot 2021-06-10 at 22.11.16.jpg"},
+                {"de-text":"'사해파' <br><br>괴물 이빨처럼 생긴 가시를 가진 <br>'사해파' 마치 상어의 입 같아요."},
+                {"de-pho":"img/product/beaker/13 sah/Screenshot 2021-06-10 at 22.11.25.jpg"},
+                {"de-pho":"img/product/beaker/13 sah/Screenshot 2021-06-10 at 22.11.37.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 60mm x 세로 50mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/13 sah/Screenshot 2021-06-10 at 22.11.45.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"월동자",
+            "price":"9,800원",
+            "code":"P00000BU",
+            "photo":"./img/product/beaker/14 dongja/Screenshot 2021-06-10 at 22.12.09.jpg",
+            "ho-tit":"설탕시럽을 뿌려놓은 듯 <br>'월동자'",
+            "ho-text":"우둘투둘한 피부타입을 가지고 있답니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/14 dongja/Screenshot 2021-06-10 at 22.12.24.jpg"},
+                {"de-text":"'월동자' <br><br>설탕시럽을 뿌려놓은 것 같기도 하고, <br>인디언의 타투같기도 하죠? <br><br>우둘투둘한 피부타입을 가지고 있답니다."},
+                {"de-pho":"img/product/beaker/14 dongja/Screenshot 2021-06-10 at 22.12.32.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 40mm x 세로 50mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/14 dongja/Screenshot 2021-06-10 at 22.12.41.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"황금사",
+            "price":"9,800원",
+            "code":"P00000BT",
+            "photo":"img/product/beaker/15 hangsa_s/Screenshot 2021-06-10 at 22.12.57.jpg",
+            "ho-tit":"곱슬곱슬 금발머리 <br>'황금사'",
+            "ho-text":"황금색 가시를 가지고 있는 선인장으로 가시가 밖을 향해 뻗어있지 않고, 파마를 한 듯 안으로 살짝 말려있어요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/15 hangsa_s/Screenshot 2021-06-10 at 22.13.08.jpg"},
+                {"de-text":"곱슬곱슬 금발머리 '황금사'<br><br> 황금색 가시를 가지고 있는 선인장으로 가시가 밖을 향해 뻗어있지 않고, <br>파마를 한 듯 안으로 살짝 말려있어요."},
+                {"de-pho":"img/product/beaker/15 hangsa_s/Screenshot 2021-06-10 at 22.13.17.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 35mm x 세로 50mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/15 hangsa_s/Screenshot 2021-06-10 at 22.13.25.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"금호",
+            "price":"27,500원",
+            "code":"P00000BS",
+            "photo":"img/product/beaker/16 ho/Screenshot 2021-06-10 at 22.14.28.jpg",
+            "ho-tit":"반짝반짝 별같은 <br>'금호'",
+            "ho-text":"예리한 가시를 가지고 있지만 가시모양이 마치 별처럼 보입니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/16 ho/Screenshot 2021-06-10 at 22.14.40.jpg"},
+                {"de-text":"'금호' <br><br>예리한 가시를 가지고 있지만 <br>가시모양이 마치 별처럼 보입니다."},
+                {"de-pho":"img/product/beaker/16 ho/Screenshot 2021-06-10 at 22.14.49.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 60mm x 세로 100mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/16 ho/Screenshot 2021-06-10 at 22.14.57.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"흑룡각",
+            "price":"31,500원",
+            "code":"P00000BR",
+            "photo":"img/product/beaker/17 hyg_s,m/Screenshot 2021-06-10 at 22.15.13.jpg",
+            "ho-tit":"그로데스크한 느낌 <br>'흑룡각'",
+            "ho-text":"용들이 꿈틀꿈틀 올라오는 기분마저 들어요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/17 hyg_s,m/Screenshot 2021-06-10 at 22.15.26.jpg"},
+                {"de-text":"뭔가 살짝 그로데스크한 느낌의 '흑룡각' <br><br>그렇기 때문에 더 매력적으로 보이는 것 같아요. <br>용들이 꿈틀꿈틀 올라오는 기분마저 들어요."},
+                {"de-pho":"img/product/beaker/17 hyg_s,m/Screenshot 2021-06-10 at 22.15.39.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 85mm x 세로 100mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/17 hyg_s,m/Screenshot 2021-06-10 at 22.15.47.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"우각",
+            "price":"26,500원",
+            "code":"P00000BQ",
+            "photo":"./img/product/beaker/18 gack/Screenshot 2021-06-10 at 22.16.06.jpg",
+            "ho-tit":"소 뿔을 닮아 <br>'우각'",
+            "ho-text":"부들부들 만질 수 있어 꼭 무뚝뚝한 사람처럼 생겼는데 마음은 따뜻한 느낌을 주는 아이예요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/18 gack/Screenshot 2021-06-10 at 22.16.21.jpg"},
+                {"de-text":"소 뿔을 닮았다고 해서 '우각' <br><br>부들부들 만질 수 있어서 개인적으로 좋아한답니다. <br>꼭 무뚝뚝한 사람처럼 생겼는데 마음은 따뜻한 느낌을 주는 아이예요."},
+                {"de-pho":"img/product/beaker/18 gack/Screenshot 2021-06-10 at 22.16.29.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 60mm x 세로 75mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/18 gack/Screenshot 2021-06-10 at 22.16.38.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"백도선",
+            "price":"19,500원",
+            "code":"P00000BP",
+            "photo":"img/product/beaker/19 back_s,m/Screenshot 2021-06-10 at 22.16.54.jpg",
+            "ho-tit":"토끼같이 생긴 <br>'백도선'",
+            "ho-text":"토끼들이 숲 속에 모여있는 모양이예요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/19 back_s,m/Screenshot 2021-06-10 at 22.17.06.jpg"},
+                {"de-text":"토끼같이 생긴 '백도선' <br><br>토끼들이 숲 속에 모여있는 모양이예요"},
+                {"de-pho":"img/product/beaker/19 back_s,m/Screenshot 2021-06-10 at 22.17.15.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 65mm x 세로 80mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/19 back_s,m/Screenshot 2021-06-10 at 22.17.23.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"대봉룡",
+            "price":"31,500원",
+            "code":"P00000BO",
+            "photo":"img/product/beaker/20 dea/Screenshot 2021-06-10 at 22.17.37.jpg",
+            "ho-tit":"말 그대로 용 <br>'대봉룡'",
+            "ho-text":"가시가 점처럼 일정하게 나있는 것이 매력적인 아이입니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/20 dea/Screenshot 2021-06-10 at 22.17.50.jpg"},
+                {"de-text":"'대봉룡(용)' <br><br>가시가 점처럼 일정하게 나있는 것이 매력적인 '대봉룡(용)'"},
+                {"de-pho":"img/product/beaker/20 dea/Screenshot 2021-06-10 at 22.18.01.jpg"},
+                {"de-pho":"img/product/beaker/20 dea/Screenshot 2021-06-10 at 22.18.11.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 60mm x 세로 130mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/20 dea/Screenshot 2021-06-10 at 22.18.20.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"구름새",
+            "price":"49,000원",
+            "code":"P00000BN",
+            "photo":"img/product/beaker/21 cloud/Screenshot 2021-06-10 at 22.18.47.jpg",
+            "ho-tit":"땅에 사는 구름 <br>'구름새'",
+            "ho-text":"하늘의 별을 따줄순 없지만 구름을 심어줄 순 있어요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/21 cloud/Screenshot 2021-06-10 at 22.19.13.jpg"},
+                {"de-text":"하늘의 별을 따줄순 없지만 구름을 심어줄 순 있어요. <br><br>이름처럼 아름다운 '구름새(쇠)' <br>땅에서 사는 구름같아요."},
+                {"de-pho":"img/product/beaker/21 cloud/Screenshot 2021-06-10 at 22.19.40.jpg"},
+                {"de-pho":"img/product/beaker/21 cloud/Screenshot 2021-06-10 at 22.19.49.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 120mm x 세로 150mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/21 cloud/Screenshot 2021-06-10 at 22.19.56.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"천년초",
+            "price":"23,500원",
+            "code":"P00000BM",
+            "photo":"./img/product/beaker/22 cho/Screenshot 2021-06-10 at 22.20.13.jpg",
+            "ho-tit":"손바닥 선인장 <br>'천년초'",
+            "ho-text":"처음에는 귀여운 토끼, 며칠뒤엔 무서운 도깨비",
+            "ho-share":"./img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/22 cho/Screenshot 2021-06-10 at 22.20.23.jpg"},
+                {"de-text":"손바닥 선인장 '천년초'<br><br> 가오픈 당시 가장 인기있던 선인장으로 <br>많은 분들이 처음에는 귀여운 토끼같다고 하시다가 <br>며칠뒤엔 무서운 도깨비같다며 사진을 보내주셨어요. <br><br>그만큼 손(?)부분의 성장이 두드러지게 빠르답니다."},
+                {"de-pho":"img/product/beaker/22 cho/Screenshot 2021-06-10 at 22.20.35.jpg"},
+                {"de-text":"너무 자라다 나중엔 너무 무거워져서 자신의 몸체를 견디지 못하고,<br> 뒤로 눞는 천년초도 있어요. <br><br>그럴때는 나무젓가락 하나를 꺼내서 뒤에 꽂아주세요!! <br><br>그리고 손(?)을 따서 다시 다른 화분에 심어주세요. <br>그러면 또다시 자랍니다."},
+                {"de-pho":"img/product/beaker/22 cho/Screenshot 2021-06-10 at 22.20.45.jpg"},
+                {"de-pho":"img/product/beaker/22 cho/Screenshot 2021-06-10 at 22.20.57.jpg"},
+                {"de-pho":"img/product/beaker/22 cho/Screenshot 2021-06-10 at 22.21.06.jpg"},
+                {"de-pho":"img/product/beaker/22 cho/Screenshot 2021-06-10 at 22.21.16.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 70mm x 세로 95mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/22 cho/Screenshot 2021-06-10 at 22.21.24.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"오픈티아",
+            "price":"9,800원",
+            "code":"P00000BL",
+            "photo":"img/product/beaker/23 open/Screenshot 2021-06-10 at 22.21.38.jpg",
+            "ho-tit":"미키마우스를 연상시키는 <br>'오픈티아'",
+            "ho-text":"오픈티아의 모체에서 나온 손(?)을 따서 다시 심어서 번식시킨 종입니다.",
+            "ho-share":"./img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/23 open/Screenshot 2021-06-10 at 22.21.49.jpg"},
+                {"de-text":"미키마우스를 연상시키는 '오픈티아' 사실 이 아이는 오픈티아의 모체에서 나온 손(?)을 따서 다시 심어서 번식시킨 종이예요. <br>워낙 잘 자라는 '오픈티아'다 보니 이렇게 번식시킨 종도 너무 예쁘게 잘 자라요."},
+                {"de-pho":"img/product/beaker/23 open/Screenshot 2021-06-10 at 22.21.56.jpg"},
+                {"de-text":"앗 이것은 손가락이 몇 개 인가요?! <br>손이 쑥쑥 큽니다!! <br><br>자라는 모습을 보는 선인장은 드문데 손가락이 자꾸 자라서 너무 신기해요. <br><br>손가락이 너무 많아져서 고민이라면<br> 과감하게 잘라서 또 다른 곳에 심어주세요!! <br><br>그러면 다시 번식을 해서 자란답니다."},
+                {"de-pho":"img/product/beaker/23 open/Screenshot 2021-06-10 at 22.22.04.jpg"},
+                {"de-text":"[선인장 사이즈]<br>가로 45mm x 세로 60mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/23 open/Screenshot 2021-06-10 at 22.22.12.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"등신환",
+            "price":"31,500원",
+            "code":"P00000BK",
+            "photo":"img/product/beaker/24 sin_s,m/Screenshot 2021-06-10 at 22.22.30.jpg",
+            "ho-tit":"화관을 쓴 듯한 <br>'등신환'",
+            "ho-text":"본명은 '등신'이었지만 놀림을 너무 받아서 개명했다는 '등신환'",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/24 sin_s,m/Screenshot 2021-06-10 at 22.23.17.jpg"},
+                {"de-text":"화관을 쓴 듯한 '등신환' <br><br>본명은 '등신'이었지만 놀림을 너무 받아서 개명했다는 '등신환' <br>부르는 것도 농장마다 다르더라구요 '등심환, 등화신 등등'"},
+                {"de-pho":"img/product/beaker/24 sin_s,m/Screenshot 2021-06-10 at 22.23.30.jpg"},
+                {"de-text":"이른 봄에 꽃이 잘 피는 품종으로 입니다."},
+                {"de-pho":"img/product/beaker/24 sin_s,m/Screenshot 2021-06-10 at 22.23.40.jpg"},
+                {"de-pho":"img/product/beaker/24 sin_s,m/Screenshot 2021-06-10 at 22.23.50.jpg"},
+                {"de-text":"이렇게 개업선물 세트에도 화사해서 인지 꼭 들어가는 인기 선인장이예요!!"},
+                {"de-text":"[선인장 사이즈]<br>가로 60mm x 세로 80mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/24 sin_s,m/Screenshot 2021-06-10 at 22.24.02.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        },
+        {
+            "name":"디보우스키",
+            "price":"47,500원",
+            "code":"P00000BE",
+            "photo":"img/product/beaker/25 ski/Screenshot 2021-06-10 at 22.27.30.jpg",
+            "ho-tit":"고급스럽고, 유니크한 <br>'디보우스키'",
+            "ho-text":"볼 때마다 눈뭉치 처럼 생겨서 자꾸 쓰다듬어 주고 싶게 생겼어요!",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/beaker/25 ski/Screenshot 2021-06-10 at 22.27.44.jpg"},
+                {"de-text":"고급스럽고 유니크한 '디보우스키'<br><br> 뭔가 외국인 이름같죠?! <br>'디보우스키, 디보우스키,디보우스키,스키스키...' <br><br>볼 때마다 눈뭉치 처럼 생겨서 자꾸 쓰다듬어 주고 싶게 생겼어요!<br>(가시 물론 있습니다. 만지시면 아파요)"},
+                {"de-pho":"img/product/beaker/25 ski/Screenshot 2021-06-10 at 22.27.53.jpg"},
+                {"de-text":"하얀 솜털이 감긴 선인장들이 드물어서 그런지 <br>더 눈이가고 다른식물들 사이에서도 단연 주목을 받는 것 같아요. <br><br>전 왠지 하얀털이 나있는 선인장들이 좋더라구요."},
+                {"de-pho":"img/product/beaker/25 ski/Screenshot 2021-06-10 at 22.28.01.jpg"},
+                {"de-text":"이렇게 세트로 구성해도 단연 돋보이는 '디보우스키'"},
+                {"de-pho":"img/product/beaker/25 ski/Screenshot 2021-06-10 at 22.28.08.jpg"},
+                {"de-text":"뒤에 있어도 빼꼼히 빛을 바라는 '디보우스키'"},
+                {"de-text":"[선인장 사이즈]<br>가로 55mm x 세로 85mm (크기는 조금씩 다를 수 있습니다)<br><br>*비커크기가 아닌 선인장 사이즈 입니다"},
+                {"de-pho":"img/product/beaker/25 ski/Screenshot 2021-06-10 at 22.28.16.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        }
+    ],
+
+    "plant":[
+        {
+            "name":"식물표본_200ml_Green",
+            "price":"39,000원",
+            "code":"P00000EX",
+            "photo":"img/product/plant/p-1.jpg",
+            "ho-tit":"Plant Specimen _식물표본_ 200ml",
+            "ho-text":"병 안의 식물은 보존액에 담겨 오랫동안 감상할 수 있도록 만들어 졌습니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/plant/p-2.jpg"},
+                {"de-text":"[ Plant Specimen _식물표본_ 200ml ]<br><br>병 안의 식물은 보존액에 담겨 오랫동안 감상할 수 있도록 만들어 졌습니다.<br><br>보존상황에 따라 다르지만, 일년이 지나도 색이나 모양의 변화없이 감상 하실 수 있습니다.<br><br>하나하나 정성껏 손으로 만들었기 때문에 모양이 다를 수 있습니다.<br><br>침착하게 병 안을 관찰해보세요."},
+                {"de-pho":"img/product/plant/p-3.jpg"},
+                {"de-text":"인체에 닿아도 무관한 특수보존용액을 사용하였습니다.<br><br>관상용 제품으로 늘 지켜보아도 새롭고 질리지 않는 매력이 있습니다."},
+                {"de-pho":"img/product/plant/p-4.jpg"},
+                {"de-text":"[ Plant Specimen _ Green _01 ]"},
+                {"de-pho":"img/product/plant/p-5.jpg"},
+                {"de-text":"[ Plant Specimen _ Green _02 ]"},
+                {"de-pho":"img/product/plant/p-6.jpg"},
+                {"de-pho":"img/product/plant/p-7.jpg"},
+                {"de-text":"[ Plant Specimen _ Green _03 ]<br><br>*시장환경에따라 녹색 혹은 연두색으로 보내드립니다."},
+                {"de-pho":"img/product/plant/p-8.jpg"},
+                {"de-pho":"img/product/plant/p-9.jpg"},
+                {"de-text":"[ Plant Specimen _ Green _04 ]"},
+                {"de-pho":"img/product/plant/p-10.jpg"},
+                {"de-pho":"img/product/plant/p-11.jpg"},
+                {"de-text":"[ Plant Specimen _ Green _05 ]"},
+                {"de-pho":"img/product/plant/p-12.jpg"},
+                {"de-pho":"img/product/plant/p-13.jpg"},
+                {"de-text":"[ Plant Specimen _ Green _06 ]"},
+                {"de-text":"[제품 사이즈]<br><br>- 내용물 : 215ml<br>- 길이 : 213.5mm<br>- 지름 : 45.0mm<br><br><br>[제품 구성]<br><br>선물용 패키지<br>관리방법<br>식물이 담긴 유리병"},
+                {"de-pho":"img/product/plant/p-14.jpg"},
+                {"de-pho":"img/product/plant/p-15.jpg"},
+                {"de-text":"2017년 Bear Cafe 에서 진행한 'Plant Specime' 전시 모습입니다.<br><br>전시에 사용된 병의 크기는 375ml 였습니다."}
+            ]
+        }
+        
+    ],
+
+    "terra":[
+        {
+            "name":"이끼 테라리움_동물",
+            "price":"20,000원",
+            "code":"P00000DO",
+            "photo":"img/product/terra/1 terra s,m,l_ani/Screenshot 2021-07-02 at 12.14.39.jpg",
+            "ho-tit":"Terrarium(테라리움)",
+            "ho-text":"식물을 집에 들이기만 하면 안타깝게도 죽이고 마는 식물킬러분들께 추천합니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/terra/1 terra s,m,l_ani/Screenshot 2021-07-22 at 22.52.30.jpg"},
+                {"de-text":"Terrarium(테라리움)이 뭐예요?? <br><br>- 테라리움이란 라틴어의 terra '땅, 흙'이라는 말과 arium '어항과 같은 용기'라는 뜻의 합성어로 <br>밀폐된 투명한 용기 속에 흙을 채우고 각종 크고 작은 식물을 아름답게 배치하여 기르면서 감상하는 방법을 말합니다. <br><br>약 150년 전 영국의 외과의사인 워드(N.B.Ward)는 나방의 일종인 Sphinx moth의 부화와 생장 과정을 관찰하던 중 <br>밀폐된 병 속에서 우연히 양치식물의 포자가 발아하는 것을 발견하였습니다. <br>그 이후 그는 용기를 여러가지 형태로 변형하여 식물들을 달리해서 많은 실럼을 하였고, <br>그 결과 식물은 적당한 빛, 수분, 온도만 있으면 스스로 광합성과 호흡을 할 수 있음을 알았습니다. <br><br>*출처 : 원예 그린인테리어(장정은,이규민 지음)"},
+                {"de-pho":"img/product/terra/1 terra s,m,l_ani/Screenshot 2021-07-23 at 00.35.46.jpg"},
+                {"de-text":"'이끼 테라리움' <br><br>식물을 집에 들이기만 하면 안타깝게도 죽이고마는 식물킬러분들께 <br>추천하는 '이끼 테라리움' <br><br>책상 위, 신발장 위, 티비 선반 등<br> 집안 곳곳에 작은 숲을 놓아보세요!!<br><br> 이끼는 조용히 그리고 천천히 자랄겁니다. <br>하지만 의리가 있어서 잘 죽지 않죠."},
+                {"de-pho":"img/product/terra/1 terra s,m,l_ani/Screenshot 2021-07-02 at 12.14.52.jpg"},
+                {"de-text":"[S사이즈]<br><br> 유리병 : 60mm(지름) x 110mm(뚜껑포함 높이) <br>피규어 : 10mm x 30mm(피규어 마다 다소 차이가 있음)"},
+                {"de-pho":"img/product/terra/1 terra s,m,l_ani/Screenshot 2021-07-22 at 22.54.36.jpg"},
+                {"de-text":"[M사이즈]<br><br> 유리병 : 75mm(지름) x 150mm(뚜껑포함 높이) <br>피규어 : 30mm x 20mm(피규어 마다 다소 차이가 있음)"},
+                {"de-pho":"img/product/terra/1 terra s,m,l_ani/Screenshot 2021-07-22 at 22.53.59.jpg"},
+                {"de-text":"[L사이즈]<br><br> 유리병 : 95mm(지름) x 190mm(뚜껑포함 높이) <br>피규어 2개 포함 : 30mm x 20mm(피규어 마다 다소 차이가 있음)"},
+                {"de-text":"*완성품은 매번 같은 모양을 제작하지 않습니다. <br>주문해주시는 피규어에 맞춰 다양한 완성품이 제작됩니다. <br><br>늘 최선을 다해 완성품 제작에 임하는 만큼 <br>피규어를 선택하고 믿고 맡겨주시면 예쁜 테라리움을 전해드리겠습니다."},
+                {"de-pho":"img/product/terra/1 terra s,m,l_ani/20210702_121630.png"},
+                {"de-pho":"img/product/terra/1 terra s,m,l_ani/20210702_121725.png"},
+                {"de-pho":"img/product/terra/1 terra s,m,l_ani/20210702_121752.png"},
+                {"de-pho":"img/product/terra/1 terra s,m,l_ani/20210702_121948.png"},
+                {"de-pho":"img/product/terra/1 terra s,m,l_ani/20210702_122009.png"},
+                {"de-pho":"img/product/terra/1 terra s,m,l_ani/20210702_122042.png"}
+            ]
+        },
+        {
+            "name":"이끼 테라리움_미니돔",
+            "price":"35,000원",
+            "code":"P00000DN",
+            "photo":"img/product/terra/2 terra_minidom/Screenshot 2021-07-02 at 12.21.59.jpg",
+            "ho-tit":"Terrarium(테라리움)",
+            "ho-text":"작은 언덕을 연상케하는 미니돔 이끼 테라리움입니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/terra/2 terra_minidom/Screenshot 2021-07-02 at 12.22.16.jpg"},
+                {"de-text":"'이끼 테라리움_ 미니돔' <br><br>식물을 집에 들이기만 하면 안타깝게도 죽이고마는 식물킬러분들께 <br>추천하는 '이끼 테라리움' <br><br>책상 위, 신발장 위, 티비 선반 등<br> 집안 곳곳에 작은 숲을 놓아보세요!! <br><br>이끼는 조용히 그리고 천천히 자랄겁니다. <br>하지만 의리가 있어서 잘 죽지 않죠.<br><br> 작은 언덕을 연상케하는 미니돔 이끼 테라리움입니다."},
+                {"de-pho":"img/product/terra/2 terra_minidom/Screenshot 2021-07-02 at 12.22.28.jpg"},
+                {"de-text":"[사이즈]<br><br> -사이즈 : 지름 110mm  높이130mm <br>-피규어: 30mm x 20mm"},
+                {"de-text":"*완성품은 매번 같은 모양을 제작하지 않습니다. <br>주문해주시는 피규어에 맞춰 다양한 완성품이 제작됩니다.<br><br> 늘 최선을 다해 완성품 제작에 임하는 만큼<br> 피규어를 선택하고 믿고 맡겨주시면 예쁜 테라리움을 전해드리겠습니다."}
+            ]
+        },
+        {
+            "name":"jam_연인시리즈_노부부",
+            "price":"38,000원",
+            "code":"P00000DM",
+            "photo":"img/product/terra/3 terra_jam_love_si/Screenshot 2021-07-02 at 12.36.38.jpg",
+            "ho-tit":"Terrarium(테라리움)",
+            "ho-text":"깔끔한 유리 선과 투명한 뚜껑, 그리고 실버 라인으로 모던한 느낌의 신상 이끼테라리움입니다!",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/terra/3 terra_jam_love_si/Screenshot 2021-07-02 at 12.36.53.jpg"},
+                {"de-text":"'이끼 테라리움_ jam_사랑하는 연인시리즈' <br><br>식물을 집에 들이기만 하면 안타깝게도 죽이고마는 식물킬러분들께<br> 추천하는 '이끼 테라리움' <br><br>책상 위, 신발장 위, 티비 선반 등<br> 집안 곳곳에 작은 숲을 놓아보세요!! <br><br>이끼는 조용히 그리고 천천히 자랄겁니다. <br>하지만 의리가 있어서 잘 죽지 않죠<br><br> 깔끔한 유리 선과 투명한 뚜껑, <br>그리고 실버 라인으로 모던한 느낌의 신상 이끼테라리움입니다!"},
+                {"de-pho":"img/product/terra/3 terra_jam_love_si/Screenshot 2021-07-02 at 12.37.07.jpg"},
+                {"de-pho":"img/product/terra/3 terra_jam_love_si/Screenshot 2021-07-02 at 12.37.22.jpg"},
+                {"de-pho":"img/product/terra/3 terra_jam_love_si/Screenshot 2021-07-02 at 12.37.34.jpg"},
+                {"de-text":"[사이즈]<br><br> -사이즈 : 125mm x 125mm <br>-피규어: 20mm x 15mm(피규어 마다 다소 차이가 있음:남자와 여자가 붙어있는 한쌍+벤치)"},
+                {"de-text":"*완성품은 매번 같은 모양을 제작하지 않습니다. <br>주문해주시는 피규어에 맞춰 다양한 완성품이 제작됩니다. <br><br>늘 최선을 다해 완성품 제작에 임하는 만큼<br> 피규어를 선택하고 믿고 맡겨주시면 예쁜 테라리움을 전해드리겠습니다."}
+            ]
+        },
+        {
+            "name":"jam_연인시리즈_젊은커플",
+            "price":"38,000원",
+            "code":"P00000DK",
+            "photo":"img/product/terra/4 terra_jam_love_cou/Screenshot 2021-07-02 at 12.40.19.jpg",
+            "ho-tit":"Terrarium(테라리움)",
+            "ho-text":"깔끔한 유리 선과 투명한 뚜껑, 그리고 실버 라인으로 모던한 느낌의 신상 이끼테라리움입니다!",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/terra/4 terra_jam_love_cou/Screenshot 2021-07-02 at 12.40.35.jpg"},
+                {"de-text":"'이끼 테라리움_ jam_사랑하는 연인시리즈' <br><br>식물을 집에 들이기만 하면 안타깝게도 죽이고마는 식물킬러분들께<br> 추천하는 '이끼 테라리움' <br><br>책상 위, 신발장 위, 티비 선반 등<br> 집안 곳곳에 작은 숲을 놓아보세요!! <br><br>이끼는 조용히 그리고 천천히 자랄겁니다. <br>하지만 의리가 있어서 잘 죽지 않죠<br><br> 깔끔한 유리 선과 투명한 뚜껑, <br>그리고 실버 라인으로 모던한 느낌의 신상 이끼테라리움입니다!"},
+                {"de-pho":"img/product/terra/4 terra_jam_love_cou/Screenshot 2021-07-02 at 12.40.49.jpg"},
+                {"de-pho":"img/product/terra/4 terra_jam_love_cou/Screenshot 2021-07-02 at 12.41.00.jpg"},
+                {"de-pho":"img/product/terra/4 terra_jam_love_cou/Screenshot 2021-07-02 at 12.41.13.jpg"},
+                {"de-text":"[사이즈]<br><br> -사이즈 : 125mm x 125mm <br>-피규어: 20mm x 15mm(피규어 마다 다소 차이가 있음:남자와 여자가 붙어있는 한쌍)"},
+                {"de-text":"*완성품은 매번 같은 모양을 제작하지 않습니다. <br>주문해주시는 피규어에 맞춰 다양한 완성품이 제작됩니다. <br><br>늘 최선을 다해 완성품 제작에 임하는 만큼<br> 피규어를 선택하고 믿고 맡겨주시면 예쁜 테라리움을 전해드리겠습니다."}
+            ]
+        },
+        {
+            "name":"이끼 테라리움_코르크_S/M/L",
+            "price":"10,500원",
+            "code":"P00000CR",
+            "photo":"img/product/terra/5 terra_cor_s,m,l/l1.jpg",
+            "ho-tit":"Terrarium(테라리움)",
+            "ho-text":"식물을 집에 들이기만 하면 안타깝게도 죽이고 마는 식물킬러분들께 추천합니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/terra/5 terra_cor_s,m,l/ml0.jpg"},
+                {"de-text":"'이끼 테라리움_ 코르크_S/M/L' <br><br>식물을 집에 들이기만 하면 안타깝게도 죽이고마는 식물킬러분들께<br> 추천하는 '이끼 테라리움' <br><br>책상 위, 신발장 위, 티비 선반 등<br> 집안 곳곳에 작은 숲을 놓아보세요!! <br><br>이끼는 조용히 그리고 천천히 자랄겁니다. <br>하지만 의리가 있어서 잘 죽지 않죠<br><br> 신상 코르크마개 시리즈 유리는 정말 깨끗하고 매끈합니다! <br>코르크 마개 시리즈는 사이즈별로 함께 있을 때 더 예쁜 것 같아요."},
+                {"de-pho":"img/product/terra/5 terra_cor_s,m,l/s2.jpg"},
+                {"de-pho":"img/product/terra/5 terra_cor_s,m,l/s4.jpg"},
+                {"de-pho":"img/product/terra/5 terra_cor_s,m,l/s5.jpg"},
+                {"de-text":"[S 사이즈]<br><br> -유리병 : 35mm(지름) x 125mm(뚜껑포함 높이) <br>-피규어(미어캣) : 10mm x 30mm"},
+                {"de-pho":"img/product/terra/5 terra_cor_s,m,l/m2.jpg"},
+                {"de-text":"[M 사이즈]<br><br> -유리병 : 65mm(지름) x 160mm(뚜껑포함 높이) <br>-피규어 : 20mm x 30mm"},
+                {"de-pho":"img/product/terra/5 terra_cor_s,m,l/l2.jpg"},
+                {"de-text":"[L 사이즈]<br><br> -유리병 : 65mm(지름) x 190mm(뚜껑포함 높이) <br>-피규어 : 20mm x 30mm"},
+                {"de-pho":"img/product/terra/5 terra_cor_s,m,l/ml1.png"},
+                {"de-pho":"img/product/terra/5 terra_cor_s,m,l/ml2.png"},
+                {"de-pho":"img/product/terra/5 terra_cor_s,m,l/ml3.png"},
+                {"de-pho":"img/product/terra/5 terra_cor_s,m,l/ml4.png"},
+                {"de-pho":"img/product/terra/5 terra_cor_s,m,l/ml5.png"},
+                {"de-pho":"img/product/terra/5 terra_cor_s,m,l/ml6.png"},
+                {"de-text":"*완성품은 매번 같은 모양을 제작하지 않습니다. <br>주문해주시는 피규어에 맞춰 다양한 완성품이 제작됩니다. <br><br>늘 최선을 다해 완성품 제작에 임하는 만큼<br> 피규어를 선택하고 믿고 맡겨주시면 예쁜 테라리움을 전해드리겠습니다."}
+            ]
+        },
+        {
+            "name":"이끼 테라리움 jam",
+            "price":"35,000원",
+            "code":"P00000DD",
+            "photo":"img/product/terra/6 terra jam/j1.jpg",
+            "ho-tit":"Terrarium(테라리움)",
+            "ho-text":"식물을 집에 들이기만 하면 안타깝게도 죽이고 마는 식물킬러분들께 추천합니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/terra/6 terra jam/j2.jpg"},
+                {"de-text":"'이끼 테라리움_ jam' <br><br>식물을 집에 들이기만 하면 안타깝게도 죽이고마는 식물킬러분들께<br> 추천하는 '이끼 테라리움' <br><br>책상 위, 신발장 위, 티비 선반 등<br> 집안 곳곳에 작은 숲을 놓아보세요!! <br><br>이끼는 조용히 그리고 천천히 자랄겁니다. <br>하지만 의리가 있어서 잘 죽지 않죠<br><br> 깔끔한 유리 선과 투명한 뚜껑, <br>그리고 실버 라인으로 모던한 느낌의 신상 이끼테라리움입니다!"},
+                {"de-pho":"img/product/terra/6 terra jam/j3.png"},
+                {"de-pho":"img/product/terra/6 terra jam/j4.png"},
+                {"de-pho":"img/product/terra/6 terra jam/j5.png"},
+                {"de-pho":"img/product/terra/6 terra jam/j6.png"},
+                {"de-pho":"img/product/terra/6 terra jam/j7.png"},
+                {"de-pho":"img/product/terra/6 terra jam/j8.png"},
+                {"de-text":"[사이즈]<br><br> -사이즈 : 125mm x 125mm <br>-피규어: 30mm x 20mm(피규어 마다 다소 차이가 있음)"},
+                {"de-text":"*완성품은 매번 같은 모양을 제작하지 않습니다. <br>주문해주시는 피규어에 맞춰 다양한 완성품이 제작됩니다. <br><br>늘 최선을 다해 완성품 제작에 임하는 만큼<br> 피규어를 선택하고 믿고 맡겨주시면 예쁜 테라리움을 전해드리겠습니다."}
+            ]
+        },
+        {
+            "name":"시약병 500ml/1000ml_동물",
+            "price":"35,000원",
+            "code":"P00000CS",
+            "photo":"img/product/terra/7 terra 500,1000ml_ani/l1.jpg",
+            "ho-tit":"'500ml/1000ml 시약병 이끼 테라리움'",
+            "ho-text":"식물을 집에 들이기만 하면 안타깝게도 죽이고 마는 식물킬러분들께 추천합니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/terra/7 terra 500,1000ml_ani/l3.jpg"},
+                {"de-text":"'500ml/1000ml 시약병 이끼 테라리움' <br><br>식물을 집에 들이기만 하면 안타깝게도 죽이고마는 식물킬러분들께<br> 추천하는 '이끼 테라리움' <br><br>책상 위, 신발장 위, 티비 선반 등<br> 집안 곳곳에 작은 숲을 놓아보세요!! <br><br>이끼는 조용히 그리고 천천히 자랄겁니다. <br>하지만 의리가 있어서 잘 죽지 않죠"},
+                {"de-pho":"img/product/terra/7 terra 500,1000ml_ani/m2.jpg"},
+                {"de-text":"시약병으로 제작한 테라리움은 또다른 느낌이죠.<br> 조금 더 특별해보이는 이유는<br><br> 아무래도 일반 다른 유리용기보다 만들기가 힘들다는 것이예요. <br><br>입구를 통해 손 전체가 들어갈 수 없기때문에 <br>제작시 핀셋을 이용해 지형을 더 디테일하게 잡아줘야 합니다.<br><br> 하지만 어렵게 탄생한 만큼 더 더욱 애착이 가고 예쁜건 어쩔 수 없네요."},
+                {"de-pho":"img/product/terra/7 terra 500,1000ml_ani/m3.jpg"},
+                {"de-pho":"img/product/terra/7 terra 500,1000ml_ani/m4.jpg"},
+                {"de-pho":"img/product/terra/7 terra 500,1000ml_ani/m5.jpg"},
+                {"de-pho":"img/product/terra/7 terra 500,1000ml_ani/m6.jpg"},
+                {"de-pho":"img/product/terra/7 terra 500,1000ml_ani/m7.jpg"},
+                {"de-text":"[500ml 사이즈] <br><br>-시약병 사이즈 : 84mm x 170mm<br> -피규어 포함 : 30mm x 20mm(피규어 마다 다소 차이가 있음)"},
+                {"de-pho":"img/product/terra/7 terra 500,1000ml_ani/l2.jpg"},
+                {"de-text":"[1000ml 사이즈] <br><br>-시약병 사이즈 : 105mm x 200mm <br>-피규어 포함 : 30mm x 20mm(피규어 마다 다소 차이가 있음)"},
+                {"de-pho":"img/product/terra/7 terra 500,1000ml_ani/ml1.png"},
+                {"de-pho":"img/product/terra/7 terra 500,1000ml_ani/ml2.png"},
+                {"de-pho":"img/product/terra/7 terra 500,1000ml_ani/ml3.png"},
+                {"de-pho":"img/product/terra/7 terra 500,1000ml_ani/ml4.png"},
+                {"de-pho":"img/product/terra/7 terra 500,1000ml_ani/ml5.png"},
+                {"de-pho":"img/product/terra/7 terra 500,1000ml_ani/ml6.png"},
+                {"de-text":"*완성품은 매번 같은 모양을 제작하지 않습니다. <br>주문해주시는 피규어에 맞춰 다양한 완성품이 제작됩니다. <br><br>늘 최선을 다해 완성품 제작에 임하는 만큼<br> 피규어를 선택하고 믿고 맡겨주시면 예쁜 테라리움을 전해드리겠습니다."}
+            ]
+        },
+        {
+            "name":"이끼 테라리움 DIY KIT",
+            "price":"29,000원",
+            "code":"P00000CJ",
+            "photo":"img/product/terra/8 terra diy kit m/ml1.jpg",
+            "ho-tit":"'Terrarium DIY KIT'",
+            "ho-text":"집에서 만들어볼 수도 있어야 하잖아요~!!",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml2.jpg"},
+                {"de-text":"Terrarium(테라리움)이 뭐예요?? <br><br>- 테라리움이란 라틴어의 terra '땅, 흙'이라는 말과 arium '어항과 같은 용기'라는 뜻의 합성어로 <br>밀폐된 투명한 용기 속에 흙을 채우고 각종 크고 작은 식물을 아름답게 배치하여 기르면서 감상하는 방법을 말합니다. <br><br>약 150년 전 영국의 외과의사인 워드(N.B.Ward)는 나방의 일종인 Sphinx moth의 부화와 생장 과정을 관찰하던 중 <br>밀폐된 병 속에서 우연히 양치식물의 포자가 발아하는 것을 발견하였습니다. <br>그 이후 그는 용기를 여러가지 형태로 변형하여 식물들을 달리해서 많은 실럼을 하였고, <br>그 결과 식물은 적당한 빛, 수분, 온도만 있으면 스스로 광합성과 호흡을 할 수 있음을 알았습니다. <br><br>*출처 : 원예 그린인테리어(장정은,이규민 지음)"},
+                {"de-text":"약 150년 전 영국의 외과의사인 워드(N.B.Ward)는 나방의 일종인 Sphinx moth의 부화와 생장 과정을 관찰하던 중 <br>밀폐된 병 속에서 우연히 양치식물의 포자가 발아하는 것을 발견하였습니다. <br>그 이후 그는 용기를 여러가지 형태로 변형하여 식물들을 달리해서 많은 실럼을 하였고, <br>그 결과 식물은 적당한 빛, 수분, 온도만 있으면 스스로 광합성과 호흡을 할 수 있음을 알았습니다. <br><br>*출처 : 원예 그린인테리어(장정은,이규민 지음)"},
+                {"de-text":"'슬로우 파마씨'에서는 밀폐된 환경 속 그리고 음지나 반음지에서 <br>크게 자라지 않고 느리게 생장하는 이끼테라리움을 출시하였습니다."},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml3.jpg"},
+                {"de-text":"DIY KIT  구성품"},
+                {"de-text":"- 유리병 사이즈 : 75mm x 150mm <br>- 이끼(moss-b) : 100mm x 100mm <br><br>- 씻은 마사토(stone-a), 수태(moss-a), 테라리움 용 흙(soil), 장식용 돌(stone-b) 이 부분은 랜덤으로 구성됩니다!! <br><br>- 피규어 랜덤 ( 공룡, 팬더, 페가수스, 북극곰, 미어캣) : 30mm x 20mm(피규어마다 다소 차이가 있음) <br><br>- 스프레이 <br><br>- 만드는 방법 <br><br>*사진에 포함되어있는 장갑,핀셋,스푼은 스프레이로 변경되었습니다."},
+                {"de-text":"[ 만드는 순서 ]"},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml4.jpg"},
+                {"de-text":"01. 평평한 곳에 종이를 깔고 장갑을 낍니다."},
+                {"de-text":"02. 설명서를 꺼내고 제일 먼저 stone-a를 넣습니다."},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml5.jpg"},
+                {"de-text":"넣는 양은 기호에 맞게 해주세요. <br><br>*주의 : 처음부터 땅의 높이를 너무 높이 만들면 나중에 이끼가 뚜껑까지 올라올거예요"},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml6.jpg"},
+                {"de-text":"03. moss-a를 꺼내 스프레이로 살짝 적신 후 넣어주세요. <br>꾹꾹 눌러주면 더 안정적인 땅을 만들수 있습니다."},
+                {"de-text":"* 마른 그대로 넣어도 좋지만 부서지기 쉬우니 살짝 촉촉하게 해주면 만들기 더 쉬워요."},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml7.jpg"},
+                {"de-text":"넣는 양은 기호에 맞게 해주세요."},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml8.jpg"},
+                {"de-text":"04. soil을 넣어줍니다."},
+                {"de-text":"*꼭 평평하게 넣지 않고 비탈길을 만드는 것도 가능합니다."},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml9.jpg"},
+                {"de-text":"넣는 양은 기호에 맞게 해주세요."},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml10.jpg"},
+                {"de-text":"05. moss-b 케이스에 물을 넣고 5분정도 기다려주세요."},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml11.jpg"},
+                {"de-text":"그리고 물기를 짜낸 뒤, 유리안에 넣어줍니다."},
+                {"de-text":"* 이 단계가 가장 중요한 만큼 어떤 모양을 만들지 신중하게 생각해주세요!!"},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml12.jpg"},
+                {"de-text":"저는 장식용 돌을 넣기 위해 살짝 공간을 비워두었습니다. <br><br>만드는 모양은 기호에 맞게!! <br>얼마든지 자유롭게 표현해주세요"},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml13.jpg"},
+                {"de-text":"06. stone-b 장식용 돌로 지형을 더 스펙타클하게 만들어줬습니다."},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml14.jpg"},
+                {"de-text":"07. figure를 올려놓고 뿌듯하게 감상하세요."},
+                {"de-text":"*주의 : 재료는 부족하지 않을만큼 조금 넉넉히 보내드립니다. <br>구성품의 모든 양을 있는 그대로 다 사용하시면 양이 살짝 많을거예요."},
+                {"de-text":"* 이끼가 남으면 꼭 건조시켜 말리신 뒤 따로 보관해주세요. <br>제대로 건조가 된 후에는 언제든지 적셔서 다시 사용이 가능합니다.<br><br><br><br><br>"},
+                {"de-text":"[ 피규어 안내 ]"},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml15.png"},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml16.png"},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml17.png"},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml18.png"},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml19.png"},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml20.png"},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml21.jpg"},
+                {"de-pho":"img/product/terra/8 terra diy kit m/ml22.jpg"},
+                {"de-text":"* 구매하시는 모든 분께 키우는 방법을 적은 종이를 함께 보내드립니다."}
+            ]
+        }
+    ],
+
+    "tillan":[
+        {
+            "name":"틸란드시아_바일레이",
+            "price":"30,000원",
+            "code":"P00000DI",
+            "photo":"img/product/tillan/1 till_bail/b1.jpg",
+            "ho-tit":"흙 없이 사는 <br>'바일레이'",
+            "ho-text":"무용수를 연상케하는 모습의 선이 특별히 더 아름다워요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/tillan/1 till_bail/b2.jpg"},
+                {"de-text":"흙 없이 사는  틸란드시아 과의  '바일레이'<br>무용수를 연상케하는 모습의 선이 특별히 더 아름다워요<br><br>틸란드시아는 공기중의 수분과 먼지를 먹고 사는데요<br>먼지를 먹는다고 하여 공기정화 식물 중에서도 요즘 가장 인기가 좋답니다.<br>식물을 잘 키우지 못하고 잘 죽이는 식물킬러분들께는 정말 안성맞춤인 식물입니다.<br><br><br><br><br>[ 물 주는 방법 ]<br><br>1주일에 한번 물에 푸욱 담궜다가 꺼내주세요<br>건조한 계절과 건조한 공간에서는 가끔 스프레이를 해주시면 더 좋습니다.<br>직사광선은 틸란드시아 끝을 타버리게 할 수 있으니 피해주세요.<br>통풍이 잘 되는 공간을 좋아합니다.<br><br>* 키우는 방법도 함께 보내드립니다"},
+                {"de-pho":"img/product/tillan/1 till_bail/b3.jpg"},
+                {"de-pho":"img/product/tillan/1 till_bail/b4.jpg"},
+                {"de-pho":"img/product/tillan/1 till_bail/b5.jpg"},
+                {"de-text":"[ 사이즈 ]<br>170mm<br><br>*식물의 크기와 모양은 모두 다릅니다"}
+            ]
+        },
+        {
+            "name":"틸란드시아_세로그라피카",
+            "price":"70,000원",
+            "code":"P00000DH",
+            "photo":"img/product/tillan/2 till_sero/s1.jpg",
+            "ho-tit":"수명이 20년 <br>'세로그라피카'",
+            "ho-text":"멸종위기 식물, 공기중의 수분과 먼지를 먹고사는 틸란드시아 종의 하나입니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/tillan/2 till_sero/s2.jpg"},
+                {"de-text":"멸종위기 식물(CITES)인 세로그라피카는 공기중의 수분과 먼지를 먹고사는 틸란드시아 종의 하나입니다.<br>흙 없이 자라는 신비한 식물 틸란드시아는 식물을 잘 죽이시는 식물킬러 분들에게 인기가 많아요.<br><br>그 중에서도 세로그라피카는 역시 포스가 남달라요!!<br><br>수명이 20년이나 되는 장수식물이랍니다.<br><br><br><br><br>[ 물 주는 방법 ]<br><br>1주일에 한번 물에 푸욱 담궜다가 꺼내주세요<br>건조한 계절과 건조한 공간에서는 가끔 스프레이를 해주시면 더 좋습니다.<br>직사광선은 틸란드시아 끝을 타버리게 할 수 있으니 피해주세요.<br>통풍이 잘 되는 공간을 좋아합니다.<br><br>* 키우는 방법도 함께 보내드립니다"},
+                {"de-pho":"img/product/tillan/2 till_sero/s3.jpg"},
+                {"de-pho":"img/product/tillan/2 till_sero/s4.jpg"},
+                {"de-text":"[ 사이즈 ]<br>가로 180mm 세로 180mm  높이 140mm<br><br>*식물의 크기와 모양은 모두 다릅니다"}
+            ]
+        },
+        {
+            "name":"틸란드시아_안드레아나",
+            "price":"70,000원",
+            "code":"P00000DG",
+            "photo":"img/product/tillan/3 till_an/a1.jpg",
+            "ho-tit":"흙 없이 사는 <br>'안드레아나'",
+            "ho-text":"생김새가 마치 성게처럼 혹은 민들레 씨앗처럼 생겼어요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/tillan/3 till_an/a2.jpg"},
+                {"de-text":"흙 없이 사는  틸란드시아 과의  '아르헨떼아'<br>생김새가 마치 성게처럼 혹은 민들레 씨앗처럼 생겼어요<br><br>특별한 모양을 한 만큼 곁에 두는 것만으로도 공간을 특별하게 만들어주는 효과가 있습니다.<br><br>틸란드시아는 공기중의 수분과 먼지를 먹고 사는데요<br>먼지를 먹는다고 하여 공기정화 식물 중에서도 요즘 가장 인기가 좋답니다.<br><br>식물을 잘 키우지 못하고 잘 죽이는 식물킬러분들께는 정말 안성맞춤인 식물입니다.<br><br><br><br><br>[ 물 주는 방법 ]<br><br>1주일에 한번 물에 푸욱 담궜다가 꺼내주세요<br>건조한 계절과 건조한 공간에서는 가끔 스프레이를 해주시면 더 좋습니다.<br>직사광선은 틸란드시아 끝을 타버리게 할 수 있으니 피해주세요.<br>통풍이 잘 되는 공간을 좋아합니다.<br><br>* 키우는 방법도 함께 보내드립니다"},
+                {"de-pho":"img/product/tillan/3 till_an/a3.jpg"},
+                {"de-text":"[ 사이즈 ]<br>가로 150 mm 세로 150mm  높이 120mm<br><br>*식물의 크기와 모양은 모두 다릅니다"}
+            ]
+        },
+        {
+            "name":"삼각플라스크+미니틸란시아",
+            "price":"17,500원",
+            "code":"P00000DC",
+            "photo":"img/product/tillan/4 smsd/smsd1.jpg",
+            "ho-tit":"삼각플라스크+미니틸란시아+숯가루+돌",
+            "ho-text":"숯가루와 틸란시아를 함께 넣어 '공기청정 효과'는 더 좋아질 것 같이 느껴져요!",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/tillan/4 smsd/smsd2.jpg"},
+                {"de-text":"미니 틸란시아(틸란드시아)+삼각플라스크<br><br>미니 틸란시아는 마치 별처럼 생겼어요<br><br>숯가루와 틸란시아를 함께 넣어 '공기청정 효과'는 더 좋아질 것 같이 느껴져요!<br>"},
+                {"de-pho":"img/product/tillan/4 smsd/smsd3.jpg"},
+                {"de-pho":"img/product/tillan/4 smsd/smsd4.jpg"},
+                {"de-text":"삼각플라스크 안에 들어있다고 물을 아예 안주는 건 아니예요<br>1-2주에 한번 씩 입구를 통해 스프레이를 해주시고 통풍이 잘 되는 곳에 놓아주세요."},
+                {"de-text":"[ 사이즈 ]<br>85mm x 140mm(크기는 조금씩 다를 수 있습니다)"},
+                {"de-pho":"img/product/tillan/4 smsd/smsd5.jpg"}
+            ]
+        },
+        {
+            "name":"삼각플라스크+미니틸란시아",
+            "price":"17,500원",
+            "code":"P00000DB",
+            "photo":"img/product/tillan/5 smmd/smmd1.jpg",
+            "ho-tit":"삼각플라스크+미니틸란시아+숯가루+돌",
+            "ho-text":"고운 모레와 돌로 장식해서 넣었더니 사막에 반짝이는 별 같이 예쁩니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/tillan/5 smmd/smmd2.jpg"},
+                {"de-text":"미니 틸란시아(틸란드시아)+삼각플라스크<br><br미니 틸란시아는 마치 별처럼 생겼어요<br><br>삼각플라스크에 고운 모레와 돌로 장식해서 넣었더니<br>사막에 반짝이는 별 같이 예쁩니다."},
+                {"de-pho":"img/product/tillan/5 smmd/smmd3.jpg"},
+                {"de-text":"삼각플라스크 안에 들어있다고 물을 아예 안주는 건 아니예요<br>1-2주에 한번 씩 입구를 통해 스프레이를 해주시고 통풍이 잘 되는 곳에 놓아주세요."},
+                {"de-text":"[ 사이즈 ]<br>85mm x 140mm(크기는 조금씩 다를 수 있습니다)"},
+                {"de-pho":"img/product/tillan/5 smmd/smmd4.jpg"}
+            ]
+        },
+        {
+            "name":"틸란드시아_코튼캔디",
+            "price":"25,000원",
+            "code":"P00000DA",
+            "photo":"img/product/tillan/6 till_cot/c1.jpg",
+            "ho-tit":"흙 없이 사는 <br>'코튼캔디'",
+            "ho-text":"색이 정말 '아름답다'라는 단어가 저절로 떠오르게 할 만큼 '아름답습니다!'",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/tillan/6 till_cot/c2.jpg"},
+                {"de-text":"흙 없이 키우는 '틸란시아(틸란드시아)' - 코튼캔디<br><br>공기중의 수분과 먼지를 먹고 사는 틸란시아 중<br>익숙한 틸란시아 모습과는 조금 다른 '코튼캔디'입니다.<br><br>정말 아름다운 꽃을 피우고 있어요.<br>색이 정말 '아름답다'라는 단어가 저절로 떠오르게 할 만큼 '아름답습니다!'"},
+                {"de-pho":"img/product/tillan/6 till_cot/c3.jpg"},
+                {"de-text":"틸란시아도 종류가 참 다양한데요<br>요 아이는 조금 고급종이랍니다. 아무래도 희귀해서 그런 것 같아요.<br>크기도 기존의 틸란시아보다는 크구요<br><br>틸란시아는 공기정화에도 좋은 식물로 그냥 어디든 툭 놓으면 인테리어 효과까지도 너무 좋답니다."},
+                {"de-pho":"img/product/tillan/6 till_cot/c4.jpg"},
+                {"de-text":"[ 사이즈 ]<br>130mm x 130mm(크기는 조금씩 다를 수 있습니다)"},
+                {"de-pho":"img/product/tillan/6 till_cot/c5.jpg"}
+            ]
+        },
+        {
+            "name":"틸란드시아_이오난사",
+            "price":"7,500원",
+            "code":"P00000CG",
+            "photo":"img/product/tillan/7 till_eons/eons1.jpg",
+            "ho-tit":"흙 없이 사는 <br>'이오난사'",
+            "ho-text":"틸란드시아를 하나씩 들여놓으면 공기정화효과가 있어 추천드려요!",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/tillan/7 till_eons/eons2.jpg"},
+                {"de-text":"흙 없이 키우는 '틸란드시아' - 이오난사<br><br>요즘 황사가 하루하루 너무 심해지지 않나요?<br>이럴 때 사무실과 집에 틸란드시아를 하나씩 들여놓으면 공기정화효과가 있어 추천드려요!<br><br>공기정화를 위해 집에 화분을 들였는데 관리가 되지않아 자꾸 죽이기만 하는 분이라면<br>더 더욱 추천드립니다.<br><br>틸란드시아는 공기중의 수분과 먼지를 먹고 살아요.<br>하지만 물을 아예 안 주는 것은 아니랍니다!!<br><br>비커와 모래가 함께 포함된 상품으로 더 예쁘게 보실 수 있어요!!"},
+                {"de-pho":"img/product/tillan/7 till_eons/eons3.jpg"},
+                {"de-text":"곳곳에 툭 던져만 놓아도 인테리어에도 좋고 공기도 좋아지는 일석이조!!"},
+                {"de-pho":"img/product/tillan/7 till_eons/eons4.jpg"},
+                {"de-text":"[ 사이즈 ]<br>75mm x 85mm(크기는 조금씩 다를 수 있습니다)"},
+                {"de-pho":"img/product/tillan/7 till_eons/eons5.jpg"}
+            ]
+        },
+        {
+            "name":"틸란시아+비커+모래포함",
+            "price":"20,000원",
+            "code":"P00000CI",
+            "photo":"img/product/tillan/8 till_bm/bm1.jpg",
+            "ho-tit":"흙 없이 사는 <br>'이오난사'",
+            "ho-text":"틸란드시아를 하나씩 들여놓으면 공기정화효과가 있어 추천드려요!",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/tillan/8 till_bm/bm2.jpg"},
+                {"de-text":"흙 없이 키우는 '틸란드시아' - 이오난사<br><br>요즘 황사가 하루하루 너무 심해지지 않나요?<br>이럴 때 사무실과 집에 틸란드시아를 하나씩 들여놓으면 공기정화효과가 있어 추천드려요!<br><br>공기정화를 위해 집에 화분을 들였는데 관리가 되지않아 자꾸 죽이기만 하는 분이라면<br>더 더욱 추천드립니다.<br><br>틸란드시아는 공기중의 수분과 먼지를 먹고 살아요.<br>하지만 물을 아예 안 주는 것은 아니랍니다!!<br><br>비커와 모래가 함께 포함된 상품으로 더 예쁘게 보실 수 있어요!!"},
+                {"de-pho":"img/product/tillan/8 till_bm/bm3.jpg"},
+                {"de-pho":"img/product/tillan/8 till_bm/bm4.jpg"},
+                {"de-text":"[ 사이즈 ]<br>75mm x 85mm(크기는 조금씩 다를 수 있습니다)<br><br>[ 비커 사이즈 ]<br>600ml : 90mm x 125mm"},
+                {"de-pho":"img/product/tillan/8 till_bm/bm5.jpg"}
+            ]
+        }
+    ],
+
+    "acc":[
+        {
+            "name":"스프레이 50ml",
+            "price":"1,500원",
+            "code":"P00000CQ",
+            "photo":"img/product/acc/1 spray/s1.jpg",
+            "ho-tit":"'스프레이 50ml'",
+            "ho-text":"이끼의 표면이 말랐다면 스프레이를 이용해 '슉슉' 물을 분사해주세요.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/acc/1 spray/s2.jpg"},
+                {"de-text":"'스프레이 50ml'<br><br>이끼 테라리움을 키울때는 스프레이가 필요합니다.<br>이끼의 표면이 말랐다면 스프레이를 이용해 '슉슉' 물을 분사해주세요.<br><br>*주의 : 스프레이 하는 것이 너무 재미있다고 유리병에 물이 찰랑찰랑해질 때까지 주면 안됩니다."},
+                {"de-pho":"img/product/acc/1 spray/s3.jpg"},
+                {"de-text":"[ 사이즈 ]<br>좌측 미니 스프레이 50ml : 36.5mm(지름) x 77mm(높이)<br>재질 플라스틱"}
+            ]
+        },
+        {
+            "name":"침착해 30 모래시계_M/L",
+            "price":"36,000원",
+            "code":"P00000DQ",
+            "photo":"img/product/acc/2 mc_m,l/mc1.jpg",
+            "ho-tit":"침착해 30 모래시계",
+            "ho-text":"시간의 흐름을 눈으로 볼 수 있는 모래시계는 정말 매력적입니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/acc/2 mc_m,l/mc1.jpg"},
+                {"de-text":"[ 침착해 30 모래시계_M ]<br><br>다이아몬드 유리병안에 회색모래가 담긴 모래시계입니다.<br>30분 모래시계<br><br사우나에서나 보는 모래시계지만<br>내 공간에 모래시계를 두는 것 만으로도 잠시 쉼을 주기도 하는 것 같아요.<br><br>고운 모래가 스르륵 스르륵 떨어지는 모습을 보고 있으면 마음이 조금은 침착해지기도 합니다.<br><br>너무 바삐 살고 있는 친구 혹은 연인에게 쉼을 선물해보는 건 어떨까요?<br><br>시간의 흐름을 눈으로 볼 수 있는 모래시계는 정말 매력적입니다."},
+                {"de-pho":"img/product/acc/2 mc_m,l/mc2.jpg"},
+                {"de-pho":"img/product/acc/2 mc_m,l/mc3.jpg"},
+                {"de-pho":"img/product/acc/2 mc_m,l/mc4.jpg"},
+                {"de-pho":"img/product/acc/2 mc_m,l/mc5.jpg"},
+                {"de-pho":"img/product/acc/2 mc_m,l/mc6.jpg"},
+                {"de-pho":"img/product/acc/2 mc_m,l/mc7.jpg"},
+                {"de-pho":"img/product/acc/2 mc_m,l/mc8.jpg"}
+            ]
+        },
+        {
+            "name":"Cube_Boskke_S/L",
+            "price":"35,000원",
+            "code":"P00000ES",
+            "photo":"img/product/acc/3 Cube-b_s,l/cbsl1.jpg",
+            "ho-tit":"Cube_Boskke",
+            "ho-text":"흙, 수분, 뿌리 등 보이지 않던 부분들을 보여줍니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/acc/3 Cube-b_s,l/cbsl2.jpg"},
+                {"de-pho":"img/product/acc/3 Cube-b_s,l/cbsl3.jpg"},
+                {"de-text":"투명한 재질의 CUBE플랜터는<br>흙, 수분, 뿌리 등 보이지 않던 부분들을 보여줍니다.<br><br>약 2주에 한번씩만 물을 주면<br>천천히 적당량의 수분이 흙과 뿌리에 공급되는<br>Slo-Flo irrigation 방식을 사용하여<br>도시에서 바쁜 삶을 살아가는 사람들에게 적합한 화분입니다<br><br>물을 언제 주어야 할지 잘 모르겠는 분!<br>얼마만의 양을 줘야할지 모르겠는 분!<br>자주 집을 비우는 분!<br>에게 아주 적합한 신개념 화분입니다.<br>**식물은 별도입니다."},
+                {"de-pho":"img/product/acc/3 Cube-b_s,l/cbsl4.jpg"},
+                {"de-text":"구멍을 통해 물을 추가합니다"},
+                {"de-pho":"img/product/acc/3 Cube-b_s,l/cbsl5.jpg"},
+                {"de-text":"뚜껑과 화분이 분리가 되어 오염된 부분을 세척도 가능합니다."},
+                {"de-pho":"img/product/acc/3 Cube-b_s,l/cbsl6.jpg"},
+                {"de-pho":"img/product/acc/3 Cube-b_s,l/cbsl7.jpg"},
+                {"de-pho":"img/product/acc/3 Cube-b_s,l/cbsl8.jpg"},
+                {"de-text":"식물은 토양 위로 자라나는 부분 외에도 많은 것을 숨기고 있습니다."},
+                {"de-text":"[ 사이즈 ]<br> Small ( H 120mm x W 120mm)<br> Large ( H 160mm x W 160mm)<br><br>*식물의 크기와 모양은 모두 다릅니다"},
+                {"de-pho":"img/product/acc/3 Cube-b_s,l/cbsl9.jpg"},
+                {"de-text":"Boskke Designer<br><br>Boskke는 도심, 가정, 사무실에서 더 많은 식물을 볼 수 있기를 원했습니다.<br>식물을 가까이에 두는 것은 삶의 질을 높여주지만<br>공간과 시간이 제한적일 때 가드닝을 위한 새로운 방식이 필요합니다.<br><br>도시 생활에 대한 이해를 기반으로 한 기능적이고 아름다운 가드닝 제품 제작을 통해<br>일상 속에서 더 많은 식물을 즐길 수 있도록 하는 것,<br><br>그것이 '작은 숲'이라는 의미를 지닌 Boskke가 시작된 이유입니다."}
+            ]
+        },
+        {
+            "name":"Cube_Boskke_Triple",
+            "price":"35,000원",
+            "code":"P00000EU",
+            "photo":"img/product/acc/4 Cube-b-t/cbt1.jpg",
+            "ho-tit":"Cube_Boskke",
+            "ho-text":"흙, 수분, 뿌리 등 보이지 않던 부분들을 보여줍니다.",
+            "ho-share":"img/icon/sha.png",
+            "detail":[
+                {"de-pho":"img/product/acc/4 Cube-b-t/cbt2.jpg"},
+                {"de-pho":"img/product/acc/4 Cube-b-t/cbt3.jpg"},
+                {"de-text":"투명한 재질의 CUBE플랜터는<br>흙, 수분, 뿌리 등 보이지 않던 부분들을 보여줍니다.<br><br>약 2주에 한번씩만 물을 주면<br>천천히 적당량의 수분이 흙과 뿌리에 공급되는<br>Slo-Flo irrigation 방식을 사용하여<br>도시에서 바쁜 삶을 살아가는 사람들에게 적합한 화분입니다<br><br>물을 언제 주어야 할지 잘 모르겠는 분!<br>얼마만의 양을 줘야할지 모르겠는 분!<br>자주 집을 비우는 분!<br>에게 아주 적합한 신개념 화분입니다.<br>**식물은 별도입니다."},
+                {"de-pho":"img/product/acc/4 Cube-b-t/cbt4.jpg"},
+                {"de-text":"구멍을 통해 물을 추가합니다"},
+                {"de-pho":"img/product/acc/4 Cube-b-t/cbt5.jpg"},
+                {"de-pho":"img/product/acc/4 Cube-b-t/cbt6.jpg"},
+                {"de-text":"뚜껑과 화분이 분리가 되어 오염된 부분을 세척도 가능합니다."},
+                {"de-pho":"img/product/acc/4 Cube-b-t/cbt7.jpg"},
+                {"de-pho":"img/product/acc/4 Cube-b-t/cbt8.jpg"},
+                {"de-pho":"img/product/acc/4 Cube-b-t/cbt9.jpg"},
+                {"de-text":"식물은 토양 위로 자라나는 부분 외에도 많은 것을 숨기고 있습니다."},
+                {"de-text":"[ 사이즈 ]<br> Triple ( H 120mm x L 325mm)<br><br>*식물의 크기와 모양은 모두 다릅니다"},
+                {"de-pho":"img/product/acc/4 Cube-b-t/cbt10.jpg"},
+                {"de-text":"Boskke Designer<br><br>Boskke는 도심, 가정, 사무실에서 더 많은 식물을 볼 수 있기를 원했습니다.<br>식물을 가까이에 두는 것은 삶의 질을 높여주지만<br>공간과 시간이 제한적일 때 가드닝을 위한 새로운 방식이 필요합니다.<br><br>도시 생활에 대한 이해를 기반으로 한 기능적이고 아름다운 가드닝 제품 제작을 통해<br>일상 속에서 더 많은 식물을 즐길 수 있도록 하는 것,<br><br>그것이 '작은 숲'이라는 의미를 지닌 Boskke가 시작된 이유입니다."}
+            ]
+        }
+    ]
+}
