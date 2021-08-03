@@ -37,6 +37,8 @@ $.ajax({
 
             tagList='';
 
+
+            // store list
             data[like].forEach(function(v,k){
                 if(startItem <= k && endItem > k){
                 tagList += `<li>
@@ -77,7 +79,7 @@ $.ajax({
 
 
 
-            
+            // store list number click
            function pageing(){
                
                 for(let i=1;i<=pageAll; i++){
@@ -99,33 +101,24 @@ $.ajax({
 
                 })
             
-
-               
-                
+                // store list number arrow click
                 $('.num p:nth-of-type(1)').find('img').on('click',function(){
                     pageNum = 1;
                     endItem = itemEa * pageNum;
-                    
                     list();         
-
-                   
                 });
                 $('.num p:nth-of-type(2)').find('img').on('click',function(){
                     pageNum = 2;
                     endItem = itemEa * pageNum;
                     list();         
-
                 });
-
-            } pageing();
-            
-            
+            } pageing();           
         } 
 
 
        
 
-
+        // store detail
         function detail(){
             let tit = data[like][num].name;
             let img = `<img src="${data[like][num].photo}" alt="없음">`;
@@ -146,8 +139,15 @@ $.ajax({
                 </tbody>`;
 
             $('.de_1 h3').html(tit);
-            $('.de_1 figure').html(img);
+            $('.de_1 .zoom').html(img);
             $('.de_1 table:first').html(summary);
+
+
+            // detailpage img zoom
+            $(document).ready(function(){
+            $('main .de .de_1 .zoom').zoom(`$('.de_1 .zoom').html(img);`);
+            });
+
 
             let deContents='';
             data[like][num].detail.forEach(function(v,k){
@@ -159,6 +159,7 @@ $.ajax({
                 $('.de2 .de2_1').append(deContents);
 
             })
+            
             
         }
 

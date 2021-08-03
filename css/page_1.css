@@ -29,11 +29,13 @@ main .de .de_1::after{
     clear: both;
     display: block;
 }
-main .de .de_1 figure{
+main .de .de_1 .zoom{
     float: left;
     width: 45%;
 }
-main .de .de_1 figure img{width: 100%;}
+main .de .de_1 .zoom img{
+    width: 100%;
+}
 main .de .de_1 .ta{
     float: right;
     color: #6d6d6d;
